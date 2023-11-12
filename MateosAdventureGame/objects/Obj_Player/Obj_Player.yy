@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "Obj_Player",
+  "name": "obj_player",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
