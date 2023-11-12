@@ -35,7 +35,7 @@ if(place_meeting(x, y+v_speed, obj_wall)){//Player hits wall vertical
 	v_speed = 0; //stop player moving beyound collision
 }
 
-y = y + v_speed;//Move player on x-axis
+y = y + v_speed;//Move player on y-axis
 
 
 
