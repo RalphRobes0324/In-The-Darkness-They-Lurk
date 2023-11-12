@@ -20,22 +20,22 @@ if(place_meeting(x,y+1,obj_wall) && key_Sb ){
 //Horizontal Collision
 if(place_meeting(x+h_speed, y, obj_wall)){//Player hits wall horizontal
 	while(!place_meeting(x+sign(h_speed),y,obj_wall)){//Allow Player to be close to wall as possible
-		x = x + sign(h_speed);//Increasing the x by 1
+		x += sign(h_speed);//Increasing the x by 1
 	}
 	h_speed = 0; //stop player moving beyound collision
 }
-x = x + h_speed;//Move player on x-axis
+x += h_speed;//Move player on x-axis
 
 
 //Vertical Collision
 if(place_meeting(x, y+v_speed, obj_wall)){//Player hits wall vertical
 	while(!place_meeting(x,y+sign(v_speed),obj_wall)){//Allow Player to be close to wall as possible
-		y = y + sign(v_speed);//Increasing the y by 1
+		y += sign(v_speed);//Increasing the y by 1
 	}
 	v_speed = 0; //stop player moving beyound collision
 }
 
-y = y + v_speed;//Move player on y-axis
+y += v_speed;//Move player on y-axis
 
 
 
