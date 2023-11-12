@@ -6,6 +6,3 @@ vSpeed = 0; //Vertical speed
 walkSpeed = 4; //Overall speed of user
 //We can change Gravity if needed
 grv = -9.8; //Gravity
-
-
-
