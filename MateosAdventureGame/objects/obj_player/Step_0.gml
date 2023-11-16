@@ -26,15 +26,21 @@ y += yspd;
 
 
 //IF STATEMENTS MAKE HELP TO MAKE DIAGONAL EFFECT
-if(yspd == 0){//
+if(yspd == 0){//Checks player is not going up or down
 	//Set Sprite on x-axis
-	if(xspd > 0) {face_dir = RIGHT}
-	if(xspd < 0) {face_dir = LEFT}
+	if(xspd > 0) {face_dir = RIGHT}// Go right
+	if(xspd < 0) {face_dir = LEFT} //Go Left
 }
-if(xspd == 0 ){
+
+//Fix, if sprites don't change based on direction, this will force change it
+if ( xspd > 0 && face == LEFT){ face_dir = RIGHT}
+if ( yspd < 0 && face == RIGHT){ face_dir = LEFT}
+
+
+if(xspd == 0 ){//Check player is not going left or right
 	//Set Sprite on y-axis
-	if(yspd > 0) {face_dir = DOWN}
-	if(yspd < 0) {face_dir = UP}
+	if(yspd > 0) {face_dir = DOWN}// Go Down
+	if(yspd < 0) {face_dir = UP}// Go Up
 }
 
 sprite_index = sprite[face_dir]; //Set player's sprite is facing
