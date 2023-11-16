@@ -25,7 +25,7 @@ y += yspd;
 
 
 
-//IF STATEMENTS MAKE HELP TO MAKE DIAGONAL EFFECT
+//HELP TO MAKE DIAGONAL EFFECT
 if(yspd == 0){//Checks player is not going up or down
 	//Set Sprite on x-axis
 	if(xspd > 0) {face_dir = RIGHT}// Go right
