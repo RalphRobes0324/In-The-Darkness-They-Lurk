@@ -32,7 +32,7 @@ if(yspd == 0){//Checks player is not going up or down
 	if(xspd < 0) {face_dir = LEFT} //Go Left
 }
 
-//Fix, if sprites don't change based on direction, this will force change it
+//If sprites don't change based on direction (LEFT OR RIGHT), this will force change
 if ( xspd > 0 && face_dir == LEFT){ face_dir = RIGHT}
 if ( xspd < 0 && face_dir == RIGHT){ face_dir = LEFT}
 
@@ -42,5 +42,9 @@ if(xspd == 0 ){//Check player is not going left or right
 	if(yspd > 0) {face_dir = DOWN}// Go Down
 	if(yspd < 0) {face_dir = UP}// Go Up
 }
+//If sprites don't change based on direction (UP OR DOWN), this will force change
+if ( yspd > 0 && face_dir == UP){ face_dir = DOWN}
+if ( yspd < 0 && face_dir == DOWN){ face_dir = UP}
+
 
 sprite_index = sprite[face_dir]; //Set player's sprite is facing
