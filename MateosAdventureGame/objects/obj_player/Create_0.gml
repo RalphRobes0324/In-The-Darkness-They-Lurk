@@ -1,8 +1,13 @@
-/// @description Player's Define Variables
-// You can write your code in this editor
+/// @description Player's variables define/set
 
-h_speed = 0; //Horizontal speed
-v_speed = 0; //Vertical speed
-walk_speed = 4; //Player speed
-//We can change Gravity if needed
-grv = 0.3; //Gravity
+xspd = 0;
+yxsp = 0;
+
+move_spd = 1;
+
+
+
+
+
+
+
