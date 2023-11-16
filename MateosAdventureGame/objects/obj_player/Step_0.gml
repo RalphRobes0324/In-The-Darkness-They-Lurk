@@ -24,11 +24,17 @@ x += xspd;
 y += yspd;
 
 
-//Set Sprite on x-axis
-if(xspd > 0) {face_dir = RIGHT}
-if(xspd < 0) {face_dir = LEFT}
-//Set Sprite on y-axis
-if(yspd > 0) {face_dir = DOWN}
-if(yspd < 0) {face_dir = UP}
+
+//IF STATEMENTS MAKE HELP TO MAKE DIAGONAL EFFECT
+if(yspd == 0){//
+	//Set Sprite on x-axis
+	if(xspd > 0) {face_dir = RIGHT}
+	if(xspd < 0) {face_dir = LEFT}
+}
+if(xspd == 0 ){
+	//Set Sprite on y-axis
+	if(yspd > 0) {face_dir = DOWN}
+	if(yspd < 0) {face_dir = UP}
+}
 
 sprite_index = sprite[face_dir]; //Set player's sprite is facing
