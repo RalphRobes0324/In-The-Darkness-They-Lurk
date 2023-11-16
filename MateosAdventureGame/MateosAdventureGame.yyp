@@ -26,6 +26,10 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Notes","folderPath":"folders/Notes.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Extensions","folderPath":"folders/Extensions.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PlayerSprites","folderPath":"folders/Sprites/PlayerSprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"WallSprites","folderPath":"folders/Sprites/WallSprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PlayerObjects","folderPath":"folders/Objects/PlayerObjects.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"WallObjects","folderPath":"folders/Objects/WallObjects.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -34,6 +38,10 @@
     "IDEVersion": "2023.8.2.108",
   },
   "resources": [
+    {"id":{"name":"spr_player","path":"sprites/spr_player/spr_player.yy",},},
+    {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
+    {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
+    {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [

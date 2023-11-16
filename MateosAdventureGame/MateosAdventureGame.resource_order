@@ -15,6 +15,10 @@
     {"name":"Notes","order":13,"path":"folders/Notes.yy",},
     {"name":"Extensions","order":14,"path":"folders/Extensions.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
+    {"name":"PlayerSprites","order":1,"path":"folders/Sprites/PlayerSprites.yy",},
+    {"name":"WallSprites","order":2,"path":"folders/Sprites/WallSprites.yy",},
+    {"name":"PlayerObjects","order":1,"path":"folders/Objects/PlayerObjects.yy",},
+    {"name":"WallObjects","order":2,"path":"folders/Objects/WallObjects.yy",},
   ],
   "ResourceOrderSettings": [],
 }
