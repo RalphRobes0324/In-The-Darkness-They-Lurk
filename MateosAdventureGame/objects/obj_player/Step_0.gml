@@ -33,8 +33,8 @@ if(yspd == 0){//Checks player is not going up or down
 }
 
 //Fix, if sprites don't change based on direction, this will force change it
-if ( xspd > 0 && face == LEFT){ face_dir = RIGHT}
-if ( yspd < 0 && face == RIGHT){ face_dir = LEFT}
+if ( xspd > 0 && face_dir == LEFT){ face_dir = RIGHT}
+if ( xspd < 0 && face_dir == RIGHT){ face_dir = LEFT}
 
 
 if(xspd == 0 ){//Check player is not going left or right
