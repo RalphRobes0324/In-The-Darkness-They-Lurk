@@ -22,3 +22,13 @@ if(place_meeting(x,y + yspd, obj_wall)){//Checks player hit wall on y-axis
 //Move player in game
 x += xspd;
 y += yspd;
+
+
+//Set Sprite on x-axis
+if(xspd > 0) {face_dir = RIGHT}
+if(xspd < 0) {face_dir = LEFT}
+//Set Sprite on y-axis
+if(yspd > 0) {face_dir = DOWN}
+if(yspd < 0) {face_dir = UP}
+
+sprite_index = sprite[face_dir]; //Set player's sprite is facing

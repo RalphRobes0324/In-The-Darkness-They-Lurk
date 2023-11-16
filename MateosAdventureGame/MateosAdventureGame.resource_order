@@ -19,6 +19,7 @@
     {"name":"WallSprites","order":2,"path":"folders/Sprites/WallSprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"PlayerScripts","order":1,"path":"folders/Scripts/PlayerScripts.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_player_right","order":3,"path":"sprites/spr_player_right/spr_player_right.yy",},
