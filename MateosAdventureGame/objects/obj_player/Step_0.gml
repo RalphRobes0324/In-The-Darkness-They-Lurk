@@ -2,9 +2,9 @@
 
 //Player's Input from keyboard
 var _right_k = keyboard_check(vk_right) || keyboard_check(ord("D")); //going right
-var _left_k = keyboard_check(vk_right) || keyboard_check(ord("A")); // going left
-var _up_k = keyboard_check(vk_right) || keyboard_check(ord("W")); // going up
-var _down_k = keyboard_check(vk_right) || keyboard_check(ord("S")); // going down
+var _left_k = keyboard_check(vk_left) || keyboard_check(ord("A")); // going left
+var _up_k = keyboard_check(vk_up) || keyboard_check(ord("W")); // going up
+var _down_k = keyboard_check(vk_down) || keyboard_check(ord("S")); // going down
 
 //Change of direction on x and y-axis, and adding that with player move speed
 xspd = (_right_k - _left_k) * move_spd;
