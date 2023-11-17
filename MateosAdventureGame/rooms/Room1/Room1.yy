@@ -70,13 +70,10 @@
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Player","depth":100,"effectEnabled":true,"effectType":null,"gridX":16,"gridY":16,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_248A387B","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":128.0,"y":160.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"HouseEntryFloor","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":14,"SerialiseWidth":18,"TileCompressedData":[
--5,-2147483648,1,8,-5,9,1,10,-10,-2147483648,2,9,8,-5,9,1,10,-10,
--2147483648,2,9,8,-6,9,1,5,-10,-2147483648,1,8,-6,9,1,13,-10,-2147483648,
-1,8,-5,9,1,10,-10,-2147483648,1,5,-6,9,1,10,-10,-2147483648,1,13,
--6,9,1,10,-11,-2147483648,1,8,-5,9,1,10,-11,-2147483648,1,8,-5,9,
-1,10,-11,-2147483648,1,8,-5,9,1,10,-11,-2147483648,1,12,-5,13,1,14,
--60,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"ts_houseFloors","path":"tilesets/ts_houseFloors/ts_houseFloors.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+    {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"HouseEntryFloor","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":25,"SerialiseWidth":32,"TileCompressedData":[
+-5,-2147483648,1,8,-5,9,1,10,-24,-2147483648,2,9,8,-5,9,1,10,-24,-2147483648,2,9,8,-6,9,1,5,-24,-2147483648,1,8,-6,9,
+1,13,-24,-2147483648,1,8,-5,9,1,10,-24,-2147483648,1,5,-6,9,1,10,-24,-2147483648,1,13,-6,9,1,10,-25,-2147483648,1,8,-5,9,
+1,10,-25,-2147483648,1,8,-5,9,1,10,-25,-2147483648,1,8,-5,9,1,10,-25,-2147483648,1,12,-5,13,1,14,-468,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"ts_houseFloors","path":"tilesets/ts_houseFloors/ts_houseFloors.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
@@ -92,10 +89,10 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "roomSettings": {
-    "Height": 216,
+    "Height": 400,
     "inheritRoomSettings": false,
     "persistent": false,
-    "Width": 288,
+    "Width": 500,
   },
   "sequenceId": null,
   "views": [
