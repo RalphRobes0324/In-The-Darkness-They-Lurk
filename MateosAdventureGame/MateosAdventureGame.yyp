@@ -31,6 +31,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"WallSprites","folderPath":"folders/Sprites/WallSprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"tileSprites","folderPath":"folders/Sprites/tileSprites.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -40,6 +41,7 @@
   },
   "resources": [
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},},
+    {"id":{"name":"spr_housefloor_tiles","path":"sprites/spr_housefloor_tiles/spr_housefloor_tiles.yy",},},
     {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
