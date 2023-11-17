@@ -49,6 +49,7 @@
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},},
     {"id":{"name":"spr_player_left","path":"sprites/spr_player_left/spr_player_left.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"ts_houseFloors","path":"tilesets/ts_houseFloors/ts_houseFloors.yy",},},
     {"id":{"name":"Room1","path":"rooms/Room1/Room1.yy",},},
   ],
   "RoomOrderNodes": [
