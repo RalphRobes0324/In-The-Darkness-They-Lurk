@@ -10,6 +10,12 @@ var _down_k = keyboard_check(vk_down) || keyboard_check(ord("S")); // going down
 xspd = (_right_k - _left_k) * move_spd;
 yspd = (_down_k - _up_k) * move_spd;
 
+//Checks transition exist
+if(instance_exists(obj_pause_player)){
+	xspd = 0;
+	yspd = 0;
+}
+
 
 //Collision Checks
 if(place_meeting(x + xspd, y, obj_wall)){//Checks player hit wall on x-axis
@@ -45,6 +51,7 @@ if(xspd == 0 ){//Check player is not going left or right
 //If sprites don't change based on direction (UP OR DOWN), this will force change
 if ( yspd > 0 && face_dir == UP){ face_dir = DOWN}
 if ( yspd < 0 && face_dir == DOWN){ face_dir = UP}
+
 
 
 sprite_index = sprite[face_dir]; //Set player's sprite is facing

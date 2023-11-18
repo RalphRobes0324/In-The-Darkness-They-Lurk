@@ -47,6 +47,7 @@
     {"id":{"name":"spr_door_transition","path":"sprites/spr_door_transition/spr_door_transition.yy",},},
     {"id":{"name":"spr_housefloor_tiles","path":"sprites/spr_housefloor_tiles/spr_housefloor_tiles.yy",},},
     {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},},
+    {"id":{"name":"obj_pause_player","path":"objects/obj_pause_player/obj_pause_player.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"obj_door_tranisition","path":"objects/obj_door_tranisition/obj_door_tranisition.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
