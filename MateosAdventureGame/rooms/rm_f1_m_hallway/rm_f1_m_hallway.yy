@@ -267,9 +267,9 @@
 -12,25,3,33,18,32,-5,25,5,-2147483648,0,0,14,17,-6,18,2,19,30,-11,22,3,17,18,19,-5,22,5,-2147483648,0,0,14,
 17,-6,18,3,19,16,0,-10,-2147483648,3,3,4,5,-6,-2147483648,-2,0,2,14,17,-6,18,3,19,16,0,-20,-2147483648,3,0,14,17,
 -6,18,3,19,16,0,-21,-2147483648,2,14,17,-6,18,3,19,16,0,-21,-2147483648,2,14,17,-6,18,3,19,16,0,-19,-2147483648,-2,0,
-10,14,24,25,25,33,18,32,25,26,16,-20,-2147483648,3,0,-2147483648,21,-3,22,6,24,25,26,22,22,23,-22,-2147483648,-4,0,3,3,
-4,5,-4,0,-21,-2147483648,-10,0,-23,-2147483648,-10,0,-21,-2147483648,-10,0,-24,-2147483648,-8,0,-23,-2147483648,-8,0,-24,-2147483648,-9,0,-24,-2147483648,-9,0,
--23,-2147483648,-8,0,-435,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"ts_houseFloors","path":"tilesets/ts_houseFloors/ts_houseFloors.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
+10,14,24,25,25,33,18,32,25,26,16,-20,-2147483648,3,0,-2147483648,21,-3,22,6,24,25,26,22,22,23,-22,-2147483648,-11,0,-21,-2147483648,
+-10,0,-23,-2147483648,-10,0,-21,-2147483648,-10,0,-24,-2147483648,-8,0,-23,-2147483648,-8,0,-24,-2147483648,-9,0,-24,-2147483648,-9,0,-23,-2147483648,-8,0,-435,-2147483648,
+],"TileDataFormat":1,},"tilesetId":{"name":"ts_houseFloors","path":"tilesets/ts_houseFloors/ts_houseFloors.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
