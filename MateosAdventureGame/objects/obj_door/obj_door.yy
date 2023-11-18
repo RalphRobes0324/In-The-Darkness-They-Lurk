@@ -1,13 +1,16 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_garage_door",
-  "eventList": [],
+  "name": "obj_door",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Floor1",
-    "path": "folders/Objects/CollisionObjects/Floor1.yy",
+    "name": "CollisionObjects",
+    "path": "folders/Objects/CollisionObjects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,9 +29,9 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_garage_door",
-    "path": "sprites/spr_garage_door/spr_garage_door.yy",
+    "name": "spr_door",
+    "path": "sprites/spr_door/spr_door.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

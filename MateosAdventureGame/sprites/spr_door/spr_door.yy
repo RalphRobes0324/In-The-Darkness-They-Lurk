@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_garage_door",
+  "name": "spr_door",
   "bbox_bottom": 15,
   "bbox_left": 0,
   "bbox_right": 15,
@@ -48,14 +48,14 @@
   },
   "origin": 0,
   "parent": {
-    "name": "Floor1",
-    "path": "folders/Sprites/CollisionSprites/Floor1.yy",
+    "name": "CollisionSprites",
+    "path": "folders/Sprites/CollisionSprites.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_garage_door",
+    "name": "spr_door",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -77,7 +77,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d865b86c-8880-4cc7-b38c-d61b59608e03","path":"sprites/spr_garage_door/spr_garage_door.yy",},},},"Disabled":false,"id":"8de36cd2-907f-456e-bc89-0731a5a371d2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"d865b86c-8880-4cc7-b38c-d61b59608e03","path":"sprites/spr_door/spr_door.yy",},},},"Disabled":false,"id":"8de36cd2-907f-456e-bc89-0731a5a371d2","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
