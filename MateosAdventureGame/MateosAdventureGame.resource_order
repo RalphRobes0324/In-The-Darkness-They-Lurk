@@ -21,10 +21,12 @@
     {"name":"WallSprites","order":2,"path":"folders/Sprites/WallSprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"floor1","order":2,"path":"folders/Rooms/floor1.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_player_right","order":3,"path":"sprites/spr_player_right/spr_player_right.yy",},
     {"name":"spr_player_up","order":1,"path":"sprites/spr_player_up/spr_player_up.yy",},
     {"name":"spr_player_left","order":2,"path":"sprites/spr_player_left/spr_player_left.yy",},
+    {"name":"rm_f1_L_garage","order":1,"path":"rooms/rm_f1_L_garage/rm_f1_L_garage.yy",},
   ],
 }

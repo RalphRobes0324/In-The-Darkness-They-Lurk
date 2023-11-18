@@ -32,6 +32,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"WallSprites","folderPath":"folders/Sprites/WallSprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"floor1","folderPath":"folders/Rooms/floor1.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -49,11 +50,13 @@
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},},
     {"id":{"name":"spr_player_left","path":"sprites/spr_player_left/spr_player_left.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
+    {"id":{"name":"rm_f1_L_garage","path":"rooms/rm_f1_L_garage/rm_f1_L_garage.yy",},},
     {"id":{"name":"ts_houseFloors","path":"tilesets/ts_houseFloors/ts_houseFloors.yy",},},
-    {"id":{"name":"rm_f1_hallway","path":"rooms/rm_f1_hallway/rm_f1_hallway.yy",},},
+    {"id":{"name":"rm_f1_m_hallway","path":"rooms/rm_f1_m_hallway/rm_f1_m_hallway.yy",},},
   ],
   "RoomOrderNodes": [
-    {"roomId":{"name":"rm_f1_hallway","path":"rooms/rm_f1_hallway/rm_f1_hallway.yy",},},
+    {"roomId":{"name":"rm_f1_m_hallway","path":"rooms/rm_f1_m_hallway/rm_f1_m_hallway.yy",},},
+    {"roomId":{"name":"rm_f1_L_garage","path":"rooms/rm_f1_L_garage/rm_f1_L_garage.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
