@@ -33,6 +33,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"CollisionSprites","folderPath":"folders/Sprites/CollisionSprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TransitionSprites","folderPath":"folders/Sprites/TransitionSprites.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
@@ -42,6 +43,7 @@
   },
   "resources": [
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},},
+    {"id":{"name":"spr_door_transition","path":"sprites/spr_door_transition/spr_door_transition.yy",},},
     {"id":{"name":"spr_housefloor_tiles","path":"sprites/spr_housefloor_tiles/spr_housefloor_tiles.yy",},},
     {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
