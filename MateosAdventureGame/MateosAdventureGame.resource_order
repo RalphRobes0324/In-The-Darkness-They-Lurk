@@ -24,6 +24,7 @@
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
     {"name":"TransitionSprites","order":4,"path":"folders/Sprites/TransitionSprites.yy",},
     {"name":"Door","order":3,"path":"folders/Objects/CollisionObjects/Door.yy",},
+    {"name":"TextSprites","order":5,"path":"folders/Sprites/TextSprites.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_player_right","order":3,"path":"sprites/spr_player_right/spr_player_right.yy",},

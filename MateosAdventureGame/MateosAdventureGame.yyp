@@ -35,6 +35,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TransitionSprites","folderPath":"folders/Sprites/TransitionSprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Door","folderPath":"folders/Objects/CollisionObjects/Door.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TextSprites","folderPath":"folders/Sprites/TextSprites.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,

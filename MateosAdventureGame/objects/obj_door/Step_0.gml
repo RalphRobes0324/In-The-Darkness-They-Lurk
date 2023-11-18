@@ -8,6 +8,7 @@ if (place_meeting(x, y, obj_player) && _press_e && !instance_exists(obj_door_tra
 	_inst.target_x = target_x; //Go to player's x in new room
 	_inst.target_y = target_y; //Go to player's y in new room
 	_inst.target_rm = target_rm; //Go to new room
+	_inst.target_face_dir = target_face_dir; //Forces Player face Direction they are going
 }
 
 
