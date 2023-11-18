@@ -95,9 +95,9 @@
     {"resourceType":"GMRTileLayer","resourceVersion":"1.1","name":"HouseTiles","depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"tiles":{"SerialiseHeight":14,"SerialiseWidth":18,"TileCompressedData":[
 -38,-2147483648,1,7,-12,8,1,9,-4,-2147483648,1,14,-12,15,1,16,-4,-2147483648,
 1,14,-12,15,1,16,-4,-2147483648,1,14,-12,15,1,16,-4,-2147483648,2,14,
-10,-10,11,2,12,16,-4,-2147483648,2,14,17,-10,18,3,39,12,6,-3,
--2147483648,2,14,17,-11,18,2,19,13,-3,-2147483648,2,14,17,-10,18,3,32,
-26,20,-3,-2147483648,2,14,24,-10,25,2,26,16,-4,-2147483648,1,21,-12,22,
+10,-10,11,2,12,16,-4,-2147483648,2,14,17,-10,18,3,39,12,27,-3,
+-2147483648,2,14,17,-11,18,2,19,34,-3,-2147483648,2,14,17,-10,18,3,32,
+26,48,-3,-2147483648,2,14,24,-10,25,2,26,16,-4,-2147483648,1,21,-12,22,
 1,23,-38,-2147483648,],"TileDataFormat":1,},"tilesetId":{"name":"ts_houseFloors","path":"tilesets/ts_houseFloors/ts_houseFloors.yy",},"userdefinedDepth":false,"visible":true,"x":0,"y":0,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":300,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
