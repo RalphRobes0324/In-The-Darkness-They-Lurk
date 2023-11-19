@@ -12,5 +12,25 @@ if (place_meeting(x, y, obj_player) && _press_e && !instance_exists(obj_door_tra
 }
 
 
+//Displaying message when player next door
+if(place_meeting(x,y,obj_player)){//Checks Player in AoE
+	//Checks Direction where Player is facing 
+	if(target_face_dir == LEFT){ 
+		instance_create_layer(x + 15, y, layer, obj_e_popup);
+	}
+	else if(target_face_dir == RIGHT){
+		instance_create_layer(x - 75, y, layer, obj_e_popup);
+	}
+}
+
+
+//Deletes instance when player leaves AoE
+if(!place_meeting(x,y,obj_player)){
+	with(obj_e_popup){
+		instance_destroy();
+	}
+}
+
+
 
 
