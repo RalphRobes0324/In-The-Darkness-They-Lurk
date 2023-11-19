@@ -1,8 +1,11 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_e_popup",
-  "eventList": [],
+  "name": "obj_popup",
+  "eventList": [
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
+    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
+  ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
@@ -26,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_e",
-    "path": "sprites/spr_e/spr_e.yy",
+    "name": "spr_ppmsg",
+    "path": "sprites/spr_ppmsg/spr_ppmsg.yy",
   },
   "spriteMaskId": null,
   "visible": true,

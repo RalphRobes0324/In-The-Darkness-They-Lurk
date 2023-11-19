@@ -8,6 +8,7 @@
     {"name":"CollisionObjects","order":2,"path":"folders/Objects/CollisionObjects.yy",},
     {"name":"Door","order":3,"path":"folders/Objects/CollisionObjects/Door.yy",},
     {"name":"PlayerObjects","order":1,"path":"folders/Objects/PlayerObjects.yy",},
+    {"name":"PopMessageObjects","order":3,"path":"folders/Objects/PopMessageObjects.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
@@ -29,11 +30,13 @@
   "ResourceOrderSettings": [
     {"name":"spr_player_right","order":3,"path":"sprites/spr_player_right/spr_player_right.yy",},
     {"name":"obj_pause_player","order":1,"path":"objects/obj_pause_player/obj_pause_player.yy",},
-    {"name":"obj_e_popup","order":2,"path":"objects/obj_e_popup/obj_e_popup.yy",},
     {"name":"obj_door_tranisition","order":1,"path":"objects/obj_door_tranisition/obj_door_tranisition.yy",},
+    {"name":"rm_f1_down_rm2","order":2,"path":"rooms/rm_f1_down_rm2/rm_f1_down_rm2.yy",},
+    {"name":"spr_ppmsg","order":3,"path":"sprites/spr_ppmsg/spr_ppmsg.yy",},
     {"name":"spr_player_up","order":1,"path":"sprites/spr_player_up/spr_player_up.yy",},
     {"name":"spr_player_left","order":2,"path":"sprites/spr_player_left/spr_player_left.yy",},
+    {"name":"obj_popup","order":1,"path":"objects/obj_popup/obj_popup.yy",},
     {"name":"spr_door","order":2,"path":"sprites/spr_door/spr_door.yy",},
-    {"name":"rm_f1_L_garage","order":1,"path":"rooms/rm_f1_L_garage/rm_f1_L_garage.yy",},
+    {"name":"rm_f1_left_rm1","order":1,"path":"rooms/rm_f1_left_rm1/rm_f1_left_rm1.yy",},
   ],
 }
