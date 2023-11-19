@@ -13,12 +13,17 @@ if (place_meeting(x, y, obj_player) && _press_e && !instance_exists(obj_door_tra
 
 //Displaying message when player next door
 if(place_meeting(x, y, obj_player) && _check_door == false){
+
 	if(obj_player.face_dir == LEFT){
-		instance_create_layer(x + 15, y, layer, obj_e_popup);
+		instance_create_layer( obj_player.x,  obj_player.y - 25, layer, obj_e_popup);
+		_check_door = true;
+	}
+	else if(obj_player.face_dir == RIGHT){
+		instance_create_layer( obj_player.x - 65,  obj_player.y - 25, layer, obj_e_popup);
 		_check_door = true;
 	}
 	else if(obj_player.face_dir == DOWN){
-		instance_create_layer(x - 15 , y - 50, layer, obj_e_popup);
+		instance_create_layer(obj_player.x - 30 , obj_player.y - 40, layer, obj_e_popup);
 		_check_door = true;
 	}
 	
@@ -31,20 +36,6 @@ if(!place_meeting(x,y,obj_player) && _check_door == true){
 		}
 	_check_door = false;
 }
-////Displaying message when player next door
-//if(place_meeting(x,y,obj_player)){//Checks Player in AoE
-//	//Checks Direction where Player is facing 
-//	if(target_face_dir == LEFT){ 
-//		instance_create_layer(x + 15, y, layer, obj_e_popup);
-//	}
-//	if(target_face_dir == RIGHT){
-//		instance_create_layer(x - 75, y, layer, obj_e_popup);
-//	}
-	
-//	if(target_face_dir == DOWN){
-//		instance_create_layer(x - 15 , y - 50, layer, obj_e_popup);
-//	}
-//}
 
 
 
