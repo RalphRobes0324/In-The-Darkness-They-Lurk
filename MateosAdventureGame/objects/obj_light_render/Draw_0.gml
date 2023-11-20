@@ -20,7 +20,7 @@ with(obj_player){//Getting Player's light Object
 	gpu_set_blendmode(bm_subtract);//Decrease the colour
 
 	//Draw Light around player default
-	draw_sprite_ext(spr_player_light, 0,x, y, image_xscale, _wobble_amount_y, 0, c_white,1);
+	draw_sprite_ext(spr_player_light, 0,x, y, image_xscale, image_yscale, 0, c_white,1);
 	
 	if(flash_light_on){
 		draw_sprite_ext(spr_player_flashlight, 0,x, y, image_xscale, image_yscale,  angle, c_orange, 1);
@@ -31,7 +31,7 @@ with(obj_player){//Getting Player's light Object
 	
 	
 	//Draw Light around player and adding new values
-	draw_sprite_ext(spr_player_light, 0, x, y, _wobble_amount_x, image_yscale, 0, c_white , 0.1);
+	draw_sprite_ext(spr_player_light, 0, x, y, image_xscale, image_yscale, 0, c_white , 0.1);
 	
 	if(flash_light_on){
 		draw_sprite_ext(spr_player_flashlight, 0, x, y, image_xscale, image_yscale, angle, c_orange ,5);
