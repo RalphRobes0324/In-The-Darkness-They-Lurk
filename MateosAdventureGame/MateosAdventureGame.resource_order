@@ -33,6 +33,7 @@
     {"name":"spr_player_right","order":3,"path":"sprites/spr_player_right/spr_player_right.yy",},
     {"name":"obj_player_light","order":2,"path":"objects/obj_player_light/obj_player_light.yy",},
     {"name":"obj_pause_player","order":1,"path":"objects/obj_pause_player/obj_pause_player.yy",},
+    {"name":"spr_player_flashlight","order":5,"path":"sprites/spr_player_flashlight/spr_player_flashlight.yy",},
     {"name":"obj_door_tranisition","order":1,"path":"objects/obj_door_tranisition/obj_door_tranisition.yy",},
     {"name":"rm_f1_down_rm2_hallway1","order":1,"path":"rooms/rm_f1_down_rm2_hallway1/rm_f1_down_rm2_hallway1.yy",},
     {"name":"spr_ppmsg","order":3,"path":"sprites/spr_ppmsg/spr_ppmsg.yy",},

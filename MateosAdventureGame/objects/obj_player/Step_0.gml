@@ -59,5 +59,4 @@ sprite_index = sprite[face_dir]; //Set player's sprite is facing
 
 if(mouse_check_button_pressed(mb_left)){//Check user pressed left mouse once
 	flash_light_on = !flash_light_on; //Not Gate
-	show_debug_message(flash_light_on);
 }
