@@ -27,6 +27,7 @@
     {"name":"TransitionSprites","order":4,"path":"folders/Sprites/TransitionSprites.yy",},
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"floor1","order":3,"path":"folders/Rooms/floor1.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_player_light","order":4,"path":"sprites/spr_player_light/spr_player_light.yy",},

@@ -39,6 +39,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TransitionSprites","folderPath":"folders/Sprites/TransitionSprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"floor1","folderPath":"folders/Rooms/floor1.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
