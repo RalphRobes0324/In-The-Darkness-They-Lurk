@@ -54,4 +54,6 @@ if ( yspd < 0 && face_dir == DOWN){ face_dir = UP}
 
 
 
+
+
 sprite_index = sprite[face_dir]; //Set player's sprite is facing

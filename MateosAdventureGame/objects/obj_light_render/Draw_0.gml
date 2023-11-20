@@ -29,6 +29,7 @@ with(obj_player){//Getting Player's light Object
 	
 	gpu_set_blendmode(bm_normal);//set default
 	
+	
 }
 
 surface_reset_target();
