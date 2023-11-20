@@ -12,15 +12,14 @@ surface_set_target(light_surface);//Set target whole room
 draw_clear_alpha(c_black, 0.6); //Transparent black
 
 var _player_wooble_light = 0.02;
+var _player_flashlight_check = flash_light;
+
 with(obj_player){//Getting Player's light Object
-	
 	//wooble light effect
 	var _wobble_amount_x = image_xscale + random_range(-_player_wooble_light,_player_wooble_light);
 	var _wobble_amount_y = image_yscale + random_range(-_player_wooble_light,_player_wooble_light);
-	
-	 
 	gpu_set_blendmode(bm_subtract);//Decrease the colour
-	
+
 	//Draw Light around player default
 	draw_sprite_ext(spr_player_light, 0,x, y, image_xscale, _wobble_amount_y, 0, c_white,1);
 	
@@ -30,6 +29,12 @@ with(obj_player){//Getting Player's light Object
 	draw_sprite_ext(spr_player_light, 0, x, y, _wobble_amount_x, image_yscale, 0, c_white , 0.1);
 	
 	gpu_set_blendmode(bm_normal);//set default
+	
+	if(_player_flashlight_check){
+		show_debug_message("Flash Light is on");
+	}else{
+		show_debug_message("Flash Light is off");
+	}
 	
 }
 
