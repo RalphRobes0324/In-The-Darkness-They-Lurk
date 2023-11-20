@@ -5,6 +5,8 @@ var _right_k = keyboard_check(vk_right) || keyboard_check(ord("D")); //going rig
 var _left_k = keyboard_check(vk_left) || keyboard_check(ord("A")); // going left
 var _up_k = keyboard_check(vk_up) || keyboard_check(ord("W")); // going up
 var _down_k = keyboard_check(vk_down) || keyboard_check(ord("S")); // going down
+var _mouse_check_left = mouse_check_button_pressed(mb_left);
+
 
 //Change of direction on x and y-axis, and adding that with player move speed
 xspd = (_right_k - _left_k) * move_spd;
@@ -53,7 +55,9 @@ if ( yspd > 0 && face_dir == UP){ face_dir = DOWN}
 if ( yspd < 0 && face_dir == DOWN){ face_dir = UP}
 
 
-
-
-
 sprite_index = sprite[face_dir]; //Set player's sprite is facing
+
+if(mouse_check_button_pressed(mb_left)){//Check user pressed left mouse once
+	flash_light_on = !flash_light_on; //Not Gate
+	show_debug_message(flash_light_on);
+}

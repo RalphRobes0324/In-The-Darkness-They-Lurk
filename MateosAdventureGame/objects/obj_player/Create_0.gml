@@ -13,4 +13,6 @@ sprite[DOWN] = spr_player_down;
 
 face_dir = DOWN; //Default Facing
 
+flash_light_on = false;
+
 

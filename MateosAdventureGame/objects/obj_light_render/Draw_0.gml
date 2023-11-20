@@ -9,7 +9,7 @@ if(surface_exists(light_surface) == false){//check surface light has not been cr
 
 surface_set_target(light_surface);//Set target whole room
 
-draw_clear_alpha(c_black, 0.6); //Transparent black
+draw_clear_alpha(c_black, 0.9); //Transparent black
 
 var _player_wooble_light = 0.02;
 
