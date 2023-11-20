@@ -57,9 +57,7 @@ if ( yspd < 0 && face_dir == DOWN){ face_dir = UP}
 
 sprite_index = sprite[face_dir]; //Set player's sprite is facing
 
-var _mouse_x = mouse_x;
-var _mouse_y = mouse_y;
-angle = point_direction(x, y, mouse_x, mouse_y);
+angle = point_direction(x, y, mouse_x, mouse_y);//gets Angle of player and mouse
 
 if(mouse_check_button_pressed(mb_left)){//Check user pressed left mouse once
 	flash_light_on = !flash_light_on; //Not Gate
