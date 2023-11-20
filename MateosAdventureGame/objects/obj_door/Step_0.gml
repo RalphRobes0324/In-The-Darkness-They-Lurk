@@ -26,6 +26,10 @@ if(place_meeting(x, y, obj_player) && _check_door == false){
 		instance_create_layer(obj_player.x - 30 , obj_player.y - 40, layer, obj_e_popup);
 		_check_door = true;
 	}
+	else if(obj_player.face_dir == UP){
+		instance_create_layer(obj_player.x - 40 , obj_player.y - 20, layer, obj_e_popup);
+		_check_door = true;
+	}
 	
 }
 
