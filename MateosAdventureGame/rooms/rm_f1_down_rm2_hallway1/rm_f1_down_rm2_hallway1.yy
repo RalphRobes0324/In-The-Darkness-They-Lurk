@@ -109,7 +109,7 @@
   ],
   "parent": {
     "name": "Hallway1",
-    "path": "folders/Rooms/floor1/Hallway1.yy",
+    "path": "folders/Rooms/Prototype floor1/Hallway1.yy",
   },
   "parentRoom": null,
   "physicsSettings": {
