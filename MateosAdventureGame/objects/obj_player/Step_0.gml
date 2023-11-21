@@ -5,7 +5,8 @@ var _right_k = keyboard_check(vk_right) || keyboard_check(ord("D")); //going rig
 var _left_k = keyboard_check(vk_left) || keyboard_check(ord("A")); // going left
 var _up_k = keyboard_check(vk_up) || keyboard_check(ord("W")); // going up
 var _down_k = keyboard_check(vk_down) || keyboard_check(ord("S")); // going down
-var _mouse_check_left = mouse_check_button_pressed(mb_left);
+var _mouse_check_left = mouse_check_button_pressed(mb_left);//Get mouse button left
+var _press_e = keyboard_check(ord("E"));// Gets e if 
 
 
 //Change of direction on x and y-axis, and adding that with player move speed
@@ -62,3 +63,4 @@ angle = point_direction(x, y, mouse_x, mouse_y);//gets Angle of player and mouse
 if(mouse_check_button_pressed(mb_left)){//Check user pressed left mouse once
 	flash_light_on = !flash_light_on; //Not Gate
 }
+
