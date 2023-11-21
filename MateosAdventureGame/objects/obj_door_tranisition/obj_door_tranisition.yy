@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_door_transition",
-    "path": "sprites/spr_door_transition/spr_door_transition.yy",
+    "name": "spr_door_transition1",
+    "path": "sprites/spr_door_transition1/spr_door_transition1.yy",
   },
   "spriteMaskId": null,
   "visible": true,
