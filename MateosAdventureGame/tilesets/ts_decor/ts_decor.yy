@@ -1,7 +1,7 @@
 {
   "resourceType": "GMTileSet",
   "resourceVersion": "1.0",
-  "name": "ts_houseFloors",
+  "name": "ts_decor",
   "autoTileSets": [],
   "macroPageTiles": {
     "SerialiseHeight": 0,
@@ -16,8 +16,8 @@
     "path": "folders/Tile Sets/Prototype Decor.yy",
   },
   "spriteId": {
-    "name": "spr_housefloor_tiles",
-    "path": "sprites/spr_housefloor_tiles/spr_housefloor_tiles.yy",
+    "name": "spr_decor_tiles",
+    "path": "sprites/spr_decor_tiles/spr_decor_tiles.yy",
   },
   "spriteNoExport": false,
   "textureGroupId": {
