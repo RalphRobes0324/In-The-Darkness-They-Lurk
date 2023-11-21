@@ -71,7 +71,7 @@
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
-    {"id":{"name":"spr_ppmsg","path":"sprites/spr_ppmsg/spr_ppmsg.yy",},},
+    {"id":{"name":"spr_decor","path":"sprites/spr_decor/spr_decor.yy",},},
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},},
     {"id":{"name":"spr_player_left","path":"sprites/spr_player_left/spr_player_left.yy",},},
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},

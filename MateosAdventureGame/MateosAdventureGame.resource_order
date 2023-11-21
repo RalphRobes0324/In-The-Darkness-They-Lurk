@@ -42,7 +42,7 @@
     {"name":"spr_player_flashlight","order":5,"path":"sprites/spr_player_flashlight/spr_player_flashlight.yy",},
     {"name":"obj_door_tranisition","order":1,"path":"objects/obj_door_tranisition/obj_door_tranisition.yy",},
     {"name":"rm_f1_down_rm2_hallway1","order":1,"path":"rooms/rm_f1_down_rm2_hallway1/rm_f1_down_rm2_hallway1.yy",},
-    {"name":"spr_ppmsg","order":3,"path":"sprites/spr_ppmsg/spr_ppmsg.yy",},
+    {"name":"spr_decor","order":3,"path":"sprites/spr_decor/spr_decor.yy",},
     {"name":"spr_player_up","order":1,"path":"sprites/spr_player_up/spr_player_up.yy",},
     {"name":"spr_player_left","order":2,"path":"sprites/spr_player_left/spr_player_left.yy",},
     {"name":"spr_door","order":2,"path":"sprites/spr_door/spr_door.yy",},
