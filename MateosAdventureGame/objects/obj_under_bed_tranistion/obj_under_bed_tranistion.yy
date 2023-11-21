@@ -14,7 +14,10 @@
     "name": "Decor",
     "path": "folders/Objects/CollisionObjects/Decor.yy",
   },
-  "parentObjectId": null,
+  "parentObjectId": {
+    "name": "obj_pause_player",
+    "path": "objects/obj_pause_player/obj_pause_player.yy",
+  },
   "persistent": true,
   "physicsAngularDamping": 0.1,
   "physicsDensity": 0.5,

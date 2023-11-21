@@ -15,11 +15,9 @@ face_dir = DOWN; //Default Facing
 
 flash_light_on = false;//Status flash light
 
-angle = 0.0;//Flashligh angle
+angle = 0.0;//Flashlight angle
 
-player_hidding = false;
-
-cooldown = false;
+player_hidding = false; //Player's status if hidding
 
 
 
