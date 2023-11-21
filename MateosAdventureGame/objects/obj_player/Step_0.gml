@@ -2,6 +2,7 @@
 
 //Player's Input from keyboard
 if(!player_hidding){
+	
 	var _right_k = keyboard_check(vk_right) || keyboard_check(ord("D")); //going right
 	var _left_k = keyboard_check(vk_left) || keyboard_check(ord("A")); // going left
 	var _up_k = keyboard_check(vk_up) || keyboard_check(ord("W")); // going up
@@ -64,6 +65,7 @@ if(!player_hidding){
 	if(mouse_check_button_pressed(mb_left)){//Check user pressed left mouse once
 		flash_light_on = !flash_light_on; //Not Gate
 	}
+	image_alpha = 1;
 }
 else{
 	var _right_k = keyboard_check(vk_right) || keyboard_check(ord("D")); //going right
@@ -73,6 +75,7 @@ else{
 	if(place_meeting(x + xspd, y, obj_wall)){//Checks player hit wall on x-axis
 		xspd = 0; //set x speed to 0
 	}
-	x += xspd;
+	x += xspd * 3;
+	image_alpha = 0;
 }
 
