@@ -42,6 +42,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"floor1","folderPath":"folders/Rooms/floor1.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Decor","folderPath":"folders/Objects/CollisionObjects/Decor.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Prototype Decor","folderPath":"folders/Tile Sets/Prototype Decor.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PrototypeTileSprites","folderPath":"folders/Sprites/TileSprites/PrototypeTileSprites.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
