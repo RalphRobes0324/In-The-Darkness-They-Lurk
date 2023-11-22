@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_door_tranisition",
+  "name": "obj_door_transition",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":7,"eventType":7,"isDnD":false,},
@@ -12,7 +12,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Door",
-    "path": "folders/Objects/CollisionObjects/Door.yy",
+    "path": "folders/Objects/CollisionObjects/Decor/Door.yy",
   },
   "parentObjectId": {
     "name": "obj_pause_player",
@@ -34,8 +34,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_door_transition1",
-    "path": "sprites/spr_door_transition1/spr_door_transition1.yy",
+    "name": "spr_door_transition",
+    "path": "sprites/spr_door_transition/spr_door_transition.yy",
   },
   "spriteMaskId": null,
   "visible": true,

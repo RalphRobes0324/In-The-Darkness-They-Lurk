@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_decor",
+  "name": "spr_decor_closet",
   "bbox_bottom": 15,
   "bbox_left": 0,
   "bbox_right": 15,
@@ -25,14 +25,14 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "CollisionSprites",
-    "path": "folders/Sprites/CollisionSprites.yy",
+    "name": "Decor",
+    "path": "folders/Sprites/CollisionSprites/Decor.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_decor",
+    "name": "spr_decor_closet",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fe686de5-9231-49fc-ac9b-1642280019d3","path":"sprites/spr_decor/spr_decor.yy",},},},"Disabled":false,"id":"692223cd-a7af-452c-814e-e26e0943e841","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"fe686de5-9231-49fc-ac9b-1642280019d3","path":"sprites/spr_decor_closet/spr_decor_closet.yy",},},},"Disabled":false,"id":"dfb05b5e-f046-4a02-95e6-ce3a979cfd9b","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,

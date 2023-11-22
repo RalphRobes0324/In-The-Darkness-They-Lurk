@@ -48,8 +48,8 @@
   },
   "origin": 0,
   "parent": {
-    "name": "CollisionSprites",
-    "path": "folders/Sprites/CollisionSprites.yy",
+    "name": "Decor",
+    "path": "folders/Sprites/CollisionSprites/Decor.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

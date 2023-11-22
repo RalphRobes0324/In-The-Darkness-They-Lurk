@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "Decor",
-    "path": "folders/Objects/CollisionObjects/Decor.yy",
+    "name": "Bed",
+    "path": "folders/Objects/CollisionObjects/Decor/Bed.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_decor",
-    "path": "sprites/spr_decor/spr_decor.yy",
+    "name": "spr_decor_underbed",
+    "path": "sprites/spr_decor_underbed/spr_decor_underbed.yy",
   },
   "spriteMaskId": null,
   "visible": false,

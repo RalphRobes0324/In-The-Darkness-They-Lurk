@@ -16,8 +16,8 @@
     "path": "folders/Tile Sets/Prototype Decor.yy",
   },
   "spriteId": {
-    "name": "spr_bedsheets",
-    "path": "sprites/spr_bedsheets/spr_bedsheets.yy",
+    "name": "spr_bedsheet",
+    "path": "sprites/spr_bedsheet/spr_bedsheet.yy",
   },
   "spriteNoExport": false,
   "textureGroupId": {

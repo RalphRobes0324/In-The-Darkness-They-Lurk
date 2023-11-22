@@ -75,7 +75,7 @@ else{
 	if(place_meeting(x + xspd, y, obj_wall)){//Checks player hit wall on x-axis
 		xspd = 0; //set x speed to 0
 	}
-	x += xspd * 3;
+	x += xspd * 2;
 	image_alpha = 0;
 }
 
