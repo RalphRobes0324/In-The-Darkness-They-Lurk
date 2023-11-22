@@ -6,7 +6,7 @@ if(place_meeting(x, y, obj_player) && _press_e && !instance_exists(obj_under_bed
 	_inst.target_y = target_y;//Go to player's y in new room
 	_inst.target_rm = target_rm;//Go to new room
 	_inst.target_face_dir = target_face_dir; //Forces Player face Direction they are going
-	obj_player.player_hidding = !obj_player.player_hidding;//Change decision
+	obj_player.in_bed = !obj_player.in_bed;//Change decision
 }
 	
 
@@ -14,24 +14,24 @@ if(place_meeting(x, y, obj_player) && _press_e && !instance_exists(obj_under_bed
 //Displaying message when player next door
 if(place_meeting(x, y, obj_player) && go_bed == false){
 
-	if(obj_player.face_dir == LEFT && obj_player.player_hidding == false){
+	if(obj_player.face_dir == LEFT && obj_player.in_bed == false){
 		instance_create_layer( obj_player.x,  obj_player.y - 25, layer, obj_e_popup);
 		go_bed = true;
 	}
-	else if(obj_player.face_dir == RIGHT  && obj_player.player_hidding == false){
+	else if(obj_player.face_dir == RIGHT  && obj_player.in_bed == false){
 		instance_create_layer( obj_player.x - 65,  obj_player.y - 25, layer, obj_e_popup);
 		go_bed = true;
 	}
-	else if(obj_player.face_dir == DOWN  && obj_player.player_hidding == false){
+	else if(obj_player.face_dir == DOWN  && obj_player.in_bed == false){
 		instance_create_layer(obj_player.x - 30 , obj_player.y - 40, layer, obj_e_popup);
 		go_bed = true;
 	}
-	else if(obj_player.face_dir == UP && obj_player.player_hidding == false){
+	else if(obj_player.face_dir == UP && obj_player.in_bed == false){
 		instance_create_layer(obj_player.x - 40 , obj_player.y - 20, layer, obj_e_popup);
 		go_bed = true;
 	}
 	
-	if(obj_player.player_hidding == true){
+	if(obj_player.in_bed == true){
 		instance_create_layer( obj_player.x , obj_player.y -50 , layer, obj_e_popup);
 		go_bed = true;
 	}

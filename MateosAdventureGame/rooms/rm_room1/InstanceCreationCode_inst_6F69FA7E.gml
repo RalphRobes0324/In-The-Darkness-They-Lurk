@@ -1,4 +1,4 @@
-target_x = 170; //Player's x spawn
-target_y = 172; //Player's y spawn
-target_rm = 0; //Where the player is going
+target_x = 194; //Player's x spawn
+target_y = 155; //Player's y spawn
+target_rm = rm_room1_incloset; //Where the player is going
 target_face_dir = DOWN; //Face Direction Where player is going

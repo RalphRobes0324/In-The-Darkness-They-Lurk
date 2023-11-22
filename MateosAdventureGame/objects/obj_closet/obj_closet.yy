@@ -33,5 +33,5 @@
     "path": "sprites/spr_decor_closet/spr_decor_closet.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

@@ -1,7 +1,7 @@
 /// @description Player's Actions
 
 //Player's Input from keyboard
-if(!player_hidding){
+if(!in_bed && !in_closet){
 	
 	var _right_k = keyboard_check(vk_right) || keyboard_check(ord("D")); //going right
 	var _left_k = keyboard_check(vk_left) || keyboard_check(ord("A")); // going left
@@ -67,7 +67,7 @@ if(!player_hidding){
 	}
 	image_alpha = 1;
 }
-else{
+else if(in_bed){//Checks Player is underbed
 	var _right_k = keyboard_check(vk_right) || keyboard_check(ord("D")); //going right
 	var _left_k = keyboard_check(vk_left) || keyboard_check(ord("A")); // going left
 	xspd = (_right_k - _left_k) * move_spd;
@@ -76,6 +76,30 @@ else{
 		xspd = 0; //set x speed to 0
 	}
 	x += xspd * 2;
+	image_alpha = 0;
+}
+else if(in_closet){//Checks Player is in closet
+	var _right_k = keyboard_check(vk_right) || keyboard_check(ord("D")); //going right
+	var _left_k = keyboard_check(vk_left) || keyboard_check(ord("A")); // going left
+	var _up_k = keyboard_check(vk_up) || keyboard_check(ord("W")); // going up
+	var _down_k = keyboard_check(vk_down) || keyboard_check(ord("S")); // going down
+	
+	//Change of direction on x and y-axis, and adding that with player move speed
+	xspd = (_right_k - _left_k) * move_spd;
+	yspd = (_down_k - _up_k) * move_spd;
+	
+	//Collision Checks
+	if(place_meeting(x + xspd, y, obj_wall)){//Checks player hit wall on x-axis
+		xspd = 0; //set x speed to 0
+	}
+	if(place_meeting(x,y + yspd, obj_wall)){//Checks player hit wall on y-axis
+		yspd = 0; //set y speed to 0
+	}
+	
+	//Move player in game
+	x += xspd;
+	y += yspd;
+	
 	image_alpha = 0;
 }
 
