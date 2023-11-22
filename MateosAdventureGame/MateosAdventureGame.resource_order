@@ -33,6 +33,9 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Prototype Decor","order":2,"path":"folders/Tile Sets/Prototype Decor.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"EnemySprites","order":5,"path":"folders/Sprites/EnemySprites.yy",},
+    {"name":"E1","order":1,"path":"folders/Sprites/EnemySprites/E1.yy",},
+    {"name":"EnemyObjects","order":5,"path":"folders/Objects/EnemyObjects.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_player_light","order":4,"path":"sprites/spr_player_light/spr_player_light.yy",},
