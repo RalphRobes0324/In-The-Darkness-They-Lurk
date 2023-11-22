@@ -97,12 +97,11 @@ else if(in_closet){//Checks Player is in closet
 	x += xspd;
 	y += yspd;
 	
-	//image_alpha = 0;
 }
 
-if(in_bed || in_closet){
-	image_alpha = 0;
+if(in_bed || in_closet){//Checks Player is in hidding places
+	image_alpha = 0;//Set Player invisiable
 }
 else{
-	image_alpha = 1;
+	image_alpha = 1;////Set Player visiable
 }
