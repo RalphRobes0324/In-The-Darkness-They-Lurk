@@ -33,7 +33,6 @@ with(obj_player){//Getting Player's light Object
 		draw_sprite_ext(spr_player_flashlight, 0, x, y, image_xscale, image_yscale, angle, c_orange ,5);
 	}
 	
-	
 	gpu_set_blendmode(bm_normal);//set default
 	
 	
