@@ -58,8 +58,9 @@ if(!in_bed && !in_closet){
 
 	sprite_index = sprite[face_dir]; //Set player's sprite is facing
 
-	angle = point_direction(x, y, mouse_x, mouse_y);//gets Angle of player and mouse
-
+	angle  = point_direction(x, y, mouse_x, mouse_y);//gets Angle of player and mouse
+	
+	
 	if(mouse_check_button_pressed(mb_left)){//Check user pressed left mouse once
 		flash_light_on = !flash_light_on; //Not Gate
 	}
