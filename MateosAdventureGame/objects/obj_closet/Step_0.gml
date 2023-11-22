@@ -13,7 +13,39 @@ if (place_meeting(x, y, obj_player) && _press_e && !instance_exists(obj_closet_t
 }
 
 
+//Displaying message when player next door
+if(place_meeting(x, y, obj_player) && go_closet == false){
 
+	if(obj_player.face_dir == LEFT && obj_player.in_closet == false){
+		instance_create_layer( obj_player.x,  obj_player.y - 25, layer, obj_e_popup);
+		go_closet = true;
+	}
+	else if(obj_player.face_dir == RIGHT  && obj_player.in_closet == false){
+		instance_create_layer( obj_player.x - 65,  obj_player.y - 25, layer, obj_e_popup);
+		go_closet = true;
+	}
+	else if(obj_player.face_dir == DOWN  && obj_player.in_closet == false){
+		instance_create_layer(obj_player.x - 30 , obj_player.y - 40, layer, obj_e_popup);
+		go_closet = true;
+	}
+	else if(obj_player.face_dir == UP && obj_player.in_closet == false){
+		instance_create_layer(obj_player.x - 40 , obj_player.y - 20, layer, obj_e_popup);
+		go_closet = true;
+	}
+	
+	if(obj_player.in_closet == true){
+		instance_create_layer( obj_player.x , obj_player.y -50 , layer, obj_e_popup);
+		go_closet = true;
+	}
+}
+
+//Deletes instance when player leaves AoE
+if(!place_meeting(x,y,obj_player) && go_closet == true){
+	with(obj_e_popup){
+		instance_destroy();
+		}
+	go_closet = false;
+}
 
 
 

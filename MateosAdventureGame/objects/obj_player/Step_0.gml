@@ -63,7 +63,6 @@ if(!in_bed && !in_closet){
 	if(mouse_check_button_pressed(mb_left)){//Check user pressed left mouse once
 		flash_light_on = !flash_light_on; //Not Gate
 	}
-	image_alpha = 1;
 }
 else if(in_bed){//Checks Player is underbed
 	var _right_k = keyboard_check(vk_right) || keyboard_check(ord("D")); //going right
@@ -74,7 +73,7 @@ else if(in_bed){//Checks Player is underbed
 		xspd = 0; //set x speed to 0
 	}
 	x += xspd * 2;
-	image_alpha = 0;
+	//image_alpha = 0;
 }
 else if(in_closet){//Checks Player is in closet
 	var _right_k = keyboard_check(vk_right) || keyboard_check(ord("D")); //going right
@@ -98,6 +97,12 @@ else if(in_closet){//Checks Player is in closet
 	x += xspd;
 	y += yspd;
 	
-	image_alpha = 0;
+	//image_alpha = 0;
 }
 
+if(in_bed || in_closet){
+	image_alpha = 0;
+}
+else{
+	image_alpha = 1;
+}
