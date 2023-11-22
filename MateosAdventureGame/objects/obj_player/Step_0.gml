@@ -8,7 +8,6 @@ if(!in_bed && !in_closet){
 	var _up_k = keyboard_check(vk_up) || keyboard_check(ord("W")); // going up
 	var _down_k = keyboard_check(vk_down) || keyboard_check(ord("S")); // going down
 	var _mouse_check_left = mouse_check_button_pressed(mb_left);//Get mouse button left
-	var _press_e = keyboard_check(ord("E"));// Gets e if 
 
 
 	//Change of direction on x and y-axis, and adding that with player move speed

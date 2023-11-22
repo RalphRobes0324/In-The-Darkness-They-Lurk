@@ -17,7 +17,7 @@ flash_light_on = false;//Status flash light
 
 angle = 0.0;//Flashlight angle
 in_bed = false; //Player's status if hidding in bed
-in_closet = false;
+in_closet = false; //Player's status if hidding in closet
 
 
 
