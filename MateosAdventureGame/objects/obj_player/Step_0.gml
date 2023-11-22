@@ -73,7 +73,6 @@ else if(in_bed){//Checks Player is underbed
 		xspd = 0; //set x speed to 0
 	}
 	x += xspd * 2;
-	//image_alpha = 0;
 }
 else if(in_closet){//Checks Player is in closet
 	var _right_k = keyboard_check(vk_right) || keyboard_check(ord("D")); //going right

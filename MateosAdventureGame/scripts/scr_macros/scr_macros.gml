@@ -1,7 +1,7 @@
 // Script assets have changed for v2.3.0 see
 // https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 
-//Direction where the player will be facing.
+//Direction where the player/Enemy will be facing.
 //It will be define by numbers
 #macro RIGHT 0
 #macro UP 1

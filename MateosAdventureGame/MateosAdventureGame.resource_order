@@ -19,7 +19,7 @@
     {"name":"Hallway1","order":3,"path":"folders/Rooms/Prototype floor1/Hallway1.yy",},
     {"name":"room1","order":4,"path":"folders/Rooms/Prototype floor1/Hallway1/room1.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
-    {"name":"PlayerScripts","order":1,"path":"folders/Scripts/PlayerScripts.yy",},
+    {"name":"SharedScripts","order":1,"path":"folders/Scripts/SharedScripts.yy",},
     {"name":"Sequences","order":11,"path":"folders/Sequences.yy",},
     {"name":"Shaders","order":6,"path":"folders/Shaders.yy",},
     {"name":"Sounds","order":3,"path":"folders/Sounds.yy",},

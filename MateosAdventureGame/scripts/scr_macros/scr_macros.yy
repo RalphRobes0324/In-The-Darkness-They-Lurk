@@ -5,7 +5,7 @@
   "isCompatibility": false,
   "isDnD": false,
   "parent": {
-    "name": "PlayerScripts",
-    "path": "folders/Scripts/PlayerScripts.yy",
+    "name": "SharedScripts",
+    "path": "folders/Scripts/SharedScripts.yy",
   },
 }

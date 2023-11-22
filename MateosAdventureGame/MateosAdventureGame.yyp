@@ -32,7 +32,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Hallway1","folderPath":"folders/Rooms/Prototype floor1/Hallway1.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"room1","folderPath":"folders/Rooms/Prototype floor1/Hallway1/room1.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Scripts","folderPath":"folders/Scripts.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PlayerScripts","folderPath":"folders/Scripts/PlayerScripts.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"SharedScripts","folderPath":"folders/Scripts/SharedScripts.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sequences","folderPath":"folders/Sequences.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Shaders","folderPath":"folders/Shaders.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sounds","folderPath":"folders/Sounds.yy",},
