@@ -9,6 +9,7 @@ if (place_meeting(x, y, obj_player) && _press_e && !instance_exists(obj_closet_t
 	_inst.target_rm = target_rm; //Go to new room
 	_inst.target_face_dir = target_face_dir; //Forces Player face Direction they are going
 	obj_player.in_closet = !obj_player.in_closet;
+	show_debug_message(obj_player.in_closet);
 }
 
 

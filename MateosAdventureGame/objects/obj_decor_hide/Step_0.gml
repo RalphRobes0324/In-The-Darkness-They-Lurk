@@ -7,6 +7,8 @@ if(place_meeting(x, y, obj_player) && _press_e && !instance_exists(obj_under_bed
 	_inst.target_rm = target_rm;//Go to new room
 	_inst.target_face_dir = target_face_dir; //Forces Player face Direction they are going
 	obj_player.in_bed = !obj_player.in_bed;//Change decision
+	var msg = "BED:" + string(obj_player.in_bed);
+	show_debug_message(msg);
 }
 	
 
