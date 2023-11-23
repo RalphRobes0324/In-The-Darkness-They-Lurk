@@ -1,5 +1,5 @@
-/// @description Player's variables define/set
+/// @description Enemy's variables define/set
 
-health = 30;
-
+alarm_set(0, room_speed * irandom_range(2, 5));
+image_speed = 0;
 
