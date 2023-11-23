@@ -30,7 +30,7 @@ with(obj_player){//Getting Player's light Object
 	draw_sprite_ext(spr_player_light, 0, x, y, image_xscale, image_yscale, 0, c_white , 0.1);
 	
 	if(flash_light_on){//checks Flash light, so second layer can go on
-		draw_sprite_ext(spr_player_flashlight, 0, x, y, image_xscale, image_yscale, angle, c_orange ,5);
+		draw_sprite_ext(spr_player_flashlight, 0, x, y, image_xscale, image_yscale, angle, c_orange ,0.1);
 	}
 	
 	gpu_set_blendmode(bm_normal);//set default
