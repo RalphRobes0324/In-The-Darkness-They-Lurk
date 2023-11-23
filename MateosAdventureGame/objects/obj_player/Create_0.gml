@@ -12,7 +12,7 @@ sprite[LEFT] = spr_player_left;
 sprite[DOWN] = spr_player_down;
 face_dir = DOWN; //Default Facing
 
-flash_light_on = false;//Status flash light
+flash_light_on = false;//Status flashlight
 weapon = -0.1;
 weapon_x_offset = 8;
 weapon_y_offset = 4;
