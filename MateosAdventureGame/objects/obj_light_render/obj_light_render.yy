@@ -9,8 +9,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "LightObjects",
-    "path": "folders/Objects/LightObjects.yy",
+    "name": "GameObjects",
+    "path": "folders/Objects/GameObjects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
