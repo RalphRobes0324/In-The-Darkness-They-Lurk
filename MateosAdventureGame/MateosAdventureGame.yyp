@@ -68,7 +68,6 @@
     {"id":{"name":"rm_room1_incloset","path":"rooms/rm_room1_incloset/rm_room1_incloset.yy",},},
     {"id":{"name":"spr_decor_tiles","path":"sprites/spr_decor_tiles/spr_decor_tiles.yy",},},
     {"id":{"name":"spr_housefloor_tiles","path":"sprites/spr_housefloor_tiles/spr_housefloor_tiles.yy",},},
-    {"id":{"name":"spr_flashlight","path":"sprites/spr_flashlight/spr_flashlight.yy",},},
     {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},},
     {"id":{"name":"fnt_prototype_font","path":"fonts/fnt_prototype_font/fnt_prototype_font.yy",},},
     {"id":{"name":"spr_closet","path":"sprites/spr_closet/spr_closet.yy",},},
