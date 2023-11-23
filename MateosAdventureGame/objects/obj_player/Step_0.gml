@@ -1,5 +1,6 @@
 /// @description Player's Actions
 
+
 //Player's Input from keyboard
 if(!in_bed && !in_closet){
 	var _right_k = keyboard_check(vk_right) || keyboard_check(ord("D")); //going right

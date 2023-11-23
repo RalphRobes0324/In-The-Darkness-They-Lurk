@@ -1,5 +1,4 @@
 /// @description Enemy Action
-
 direction = point_direction(x,y, obj_player.x, obj_player.y);// points where Player is
 speed = random_range(0.5, 1.5);//Enemy speed
 
