@@ -19,7 +19,7 @@ with(obj_player){//Getting Player's light Object
 	draw_sprite_ext(spr_player_light, 0,x, y, image_xscale, image_yscale, 0, c_white,5);
 	
 	if(flash_light_on){//checks Flash light, so first layer can go on
-		draw_sprite_ext(spr_player_flashlight, 0,x, y, image_xscale, image_yscale,  angle, c_white, 9);
+		draw_sprite_ext(spr_player_flashlight, 0,x, y, image_xscale, image_yscale,  angle, c_white, 1);
 	}
 
 	
