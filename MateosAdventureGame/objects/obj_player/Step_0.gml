@@ -63,6 +63,7 @@ if(!in_bed && !in_closet){
 	angle  = point_direction(x, centerY, mouse_x, mouse_y);//gets Angle of player and mouse
 	if(mouse_check_button_pressed(mb_left)){//Check user pressed left mouse once
 		flash_light_on = !flash_light_on; //Not Gate
+		obj_flashlight.show = !obj_flashlight.show;
 	}
 }
 else if(in_bed){//Checks Player is underbed
