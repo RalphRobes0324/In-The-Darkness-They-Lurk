@@ -1,7 +1,6 @@
 /// @description Enemy Action
 
 if(!obj_the_pauser.pause){
-	image_index = 0;
 	switch(state){
 		case e_state.idle:
 		{
