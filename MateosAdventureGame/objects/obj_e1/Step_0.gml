@@ -35,6 +35,13 @@ if(!obj_the_pauser.pause){
 	x += hsp;
 	y += vsp;
 }
+if(isHurt){
+	image_index = 1;
+}
+else{
+	image_index = 0;
+}
+
 if(hp <= 0){ //checks enemy is dead
 	instance_destroy();//if dead, delete that instance
 }
