@@ -1,24 +1,24 @@
 /// @description Enemy Action
 
 if(!obj_the_pauser.pause){
-	switch(state){
-		case e_state.idle:
+	switch(state){//Checks state of enemy
+		case e_state.idle://idle state
 		{
-			hsp = 0;
-			vsp = 0;
-			if(distance_to_object(obj_player) < 20){
-				state = e_state.chase;
+			hsp = 0;//Set hsp to 0
+			vsp = 0; //vsp to 0
+			if(distance_to_object(obj_player) < 20){//checks distance player object if can chase
+				state = e_state.chase;//change state to chase
 			}
 		}
 		break;
-		case e_state.chase:
+		case e_state.chase://chase state
 		{
-			var dirX = sign(obj_player.x - x);
-			var dirY = sign(obj_player.y - y);
-			hsp = dirX;
-			vsp = dirY;
-			if(distance_to_object(obj_player) >  30) {
-				state = e_state.idle;
+			var dirX = sign(obj_player.x - x);//left or right desicion
+			var dirY = sign(obj_player.y - y);//up or down desicion
+			hsp = dirX; //set as hsp
+			vsp = dirY; //set as vsp
+			if(distance_to_object(obj_player) >  30) {//checks is no longer in line of sight
+				state = e_state.idle; //change state to idle
 			}
 		}
 		break;
