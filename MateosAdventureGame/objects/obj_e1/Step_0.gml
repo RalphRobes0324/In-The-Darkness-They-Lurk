@@ -35,11 +35,12 @@ if(!obj_the_pauser.pause){
 	x += hsp;
 	y += vsp;
 }
-if(isHurt){
-	image_index = 1;
+
+if(!place_meeting(x,y,obj_flashlight)){//checks state enemy being hurt
+	image_index = 0;//not hurt
 }
 else{
-	image_index = 0;
+	image_index = 1;// hurt
 }
 
 if(hp <= 0){ //checks enemy is dead
