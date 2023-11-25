@@ -47,6 +47,9 @@ else if(!place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on){
 else if(place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on){
 	image_index = 1;// hurt
 }
+else{ //fail safe
+	image_index = 0;//not hurt
+}
 
 //checks enemy is dead
 if(hp <= 0){ 
