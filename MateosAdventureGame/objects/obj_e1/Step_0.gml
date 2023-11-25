@@ -7,7 +7,7 @@ if(!obj_the_pauser.pause){
 		{
 			hsp = 0;
 			vsp = 0;
-			if(distance_to_object(obj_player) < 30){
+			if(distance_to_object(obj_player) < 20){
 				state = e_state.chase;
 			}
 		}
@@ -16,9 +16,9 @@ if(!obj_the_pauser.pause){
 		{
 			var dirX = sign(obj_player.x - x);
 			var dirY = sign(obj_player.y - y);
-			hsp = dirX * 2;
-			vsp = dirY * 2;
-			if(distance_to_object(obj_player) >  50) {
+			hsp = dirX;
+			vsp = dirY;
+			if(distance_to_object(obj_player) >  30) {
 				state = e_state.idle;
 			}
 		}
