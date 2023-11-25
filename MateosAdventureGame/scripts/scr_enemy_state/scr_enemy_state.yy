@@ -1,7 +1,7 @@
 {
   "resourceType": "GMScript",
   "resourceVersion": "1.0",
-  "name": "Script2",
+  "name": "scr_enemy_state",
   "isCompatibility": false,
   "isDnD": false,
   "parent": {

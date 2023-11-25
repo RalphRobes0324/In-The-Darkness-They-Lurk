@@ -76,7 +76,7 @@
     {"id":{"name":"obj_player_light","path":"objects/obj_player_light/obj_player_light.yy",},},
     {"id":{"name":"obj_e1","path":"objects/obj_e1/obj_e1.yy",},},
     {"id":{"name":"obj_pause_player","path":"objects/obj_pause_player/obj_pause_player.yy",},},
-    {"id":{"name":"Script2","path":"scripts/Script2/Script2.yy",},},
+    {"id":{"name":"scr_enemy_state","path":"scripts/scr_enemy_state/scr_enemy_state.yy",},},
     {"id":{"name":"spr_under_bed_transition","path":"sprites/spr_under_bed_transition/spr_under_bed_transition.yy",},},
     {"id":{"name":"ts_decor","path":"tilesets/ts_decor/ts_decor.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
