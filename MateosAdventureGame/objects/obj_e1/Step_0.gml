@@ -1,6 +1,7 @@
 /// @description Enemy Action
 
 if(!obj_the_pauser.pause){
+	image_index = 0;
 	switch(state){
 		case e_state.idle:
 		{
@@ -37,10 +38,13 @@ if(!obj_the_pauser.pause){
 }
 
 //checks state enemy being hurt
-if(!place_meeting(x,y,obj_flashlight)){
+if(!place_meeting(x,y,obj_flashlight) && !obj_player.flash_light_on){
 	image_index = 0;//not hurt
 }
-else{
+else if(!place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on){
+	image_index = 0;//not hurt
+}
+else if(place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on){
 	image_index = 1;// hurt
 }
 
