@@ -1,5 +1,7 @@
 /// @description Player's variables define/set
 
+hp = 50;
+
 xspd = 0; //Player's x-speed
 yspd = 0; //Player's y-speed
 move_spd = 1;//Overrall move speed
@@ -15,7 +17,7 @@ face_dir = DOWN; //Default Facing
 flash_light_on = false;//Status flashlight
 flashlight_battery = 10;//Setting value of battery of flashlight
 
-centerYOFFset = -6;
+centerYOFFset = -6;//The Y offset
 centerY = y + centerYOFFset
 angle = 0;//Flashlight angle
 
