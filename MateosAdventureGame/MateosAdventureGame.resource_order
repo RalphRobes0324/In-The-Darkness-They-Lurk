@@ -35,6 +35,7 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Prototype Decor","order":2,"path":"folders/Tile Sets/Prototype Decor.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Menus","order":4,"path":"folders/Rooms/Menus.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_player_light","order":4,"path":"sprites/spr_player_light/spr_player_light.yy",},

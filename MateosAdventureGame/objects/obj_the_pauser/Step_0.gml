@@ -9,7 +9,3 @@ if(keyboard_check_pressed(vk_escape)){//Checks Player pressed escape
 		instance_activate_all();//start all moving objects
 	}
 }
-
-
-
-
