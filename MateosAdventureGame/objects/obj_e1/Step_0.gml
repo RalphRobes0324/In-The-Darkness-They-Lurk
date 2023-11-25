@@ -36,14 +36,16 @@ if(!obj_the_pauser.pause){
 	y += vsp;
 }
 
-if(!place_meeting(x,y,obj_flashlight)){//checks state enemy being hurt
+//checks state enemy being hurt
+if(!place_meeting(x,y,obj_flashlight)){
 	image_index = 0;//not hurt
 }
 else{
 	image_index = 1;// hurt
 }
 
-if(hp <= 0){ //checks enemy is dead
+//checks enemy is dead
+if(hp <= 0){ 
 	instance_destroy();//if dead, delete that instance
 }
 
