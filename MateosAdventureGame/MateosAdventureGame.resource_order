@@ -42,7 +42,6 @@
     {"name":"obj_flashlight","order":3,"path":"objects/obj_flashlight/obj_flashlight.yy",},
     {"name":"spr_bedsheet","order":3,"path":"sprites/spr_bedsheet/spr_bedsheet.yy",},
     {"name":"rm_room1_incloset","order":5,"path":"rooms/rm_room1_incloset/rm_room1_incloset.yy",},
-    {"name":"BOX","order":6,"path":"sprites/BOX/BOX.yy",},
     {"name":"spr_housefloor_tiles","order":1,"path":"sprites/spr_housefloor_tiles/spr_housefloor_tiles.yy",},
     {"name":"spr_player_right","order":3,"path":"sprites/spr_player_right/spr_player_right.yy",},
     {"name":"spr_closet","order":2,"path":"sprites/spr_closet/spr_closet.yy",},

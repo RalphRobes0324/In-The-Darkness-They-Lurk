@@ -67,7 +67,6 @@
     {"id":{"name":"obj_flashlight","path":"objects/obj_flashlight/obj_flashlight.yy",},},
     {"id":{"name":"spr_bedsheet","path":"sprites/spr_bedsheet/spr_bedsheet.yy",},},
     {"id":{"name":"rm_room1_incloset","path":"rooms/rm_room1_incloset/rm_room1_incloset.yy",},},
-    {"id":{"name":"BOX","path":"sprites/BOX/BOX.yy",},},
     {"id":{"name":"spr_decor_tiles","path":"sprites/spr_decor_tiles/spr_decor_tiles.yy",},},
     {"id":{"name":"spr_housefloor_tiles","path":"sprites/spr_housefloor_tiles/spr_housefloor_tiles.yy",},},
     {"id":{"name":"spr_player_right","path":"sprites/spr_player_right/spr_player_right.yy",},},
