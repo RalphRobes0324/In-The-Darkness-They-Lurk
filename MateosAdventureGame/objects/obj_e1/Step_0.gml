@@ -1,6 +1,6 @@
 /// @description Enemy Action
 
-if(!obj_the_pauser.pause){
+if(!obj_the_pauser.pause){//Checks game paused
 	switch(state){//Checks state of enemy
 		case e_state.idle://idle state
 		{
@@ -34,26 +34,28 @@ if(!obj_the_pauser.pause){
 	//Move player in game
 	x += hsp;
 	y += vsp;
+	
+	//checks state enemy being hurt
+	if(!place_meeting(x,y,obj_flashlight) && !obj_player.flash_light_on){
+		image_index = 0;//not hurt
+	}
+	else if(!place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on){
+		image_index = 0;//not hurt
+	}
+	else if(place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on){
+		image_index = 1;// hurt
+	}
+	else{ //fail safe
+		image_index = 0;//not hurt
+	}
+
+	//checks enemy is dead
+	if(hp <= 0){ 
+		instance_destroy();//if dead, delete that instance
+	}
 }
 
-//checks state enemy being hurt
-if(!place_meeting(x,y,obj_flashlight) && !obj_player.flash_light_on){
-	image_index = 0;//not hurt
-}
-else if(!place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on){
-	image_index = 0;//not hurt
-}
-else if(place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on){
-	image_index = 1;// hurt
-}
-else{ //fail safe
-	image_index = 0;//not hurt
-}
 
-//checks enemy is dead
-if(hp <= 0){ 
-	instance_destroy();//if dead, delete that instance
-}
 
 
 
