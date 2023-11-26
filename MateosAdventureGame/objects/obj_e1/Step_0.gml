@@ -42,7 +42,7 @@ if(!obj_the_pauser.pause){//Checks game paused
 	else if(!place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on){
 		image_index = 0;//not hurt
 	}
-	else if(place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on){
+	else if(place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on && ( obj_player.flashlight_battery > 0 &&  obj_player.flashlight_battery <= 100)){
 		image_index = 1;// hurt
 	}
 	else{ //fail safe

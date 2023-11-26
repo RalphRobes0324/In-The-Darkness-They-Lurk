@@ -1,7 +1,7 @@
 /// @description Flashlight create collision with enemy
 // You can write your code in this editor
 
-if(obj_player.flash_light_on && place_meeting(x,y,obj_e1)){//Checks flashlight is on
+if(obj_player.flash_light_on && place_meeting(x,y,obj_e1) && obj_player.flashlight_battery > 0){//Checks flashlight is on
 	obj_e1.hp -= 0.5;//minus 1 health
 	var knockbackSpeed = 3; //speed of the knocback
 	var knockbackDirection = point_direction(obj_player.x,obj_player.y,obj_e1.x, obj_e1.y);//Direction of knock will be

@@ -3,7 +3,7 @@
 
 light_surface = -1;
 
-flash_light = false;
+
 
 
 

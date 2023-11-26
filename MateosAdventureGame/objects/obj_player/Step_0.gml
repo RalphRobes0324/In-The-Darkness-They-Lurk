@@ -61,11 +61,26 @@ if(!in_bed && !in_closet){
 
 	sprite_index = sprite[face_dir]; //Set player's sprite is facing
 	
+	//Flashlight
 	centerY = y + centerYOFFset
 	angle  = point_direction(x, centerY, mouse_x, mouse_y);//gets Angle of player and mouse
-	if(mouse_check_button_pressed(mb_left)){//Check user pressed left mouse once
+	if(_mouse_check_left && (flashlight_battery >= 15 && flashlight_battery <= 100.50)){//Check user pressed left mouse once
 		flash_light_on = !flash_light_on; //Not Gate
 	}
+	if(flashlight_battery <= 0){ //checks battery is still above 0
+		flash_light_on = false; //sets flashlight to false admittely
+	}
+	if(flash_light_on && (flashlight_battery > 0 && flashlight_battery <= 100)){//flash is in use
+		flashlight_battery -= 0.5; //draining the battery
+	}
+	if(!flash_light_on){//when flashlight is off
+		if(flashlight_battery < 100){//checks battery fully charge
+			flashlight_battery += 1;//charging the battery
+		}
+		
+		
+	}
+	show_debug_message(flashlight_battery);
 }
 else if(in_bed){//Checks Player is underbed
 	var _right_k = keyboard_check(vk_right) || keyboard_check(ord("D")); //going right

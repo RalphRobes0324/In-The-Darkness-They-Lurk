@@ -15,7 +15,7 @@ sprite[DOWN] = spr_player_down;
 face_dir = DOWN; //Default Facing
 
 flash_light_on = false;//Status flashlight
-flashlight_battery = 10;//Setting value of battery of flashlight
+flashlight_battery = 100;//Setting value of battery of flashlight
 
 centerYOFFset = -6;//The Y offset
 centerY = y + centerYOFFset
