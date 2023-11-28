@@ -41,6 +41,7 @@
     {"name":"spr_player_light","order":4,"path":"sprites/spr_player_light/spr_player_light.yy",},
     {"name":"obj_flashlight","order":3,"path":"objects/obj_flashlight/obj_flashlight.yy",},
     {"name":"spr_bedsheet","order":3,"path":"sprites/spr_bedsheet/spr_bedsheet.yy",},
+    {"name":"Sprite21","order":6,"path":"sprites/Sprite21/Sprite21.yy",},
     {"name":"rm_room1_incloset","order":5,"path":"rooms/rm_room1_incloset/rm_room1_incloset.yy",},
     {"name":"spr_battery","order":6,"path":"sprites/spr_battery/spr_battery.yy",},
     {"name":"spr_housefloor_tiles","order":1,"path":"sprites/spr_housefloor_tiles/spr_housefloor_tiles.yy",},
