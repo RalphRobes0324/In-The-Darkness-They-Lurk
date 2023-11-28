@@ -70,7 +70,7 @@ if(!in_bed && !in_closet){
 	if(flashlight_battery <= 0){ //checks battery is still above 0
 		flash_light_on = false; //sets flashlight to false admittely
 	}
-	if(flash_light_on && (flashlight_battery > 0 && flashlight_battery <= 100)){//flash is in use
+	if(flash_light_on){//flash is in use
 		flashlight_battery -= 0.5; //draining the battery
 	}
 	if(!flash_light_on){//when flashlight is off
@@ -80,7 +80,8 @@ if(!in_bed && !in_closet){
 		
 		
 	}
-	show_debug_message(flashlight_battery);
+	var msg = string(flash_light_on) + ":" + string(flashlight_battery);
+	show_debug_message(msg);
 }
 else if(in_bed){//Checks Player is underbed
 	var _right_k = keyboard_check(vk_right) || keyboard_check(ord("D")); //going right

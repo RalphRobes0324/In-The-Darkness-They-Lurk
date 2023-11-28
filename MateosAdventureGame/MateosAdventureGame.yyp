@@ -64,6 +64,7 @@
     {"id":{"name":"obj_decor_hide","path":"objects/obj_decor_hide/obj_decor_hide.yy",},},
     {"id":{"name":"spr_e","path":"sprites/spr_e/spr_e.yy",},},
     {"id":{"name":"spr_door_transition","path":"sprites/spr_door_transition/spr_door_transition.yy",},},
+    {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"id":{"name":"obj_flashlight","path":"objects/obj_flashlight/obj_flashlight.yy",},},
     {"id":{"name":"spr_bedsheet","path":"sprites/spr_bedsheet/spr_bedsheet.yy",},},
     {"id":{"name":"rm_room1_incloset","path":"rooms/rm_room1_incloset/rm_room1_incloset.yy",},},
@@ -113,6 +114,7 @@
     {"roomId":{"name":"rm_f1_down_rm2_hallway1","path":"rooms/rm_f1_down_rm2_hallway1/rm_f1_down_rm2_hallway1.yy",},},
     {"roomId":{"name":"rm_room1_underbed","path":"rooms/rm_room1_underbed/rm_room1_underbed.yy",},},
     {"roomId":{"name":"rm_room1_incloset","path":"rooms/rm_room1_incloset/rm_room1_incloset.yy",},},
+    {"roomId":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
