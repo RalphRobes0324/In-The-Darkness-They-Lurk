@@ -68,6 +68,7 @@
     {"name":"obj_under_bed_transition","order":1,"path":"objects/obj_under_bed_transition/obj_under_bed_transition.yy",},
     {"name":"spr_door","order":2,"path":"sprites/spr_door/spr_door.yy",},
     {"name":"ts_bedSheets","order":2,"path":"tilesets/ts_bedSheets/ts_bedSheets.yy",},
+    {"name":"sprPressStart","order":7,"path":"sprites/sprPressStart/sprPressStart.yy",},
     {"name":"ts_houseFloors","order":1,"path":"tilesets/ts_houseFloors/ts_houseFloors.yy",},
   ],
 }

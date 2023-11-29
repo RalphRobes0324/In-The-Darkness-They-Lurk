@@ -107,6 +107,7 @@
     {"id":{"name":"obj_under_bed_transition","path":"objects/obj_under_bed_transition/obj_under_bed_transition.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"ts_bedSheets","path":"tilesets/ts_bedSheets/ts_bedSheets.yy",},},
+    {"id":{"name":"sprPressStart","path":"sprites/sprPressStart/sprPressStart.yy",},},
     {"id":{"name":"rm_room1","path":"rooms/rm_room1/rm_room1.yy",},},
     {"id":{"name":"ts_houseFloors","path":"tilesets/ts_houseFloors/ts_houseFloors.yy",},},
     {"id":{"name":"rm_f1_main_hallway1","path":"rooms/rm_f1_main_hallway1/rm_f1_main_hallway1.yy",},},
