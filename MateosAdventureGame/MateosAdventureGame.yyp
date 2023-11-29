@@ -90,6 +90,7 @@
     {"id":{"name":"rm_f1_down_rm2_hallway1","path":"rooms/rm_f1_down_rm2_hallway1/rm_f1_down_rm2_hallway1.yy",},},
     {"id":{"name":"scr_macros","path":"scripts/scr_macros/scr_macros.yy",},},
     {"id":{"name":"rm_room1_underbed","path":"rooms/rm_room1_underbed/rm_room1_underbed.yy",},},
+    {"id":{"name":"Test","path":"notes/Test/Test.yy",},},
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"spr_e1","path":"sprites/spr_e1/spr_e1.yy",},},
