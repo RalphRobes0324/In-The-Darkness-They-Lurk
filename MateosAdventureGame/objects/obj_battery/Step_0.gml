@@ -27,7 +27,7 @@ if(!obj_player.flash_light_on && obj_player.flashlight_battery >= 0.0){
 
 //If flashlight is fully charge then show battery sprite full
 if(!obj_player.flash_light_on && 
-(obj_player.flashlight_battery == 100 ||obj_player.flashlight_battery == 100.50)){
+(obj_player.flashlight_battery == 100 || obj_player.flashlight_battery == 100.50)){
 	image_index = 0;
 }
 
