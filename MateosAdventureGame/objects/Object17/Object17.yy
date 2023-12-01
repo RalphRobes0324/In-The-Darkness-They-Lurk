@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "Sprite21",
-    "path": "sprites/Sprite21/Sprite21.yy",
+    "name": "spr_player_idletest",
+    "path": "sprites/spr_player_idletest/spr_player_idletest.yy",
   },
   "spriteMaskId": null,
   "visible": true,
