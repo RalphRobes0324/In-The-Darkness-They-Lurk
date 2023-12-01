@@ -13,7 +13,7 @@
   "out_tilevborder": 2,
   "parent": {
     "name": "Prototype Decor",
-    "path": "folders/Tile Sets/Prototype Decor.yy",
+    "path": "folders/Sprites/Tile Sets/Prototype Decor.yy",
   },
   "spriteId": {
     "name": "spr_closet",
