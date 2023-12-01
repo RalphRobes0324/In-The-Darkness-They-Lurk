@@ -48,10 +48,9 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TileSprites","folderPath":"folders/Sprites/TileSprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PrototypeTileSprites","folderPath":"folders/Sprites/TileSprites/PrototypeTileSprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TransitionSprites","folderPath":"folders/Sprites/TransitionSprites.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Sprites/Tile Sets.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Prototype Decor","folderPath":"folders/Sprites/Tile Sets/Prototype Decor.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Prototype Decor","folderPath":"folders/Tile Sets/Prototype Decor.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy",},
-<<<<<<< HEAD
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Hallway1-nonprototype","folderPath":"folders/Rooms/floor1/Hallway1-nonprototype.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"FinalSprites_Maya","folderPath":"folders/Sprites/FinalSprites_Maya.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"EnemySprites","folderPath":"folders/Sprites/FinalSprites_Maya/EnemySprites.yy",},
@@ -65,8 +64,6 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"EnvironmentObjects","folderPath":"folders/Objects/MayaObjects/EnvironmentObjects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MayaObjects","folderPath":"folders/Objects/MayaObjects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"playerObjects","folderPath":"folders/Objects/MayaObjects/playerObjects.yy",},
-=======
->>>>>>> 2202b494786e7e55ce40c0882bf9e9f33c5f8d75
   ],
   "IncludedFiles": [],
   "isEcma": false,

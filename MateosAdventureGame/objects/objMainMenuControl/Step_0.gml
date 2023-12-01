@@ -1,3 +1,6 @@
+if keyboard_check_pressed(vk_enter)
+	gameStarted = true;
+
 if gameStarted
 {
 	flashTimer--;

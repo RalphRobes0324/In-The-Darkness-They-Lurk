@@ -9,15 +9,9 @@
     {"name":"Decor","order":4,"path":"folders/Objects/CollisionObjects/Decor.yy",},
     {"name":"Closet","order":2,"path":"folders/Objects/CollisionObjects/Decor/Closet.yy",},
     {"name":"Door","order":1,"path":"folders/Objects/CollisionObjects/Decor/Door.yy",},
-<<<<<<< HEAD
     {"name":"EnemyObjects","order":2,"path":"folders/Objects/EnemyObjects.yy",},
     {"name":"GameObjects","order":3,"path":"folders/Objects/GameObjects.yy",},
     {"name":"MenuObjects","order":5,"path":"folders/Objects/MenuObjects.yy",},
-=======
-    {"name":"EnemyObjects","order":5,"path":"folders/Objects/EnemyObjects.yy",},
-    {"name":"GameObjects","order":6,"path":"folders/Objects/GameObjects.yy",},
-    {"name":"MenuObjects","order":9,"path":"folders/Objects/MenuObjects.yy",},
->>>>>>> 2202b494786e7e55ce40c0882bf9e9f33c5f8d75
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
@@ -40,10 +34,9 @@
     {"name":"TileSprites","order":1,"path":"folders/Sprites/TileSprites.yy",},
     {"name":"PrototypeTileSprites","order":2,"path":"folders/Sprites/TileSprites/PrototypeTileSprites.yy",},
     {"name":"TransitionSprites","order":2,"path":"folders/Sprites/TransitionSprites.yy",},
-    {"name":"Tile Sets","order":8,"path":"folders/Sprites/Tile Sets.yy",},
-    {"name":"Prototype Decor","order":2,"path":"folders/Sprites/Tile Sets/Prototype Decor.yy",},
+    {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
+    {"name":"Prototype Decor","order":2,"path":"folders/Tile Sets/Prototype Decor.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-<<<<<<< HEAD
     {"name":"Hallway1-nonprototype","order":1,"path":"folders/Rooms/floor1/Hallway1-nonprototype.yy",},
     {"name":"FinalSprites_Maya","order":8,"path":"folders/Sprites/FinalSprites_Maya.yy",},
     {"name":"EnemySprites","order":1,"path":"folders/Sprites/FinalSprites_Maya/EnemySprites.yy",},
@@ -56,8 +49,6 @@
     {"name":"rooms","order":1,"path":"folders/Sprites/FinalSprites_Maya/Environment/rooms.yy",},
     {"name":"MayaObjects","order":7,"path":"folders/Objects/MayaObjects.yy",},
     {"name":"playerObjects","order":1,"path":"folders/Objects/MayaObjects/playerObjects.yy",},
-=======
->>>>>>> 2202b494786e7e55ce40c0882bf9e9f33c5f8d75
   ],
   "ResourceOrderSettings": [
     {"name":"obj_playerMaya","order":1,"path":"objects/obj_playerMaya/obj_playerMaya.yy",},
