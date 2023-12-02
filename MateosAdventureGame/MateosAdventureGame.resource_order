@@ -81,6 +81,7 @@
     {"name":"Player_sideaysWalkFlashlight","order":5,"path":"sprites/Player_sideaysWalkFlashlight/Player_sideaysWalkFlashlight.yy",},
     {"name":"objPressEnter","order":1,"path":"objects/objPressEnter/objPressEnter.yy",},
     {"name":"obj_closet_transition","order":1,"path":"objects/obj_closet_transition/obj_closet_transition.yy",},
+    {"name":"spr_roomStorageRoom","order":3,"path":"sprites/spr_roomStorageRoom/spr_roomStorageRoom.yy",},
     {"name":"obj_under_bed_transition","order":1,"path":"objects/obj_under_bed_transition/obj_under_bed_transition.yy",},
     {"name":"Player_sideaysIdleFlashlight","order":2,"path":"sprites/Player_sideaysIdleFlashlight/Player_sideaysIdleFlashlight.yy",},
     {"name":"spr_door","order":2,"path":"sprites/spr_door/spr_door.yy",},
