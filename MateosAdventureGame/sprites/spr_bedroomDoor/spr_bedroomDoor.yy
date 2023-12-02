@@ -1,11 +1,11 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_itemLayout",
-  "bbox_bottom": 1758,
-  "bbox_left": 2524,
-  "bbox_right": 3847,
-  "bbox_top": 900,
+  "name": "spr_bedroomDoor",
+  "bbox_bottom": 158,
+  "bbox_left": 7,
+  "bbox_right": 345,
+  "bbox_top": 2,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 2800,
+  "height": 160,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"338ae586-c8ef-4dd8-b6df-5b1cc9d66969","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_itemLayout",
+    "name": "spr_bedroomDoor",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"527a7010-8dcb-4f95-ac32-61d32de6172f","path":"sprites/spr_itemLayout/spr_itemLayout.yy",},},},"Disabled":false,"id":"f12cce17-e667-4760-b635-4ae339f5a0a3","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"527a7010-8dcb-4f95-ac32-61d32de6172f","path":"sprites/spr_bedroomDoor/spr_bedroomDoor.yy",},},},"Disabled":false,"id":"d3b03c7e-7fc5-4abb-a1ba-c1839877d938","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 4096,
+  "width": 352,
 }

@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_itemLayout",
+  "name": "obj_closetBedroom",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "HidingSpotsAndClutterObjects",
-    "path": "folders/Objects/MayaObjects/EnvironmentObjects/HidingSpotsAndClutterObjects.yy",
+    "name": "bedroom",
+    "path": "folders/Objects/MayaObjects/EnvironmentObjects/HidingSpotsAndClutterObjects/bedroom.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,10 +25,7 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": {
-    "name": "spr_itemLayout",
-    "path": "sprites/spr_itemLayout/spr_itemLayout.yy",
-  },
+  "spriteId": null,
   "spriteMaskId": null,
   "visible": true,
 }

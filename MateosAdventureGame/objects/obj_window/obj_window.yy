@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_itemLayout",
+  "name": "obj_window",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "HidingSpotsAndClutterObjects",
-    "path": "folders/Objects/MayaObjects/EnvironmentObjects/HidingSpotsAndClutterObjects.yy",
+    "name": "bedroom",
+    "path": "folders/Objects/MayaObjects/EnvironmentObjects/HidingSpotsAndClutterObjects/bedroom.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_itemLayout",
-    "path": "sprites/spr_itemLayout/spr_itemLayout.yy",
+    "name": "spr_window",
+    "path": "sprites/spr_window/spr_window.yy",
   },
   "spriteMaskId": null,
   "visible": true,
