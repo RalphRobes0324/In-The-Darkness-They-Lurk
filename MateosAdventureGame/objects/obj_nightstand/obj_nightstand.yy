@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_nightstand",
+    "path": "sprites/spr_nightstand/spr_nightstand.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
