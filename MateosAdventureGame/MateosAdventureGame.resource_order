@@ -84,6 +84,7 @@
     {"name":"Player_sideaysIdleFlashlight","order":2,"path":"sprites/Player_sideaysIdleFlashlight/Player_sideaysIdleFlashlight.yy",},
     {"name":"spr_door","order":2,"path":"sprites/spr_door/spr_door.yy",},
     {"name":"Player_forwardWalkFlashlight","order":3,"path":"sprites/Player_forwardWalkFlashlight/Player_forwardWalkFlashlight.yy",},
+    {"name":"spr_roomBedroom","order":1,"path":"sprites/spr_roomBedroom/spr_roomBedroom.yy",},
     {"name":"ts_bedSheets","order":2,"path":"tilesets/ts_bedSheets/ts_bedSheets.yy",},
     {"name":"Player_forwardIdle","order":1,"path":"sprites/Player_forwardIdle/Player_forwardIdle.yy",},
     {"name":"Player_sideaysIdle","order":3,"path":"sprites/Player_sideaysIdle/Player_sideaysIdle.yy",},

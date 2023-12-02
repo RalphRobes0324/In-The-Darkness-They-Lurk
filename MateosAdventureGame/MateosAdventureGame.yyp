@@ -128,6 +128,7 @@
     {"id":{"name":"Player_sideaysIdleFlashlight","path":"sprites/Player_sideaysIdleFlashlight/Player_sideaysIdleFlashlight.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"Player_forwardWalkFlashlight","path":"sprites/Player_forwardWalkFlashlight/Player_forwardWalkFlashlight.yy",},},
+    {"id":{"name":"spr_roomBedroom","path":"sprites/spr_roomBedroom/spr_roomBedroom.yy",},},
     {"id":{"name":"ts_bedSheets","path":"tilesets/ts_bedSheets/ts_bedSheets.yy",},},
     {"id":{"name":"Player_forwardIdle","path":"sprites/Player_forwardIdle/Player_forwardIdle.yy",},},
     {"id":{"name":"Player_sideaysIdle","path":"sprites/Player_sideaysIdle/Player_sideaysIdle.yy",},},
