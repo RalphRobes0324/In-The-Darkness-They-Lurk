@@ -75,6 +75,7 @@
     {"name":"spr_battery","order":6,"path":"sprites/spr_battery/spr_battery.yy",},
     {"name":"spr_doorToStorageRoom","order":5,"path":"sprites/spr_doorToStorageRoom/spr_doorToStorageRoom.yy",},
     {"name":"obj_doorToBedroom","order":4,"path":"objects/obj_doorToBedroom/obj_doorToBedroom.yy",},
+    {"name":"spr_desk","order":7,"path":"sprites/spr_desk/spr_desk.yy",},
     {"name":"spr_housefloor_tiles","order":1,"path":"sprites/spr_housefloor_tiles/spr_housefloor_tiles.yy",},
     {"name":"spr_player_right","order":3,"path":"sprites/spr_player_right/spr_player_right.yy",},
     {"name":"spr_closet","order":2,"path":"sprites/spr_closet/spr_closet.yy",},
@@ -116,6 +117,7 @@
     {"name":"rm_bathroom_final","order":3,"path":"rooms/rm_bathroom_final/rm_bathroom_final.yy",},
     {"name":"obj_desk","order":2,"path":"objects/obj_desk/obj_desk.yy",},
     {"name":"obj_under_bed_transition","order":1,"path":"objects/obj_under_bed_transition/obj_under_bed_transition.yy",},
+    {"name":"spr_nightstand","order":6,"path":"sprites/spr_nightstand/spr_nightstand.yy",},
     {"name":"spr_hidingBox","order":4,"path":"sprites/spr_hidingBox/spr_hidingBox.yy",},
     {"name":"Player_sideaysIdleFlashlight","order":2,"path":"sprites/Player_sideaysIdleFlashlight/Player_sideaysIdleFlashlight.yy",},
     {"name":"spr_door","order":2,"path":"sprites/spr_door/spr_door.yy",},
@@ -127,6 +129,7 @@
     {"name":"Player_sideaysIdle","order":3,"path":"sprites/Player_sideaysIdle/Player_sideaysIdle.yy",},
     {"name":"sprPressStart","order":7,"path":"sprites/sprPressStart/sprPressStart.yy",},
     {"name":"ts_houseFloors","order":1,"path":"tilesets/ts_houseFloors/ts_houseFloors.yy",},
+    {"name":"spr_closetBedroom","order":5,"path":"sprites/spr_closetBedroom/spr_closetBedroom.yy",},
     {"name":"Player_sideaysWalk","order":4,"path":"sprites/Player_sideaysWalk/Player_sideaysWalk.yy",},
   ],
 }

@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_closetBedroom",
+    "path": "sprites/spr_closetBedroom/spr_closetBedroom.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
