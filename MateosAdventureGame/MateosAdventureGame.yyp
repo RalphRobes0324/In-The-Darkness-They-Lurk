@@ -116,6 +116,7 @@
     {"id":{"name":"obj_closet_transition","path":"objects/obj_closet_transition/obj_closet_transition.yy",},},
     {"id":{"name":"obj_under_bed_transition","path":"objects/obj_under_bed_transition/obj_under_bed_transition.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
+    {"id":{"name":"Player_forwardWalkFlashlight","path":"sprites/Player_forwardWalkFlashlight/Player_forwardWalkFlashlight.yy",},},
     {"id":{"name":"ts_bedSheets","path":"tilesets/ts_bedSheets/ts_bedSheets.yy",},},
     {"id":{"name":"Player_forwardIdle","path":"sprites/Player_forwardIdle/Player_forwardIdle.yy",},},
     {"id":{"name":"sprPressStart","path":"sprites/sprPressStart/sprPressStart.yy",},},
