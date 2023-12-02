@@ -84,6 +84,7 @@
     {"id":{"name":"obj_decor_hide","path":"objects/obj_decor_hide/obj_decor_hide.yy",},},
     {"id":{"name":"obj_hidingBoxHallway","path":"objects/obj_hidingBoxHallway/obj_hidingBoxHallway.yy",},},
     {"id":{"name":"Player_backwardIdleFlashlight","path":"sprites/Player_backwardIdleFlashlight/Player_backwardIdleFlashlight.yy",},},
+    {"id":{"name":"obj_demon","path":"objects/obj_demon/obj_demon.yy",},},
     {"id":{"name":"spr_e","path":"sprites/spr_e/spr_e.yy",},},
     {"id":{"name":"obj_sprRoomBedroom","path":"objects/obj_sprRoomBedroom/obj_sprRoomBedroom.yy",},},
     {"id":{"name":"objMainMenuControl","path":"objects/objMainMenuControl/objMainMenuControl.yy",},},
