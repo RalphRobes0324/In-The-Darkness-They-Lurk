@@ -2,10 +2,10 @@
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
   "name": "spr_doorStorage",
-  "bbox_bottom": 2026,
-  "bbox_left": 251,
-  "bbox_right": 1457,
-  "bbox_top": 1063,
+  "bbox_bottom": 441,
+  "bbox_left": 14,
+  "bbox_right": 224,
+  "bbox_top": 7,
   "bboxMode": 0,
   "collisionKind": 1,
   "collisionTolerance": 0,
@@ -17,7 +17,7 @@
   ],
   "gridX": 0,
   "gridY": 0,
-  "height": 2800,
+  "height": 448,
   "HTile": false,
   "layers": [
     {"resourceType":"GMImageLayer","resourceVersion":"1.0","name":"d5787c4f-3d86-4246-990c-4e2c5c90ebbf","blendMode":0,"displayName":"default","isLocked":false,"opacity":100.0,"visible":true,},
@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "ClutterAndHidingSpots",
-    "path": "folders/Sprites/FinalSprites-Maya/EnvironmentSprites-Maya/ClutterAndHidingSpots.yy",
+    "name": "StorageRoom",
+    "path": "folders/Sprites/FinalSprites-Maya/EnvironmentSprites-Maya/ClutterAndHidingSpots/StorageRoom.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
@@ -70,5 +70,5 @@
   },
   "type": 0,
   "VTile": false,
-  "width": 4096,
+  "width": 256,
 }
