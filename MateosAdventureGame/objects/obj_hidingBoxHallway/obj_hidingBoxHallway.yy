@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_itemLayout",
+  "name": "obj_hidingBoxHallway",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_itemLayout",
-    "path": "sprites/spr_itemLayout/spr_itemLayout.yy",
+    "name": "spr_hidingBox",
+    "path": "sprites/spr_hidingBox/spr_hidingBox.yy",
   },
   "spriteMaskId": null,
   "visible": true,

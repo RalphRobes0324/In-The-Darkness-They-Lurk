@@ -1,7 +1,7 @@
 {
   "resourceType": "GMSprite",
   "resourceVersion": "1.0",
-  "name": "spr_doorToStorageRoom",
+  "name": "spr_itemLayout",
   "bbox_bottom": 2536,
   "bbox_left": 1559,
   "bbox_right": 3819,
@@ -32,7 +32,7 @@
   "sequence": {
     "resourceType": "GMSequence",
     "resourceVersion": "1.4",
-    "name": "spr_doorToStorageRoom",
+    "name": "spr_itemLayout",
     "autoRecord": true,
     "backdropHeight": 768,
     "backdropImageOpacity": 0.5,
@@ -54,7 +54,7 @@
     "timeUnits": 1,
     "tracks": [
       {"resourceType":"GMSpriteFramesTrack","resourceVersion":"1.0","name":"frames","builtinName":0,"events":[],"inheritsTrackColour":true,"interpolation":1,"isCreationTrack":false,"keyframes":{"resourceType":"KeyframeStore<SpriteFrameKeyframe>","resourceVersion":"1.0","Keyframes":[
-            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b8593ab9-8548-4c7a-aab3-1b5f9dca4344","path":"sprites/spr_doorToStorageRoom/spr_doorToStorageRoom.yy",},},},"Disabled":false,"id":"b7730db6-b8fa-45d3-9bda-7f33ffdc63bd","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
+            {"resourceType":"Keyframe<SpriteFrameKeyframe>","resourceVersion":"1.0","Channels":{"0":{"resourceType":"SpriteFrameKeyframe","resourceVersion":"1.0","Id":{"name":"b8593ab9-8548-4c7a-aab3-1b5f9dca4344","path":"sprites/spr_itemLayout/spr_itemLayout.yy",},},},"Disabled":false,"id":"db240121-6564-48b6-986d-2adf75afa4ef","IsCreationKey":false,"Key":0.0,"Length":1.0,"Stretch":false,},
           ],},"modifiers":[],"spriteId":null,"trackColour":0,"tracks":[],"traits":0,},
     ],
     "visibleRange": null,
