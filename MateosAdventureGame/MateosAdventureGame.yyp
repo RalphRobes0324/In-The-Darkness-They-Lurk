@@ -123,6 +123,7 @@
     {"id":{"name":"Player_backwardWalkFlashllight","path":"sprites/Player_backwardWalkFlashllight/Player_backwardWalkFlashllight.yy",},},
     {"id":{"name":"spr_decor_underbed","path":"sprites/spr_decor_underbed/spr_decor_underbed.yy",},},
     {"id":{"name":"rm_bedroom_final","path":"rooms/rm_bedroom_final/rm_bedroom_final.yy",},},
+    {"id":{"name":"obj_sprRoomBathroom","path":"objects/obj_sprRoomBathroom/obj_sprRoomBathroom.yy",},},
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},},
     {"id":{"name":"spr_player_left","path":"sprites/spr_player_left/spr_player_left.yy",},},
     {"id":{"name":"spr_closet_transition","path":"sprites/spr_closet_transition/spr_closet_transition.yy",},},
@@ -135,6 +136,7 @@
     {"id":{"name":"objPressEnter","path":"objects/objPressEnter/objPressEnter.yy",},},
     {"id":{"name":"obj_closet_transition","path":"objects/obj_closet_transition/obj_closet_transition.yy",},},
     {"id":{"name":"spr_roomStorageRoom","path":"sprites/spr_roomStorageRoom/spr_roomStorageRoom.yy",},},
+    {"id":{"name":"rm_bathroom_final","path":"rooms/rm_bathroom_final/rm_bathroom_final.yy",},},
     {"id":{"name":"obj_under_bed_transition","path":"objects/obj_under_bed_transition/obj_under_bed_transition.yy",},},
     {"id":{"name":"spr_longNeckedDemon","path":"sprites/spr_longNeckedDemon/spr_longNeckedDemon.yy",},},
     {"id":{"name":"Player_sideaysIdleFlashlight","path":"sprites/Player_sideaysIdleFlashlight/Player_sideaysIdleFlashlight.yy",},},
@@ -161,6 +163,7 @@
     {"roomId":{"name":"rm_hallway_final","path":"rooms/rm_hallway_final/rm_hallway_final.yy",},},
     {"roomId":{"name":"rm_bedroom_final","path":"rooms/rm_bedroom_final/rm_bedroom_final.yy",},},
     {"roomId":{"name":"rm_storageRoom_final","path":"rooms/rm_storageRoom_final/rm_storageRoom_final.yy",},},
+    {"roomId":{"name":"rm_bathroom_final","path":"rooms/rm_bathroom_final/rm_bathroom_final.yy",},},
   ],
   "templateType": "game",
   "TextureGroups": [
