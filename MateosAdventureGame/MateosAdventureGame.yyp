@@ -160,6 +160,7 @@
     {"id":{"name":"spr_decor_underbed","path":"sprites/spr_decor_underbed/spr_decor_underbed.yy",},},
     {"id":{"name":"rm_bedroom_final","path":"rooms/rm_bedroom_final/rm_bedroom_final.yy",},},
     {"id":{"name":"obj_sprRoomBathroom","path":"objects/obj_sprRoomBathroom/obj_sprRoomBathroom.yy",},},
+    {"id":{"name":"obj_hidingBoxStorageRoom","path":"objects/obj_hidingBoxStorageRoom/obj_hidingBoxStorageRoom.yy",},},
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},},
     {"id":{"name":"spr_player_left","path":"sprites/spr_player_left/spr_player_left.yy",},},
     {"id":{"name":"spr_closet_transition","path":"sprites/spr_closet_transition/spr_closet_transition.yy",},},
