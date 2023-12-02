@@ -25,8 +25,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "Backward",
-    "path": "folders/Sprites/FinalSprites-Maya/PlayerSprites-Maya/Backward.yy",
+    "name": "Forward",
+    "path": "folders/Sprites/FinalSprites-Maya/PlayerSprites-Maya/Forward.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
