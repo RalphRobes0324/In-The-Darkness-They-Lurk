@@ -13,6 +13,7 @@
     {"name":"inst_4DB99B34","path":"rooms/rm_hallway_final/rm_hallway_final.yy",},
     {"name":"inst_28201C47","path":"rooms/rm_hallway_final/rm_hallway_final.yy",},
     {"name":"inst_2E4BD1E8","path":"rooms/rm_hallway_final/rm_hallway_final.yy",},
+    {"name":"inst_3F2F2960","path":"rooms/rm_hallway_final/rm_hallway_final.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -25,6 +26,7 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4DB99B34","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hidingBoxHallway","path":"objects/obj_hidingBoxHallway/obj_hidingBoxHallway.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":370.0,"y":1482.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_28201C47","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_curtain","path":"objects/obj_curtain/obj_curtain.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1917.0,"y":1194.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_2E4BD1E8","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorToBathroom","path":"objects/obj_doorToBathroom/obj_doorToBathroom.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":387.0,"y":90.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_3F2F2960","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorToBedroom","path":"objects/obj_doorToBedroom/obj_doorToBedroom.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1613.0,"y":1050.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":200,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
