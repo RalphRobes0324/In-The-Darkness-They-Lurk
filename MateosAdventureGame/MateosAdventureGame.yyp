@@ -81,6 +81,7 @@
     "IDEVersion": "2023.8.2.108",
   },
   "resources": [
+    {"id":{"name":"spr_drawers","path":"sprites/spr_drawers/spr_drawers.yy",},},
     {"id":{"name":"Player_forwardWalk","path":"sprites/Player_forwardWalk/Player_forwardWalk.yy",},},
     {"id":{"name":"obj_light_render","path":"objects/obj_light_render/obj_light_render.yy",},},
     {"id":{"name":"Player_backwardIdle","path":"sprites/Player_backwardIdle/Player_backwardIdle.yy",},},
@@ -117,6 +118,7 @@
     {"id":{"name":"fnt_prototype_font","path":"fonts/fnt_prototype_font/fnt_prototype_font.yy",},},
     {"id":{"name":"spr_closet","path":"sprites/spr_closet/spr_closet.yy",},},
     {"id":{"name":"obj_player_light","path":"objects/obj_player_light/obj_player_light.yy",},},
+    {"id":{"name":"spr_doorStorage","path":"sprites/spr_doorStorage/spr_doorStorage.yy",},},
     {"id":{"name":"obj_curtain","path":"objects/obj_curtain/obj_curtain.yy",},},
     {"id":{"name":"obj_sprRoomStorageRoon","path":"objects/obj_sprRoomStorageRoon/obj_sprRoomStorageRoon.yy",},},
     {"id":{"name":"rm_hallway_final","path":"rooms/rm_hallway_final/rm_hallway_final.yy",},},
@@ -125,6 +127,7 @@
     {"id":{"name":"Player_forwardIdleFlashlight","path":"sprites/Player_forwardIdleFlashlight/Player_forwardIdleFlashlight.yy",},},
     {"id":{"name":"obj_bathroomCabinets","path":"objects/obj_bathroomCabinets/obj_bathroomCabinets.yy",},},
     {"id":{"name":"obj_window","path":"objects/obj_window/obj_window.yy",},},
+    {"id":{"name":"spr_shelves","path":"sprites/spr_shelves/spr_shelves.yy",},},
     {"id":{"name":"spr_roomHallway","path":"sprites/spr_roomHallway/spr_roomHallway.yy",},},
     {"id":{"name":"spr_bathroomDoor","path":"sprites/spr_bathroomDoor/spr_bathroomDoor.yy",},},
     {"id":{"name":"obj_e1","path":"objects/obj_e1/obj_e1.yy",},},
