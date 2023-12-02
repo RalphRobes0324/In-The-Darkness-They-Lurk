@@ -1,5 +1,14 @@
 /// @description Battery action when flashlight in use
 
+var offset_x = 32;
+var offset_y = 32;
+
+var camera_x = camera_get_view_x(view_camera[0]);
+var camera_y = camera_get_view_y(view_camera[0]);
+
+x = camera_x + offset_x;
+y = camera_y + offset_y;
+
 if(obj_player.flash_light_on){//Checks state of flashlight is on
 	
 	//Checks the battery state and change sprite based on the state of battery
