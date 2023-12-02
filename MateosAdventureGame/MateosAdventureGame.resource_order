@@ -43,6 +43,8 @@
     {"name":"Backward","order":2,"path":"folders/Sprites/FinalSprites-Maya/PlayerSprites-Maya/Backward.yy",},
     {"name":"Sideways","order":3,"path":"folders/Sprites/FinalSprites-Maya/PlayerSprites-Maya/Sideways.yy",},
     {"name":"EnemySprites-Maya","order":2,"path":"folders/Sprites/FinalSprites-Maya/EnemySprites-Maya.yy",},
+    {"name":"EnvironmentSprites-Maya","order":3,"path":"folders/Sprites/FinalSprites-Maya/EnvironmentSprites-Maya.yy",},
+    {"name":"Rooms","order":1,"path":"folders/Sprites/FinalSprites-Maya/EnvironmentSprites-Maya/Rooms.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Player_forwardWalk","order":2,"path":"sprites/Player_forwardWalk/Player_forwardWalk.yy",},
