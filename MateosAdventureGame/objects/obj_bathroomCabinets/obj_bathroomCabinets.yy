@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_bathroomCabinets",
+    "path": "sprites/spr_bathroomCabinets/spr_bathroomCabinets.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

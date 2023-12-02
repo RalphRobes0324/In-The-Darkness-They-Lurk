@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_bathroomDoor",
+    "path": "sprites/spr_bathroomDoor/spr_bathroomDoor.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

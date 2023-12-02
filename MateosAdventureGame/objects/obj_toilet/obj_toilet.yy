@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_toilet",
+    "path": "sprites/spr_toilet/spr_toilet.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

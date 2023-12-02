@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_shower",
+    "path": "sprites/spr_shower/spr_shower.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }
