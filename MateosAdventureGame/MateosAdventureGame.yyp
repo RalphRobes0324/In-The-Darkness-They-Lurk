@@ -104,6 +104,7 @@
     {"id":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},},
     {"id":{"name":"obj_wall","path":"objects/obj_wall/obj_wall.yy",},},
     {"id":{"name":"spr_e1","path":"sprites/spr_e1/spr_e1.yy",},},
+    {"id":{"name":"Player_backwardWalkFlashllight","path":"sprites/Player_backwardWalkFlashllight/Player_backwardWalkFlashllight.yy",},},
     {"id":{"name":"spr_decor_underbed","path":"sprites/spr_decor_underbed/spr_decor_underbed.yy",},},
     {"id":{"name":"spr_player_up","path":"sprites/spr_player_up/spr_player_up.yy",},},
     {"id":{"name":"spr_player_left","path":"sprites/spr_player_left/spr_player_left.yy",},},

@@ -65,6 +65,7 @@
     {"name":"obj_door_transition","order":1,"path":"objects/obj_door_transition/obj_door_transition.yy",},
     {"name":"rm_f1_down_rm2_hallway1","order":1,"path":"rooms/rm_f1_down_rm2_hallway1/rm_f1_down_rm2_hallway1.yy",},
     {"name":"rm_room1_underbed","order":4,"path":"rooms/rm_room1_underbed/rm_room1_underbed.yy",},
+    {"name":"Player_backwardWalkFlashllight","order":1,"path":"sprites/Player_backwardWalkFlashllight/Player_backwardWalkFlashllight.yy",},
     {"name":"spr_player_up","order":1,"path":"sprites/spr_player_up/spr_player_up.yy",},
     {"name":"spr_player_left","order":2,"path":"sprites/spr_player_left/spr_player_left.yy",},
     {"name":"spr_closet_transition","order":2,"path":"sprites/spr_closet_transition/spr_closet_transition.yy",},
