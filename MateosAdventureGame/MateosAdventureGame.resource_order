@@ -15,7 +15,7 @@
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
-    {"name":"floor1","order":3,"path":"folders/Rooms/floor1.yy",},
+    {"name":"floor1-Maya","order":3,"path":"folders/Rooms/floor1-Maya.yy",},
     {"name":"Menus","order":4,"path":"folders/Rooms/Menus.yy",},
     {"name":"Prototype floor1","order":2,"path":"folders/Rooms/Prototype floor1.yy",},
     {"name":"Hallway1","order":3,"path":"folders/Rooms/Prototype floor1/Hallway1.yy",},
@@ -45,6 +45,9 @@
     {"name":"EnemySprites-Maya","order":2,"path":"folders/Sprites/FinalSprites-Maya/EnemySprites-Maya.yy",},
     {"name":"EnvironmentSprites-Maya","order":3,"path":"folders/Sprites/FinalSprites-Maya/EnvironmentSprites-Maya.yy",},
     {"name":"Rooms","order":1,"path":"folders/Sprites/FinalSprites-Maya/EnvironmentSprites-Maya/Rooms.yy",},
+    {"name":"MayaObjects","order":10,"path":"folders/Objects/MayaObjects.yy",},
+    {"name":"EnvironmentObjects","order":1,"path":"folders/Objects/MayaObjects/EnvironmentObjects.yy",},
+    {"name":"RoomGraphicsObjects","order":1,"path":"folders/Objects/MayaObjects/EnvironmentObjects/RoomGraphicsObjects.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Player_forwardWalk","order":2,"path":"sprites/Player_forwardWalk/Player_forwardWalk.yy",},
