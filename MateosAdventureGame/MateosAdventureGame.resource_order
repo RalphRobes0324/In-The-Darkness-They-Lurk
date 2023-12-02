@@ -51,6 +51,7 @@
     {"name":"HidingSpotsAndClutterObjects","order":2,"path":"folders/Objects/MayaObjects/EnvironmentObjects/HidingSpotsAndClutterObjects.yy",},
     {"name":"ClutterAndHidingSpots","order":2,"path":"folders/Sprites/FinalSprites-Maya/EnvironmentSprites-Maya/ClutterAndHidingSpots.yy",},
     {"name":"Hallway","order":1,"path":"folders/Sprites/FinalSprites-Maya/EnvironmentSprites-Maya/ClutterAndHidingSpots/Hallway.yy",},
+    {"name":"hallway","order":1,"path":"folders/Objects/MayaObjects/EnvironmentObjects/HidingSpotsAndClutterObjects/hallway.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"Player_forwardWalk","order":2,"path":"sprites/Player_forwardWalk/Player_forwardWalk.yy",},
