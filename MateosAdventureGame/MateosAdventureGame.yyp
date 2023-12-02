@@ -69,6 +69,8 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"InterfaceSprites-Maya","folderPath":"folders/Sprites/FinalSprites-Maya/InterfaceSprites-Maya.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bedroom","folderPath":"folders/Sprites/FinalSprites-Maya/EnvironmentSprites-Maya/ClutterAndHidingSpots/Bedroom.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"bedroom","folderPath":"folders/Objects/MayaObjects/EnvironmentObjects/HidingSpotsAndClutterObjects/bedroom.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Bathroom","folderPath":"folders/Sprites/FinalSprites-Maya/EnvironmentSprites-Maya/ClutterAndHidingSpots/Bathroom.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"StorageRoom","folderPath":"folders/Sprites/FinalSprites-Maya/EnvironmentSprites-Maya/ClutterAndHidingSpots/StorageRoom.yy",},
   ],
   "IncludedFiles": [],
   "isEcma": false,
