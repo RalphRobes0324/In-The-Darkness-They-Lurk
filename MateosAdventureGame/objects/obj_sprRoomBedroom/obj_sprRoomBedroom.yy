@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_roomHallway",
+  "name": "obj_sprRoomBedroom",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_roomHallway",
-    "path": "sprites/spr_roomHallway/spr_roomHallway.yy",
+    "name": "spr_roomBedroom",
+    "path": "sprites/spr_roomBedroom/spr_roomBedroom.yy",
   },
   "spriteMaskId": null,
   "visible": true,
