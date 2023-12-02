@@ -66,6 +66,7 @@
   "resources": [
     {"id":{"name":"Player_forwardWalk","path":"sprites/Player_forwardWalk/Player_forwardWalk.yy",},},
     {"id":{"name":"obj_light_render","path":"objects/obj_light_render/obj_light_render.yy",},},
+    {"id":{"name":"Player_backwardIdle","path":"sprites/Player_backwardIdle/Player_backwardIdle.yy",},},
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},},
     {"id":{"name":"spr_player_light","path":"sprites/spr_player_light/spr_player_light.yy",},},
     {"id":{"name":"obj_decor_hide","path":"objects/obj_decor_hide/obj_decor_hide.yy",},},
@@ -117,6 +118,7 @@
     {"id":{"name":"objPressEnter","path":"objects/objPressEnter/objPressEnter.yy",},},
     {"id":{"name":"obj_closet_transition","path":"objects/obj_closet_transition/obj_closet_transition.yy",},},
     {"id":{"name":"obj_under_bed_transition","path":"objects/obj_under_bed_transition/obj_under_bed_transition.yy",},},
+    {"id":{"name":"Player_backwardIdleFlashlight","path":"sprites/Player_backwardIdleFlashlight/Player_backwardIdleFlashlight.yy",},},
     {"id":{"name":"spr_door","path":"sprites/spr_door/spr_door.yy",},},
     {"id":{"name":"Player_forwardWalkFlashlight","path":"sprites/Player_forwardWalkFlashlight/Player_forwardWalkFlashlight.yy",},},
     {"id":{"name":"ts_bedSheets","path":"tilesets/ts_bedSheets/ts_bedSheets.yy",},},
