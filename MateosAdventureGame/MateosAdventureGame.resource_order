@@ -85,5 +85,6 @@
     {"name":"Player_sideaysIdle","order":3,"path":"sprites/Player_sideaysIdle/Player_sideaysIdle.yy",},
     {"name":"sprPressStart","order":7,"path":"sprites/sprPressStart/sprPressStart.yy",},
     {"name":"ts_houseFloors","order":1,"path":"tilesets/ts_houseFloors/ts_houseFloors.yy",},
+    {"name":"Player_sideaysWalk","order":4,"path":"sprites/Player_sideaysWalk/Player_sideaysWalk.yy",},
   ],
 }

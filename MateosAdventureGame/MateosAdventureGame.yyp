@@ -128,6 +128,7 @@
     {"id":{"name":"sprPressStart","path":"sprites/sprPressStart/sprPressStart.yy",},},
     {"id":{"name":"rm_room1","path":"rooms/rm_room1/rm_room1.yy",},},
     {"id":{"name":"ts_houseFloors","path":"tilesets/ts_houseFloors/ts_houseFloors.yy",},},
+    {"id":{"name":"Player_sideaysWalk","path":"sprites/Player_sideaysWalk/Player_sideaysWalk.yy",},},
     {"id":{"name":"rm_f1_main_hallway1","path":"rooms/rm_f1_main_hallway1/rm_f1_main_hallway1.yy",},},
   ],
   "RoomOrderNodes": [
