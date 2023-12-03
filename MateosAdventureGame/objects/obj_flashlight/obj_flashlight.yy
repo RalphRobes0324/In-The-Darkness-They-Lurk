@@ -34,5 +34,5 @@
     "path": "sprites/spr_player_flashlight/spr_player_flashlight.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }
