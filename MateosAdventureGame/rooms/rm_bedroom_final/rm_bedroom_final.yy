@@ -36,7 +36,7 @@
   ],
   "parent": {
     "name": "floor1-Maya",
-    "path": "folders/Rooms/floor1-Maya.yy",
+    "path": "folders/Rooms/Prototype floor1/floor1-Maya.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "PlayerObjects",
-    "path": "folders/Objects/PlayerObjects.yy",
+    "name": "PlayerPrototype",
+    "path": "folders/Objects/PlayerObjects/PlayerPrototype.yy",
   },
   "parentObjectId": null,
   "persistent": true,

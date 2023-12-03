@@ -20,7 +20,7 @@
   ],
   "parent": {
     "name": "Menus",
-    "path": "folders/Rooms/Menus.yy",
+    "path": "folders/Rooms/Main/Menus.yy",
   },
   "parentRoom": null,
   "physicsSettings": {

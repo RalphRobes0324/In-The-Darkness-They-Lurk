@@ -27,8 +27,8 @@
   "nineSlice": null,
   "origin": 4,
   "parent": {
-    "name": "PlayerSprites",
-    "path": "folders/Sprites/PlayerSprites.yy",
+    "name": "PrototyePlayerSpr",
+    "path": "folders/Sprites/PlayerSprites/PrototyePlayerSpr.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

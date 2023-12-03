@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "Forward",
-    "path": "folders/Sprites/FinalSprites-Maya/PlayerSprites-Maya/Forward.yy",
+    "path": "folders/Sprites/PlayerSprites/Forward.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {
