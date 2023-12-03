@@ -8,5 +8,5 @@ if gameStarted
 		objPressEnter.visible = !objPressEnter.visible
 	
 	if flashTimer <= 0
-		room_goto(rm_f1_main_hallway1);
+		room_goto(rm_hallway_final);
 }

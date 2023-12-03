@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_playerMaya",
+  "name": "obj_playerMateo",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "MayaObjects",
-    "path": "folders/Objects/MayaObjects.yy",
+    "name": "PlayerObjects",
+    "path": "folders/Objects/PlayerObjects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
