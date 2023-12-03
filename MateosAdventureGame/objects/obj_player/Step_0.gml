@@ -40,8 +40,12 @@ if(!in_bed && !in_closet){
 	//HELP TO MAKE DIAGONAL EFFECT
 	if(yspd == 0){//Checks player is not going up or down
 		//Set Sprite on x-axis
-		if(xspd > 0) {face_dir = RIGHT}// Go right
-		if(xspd < 0) {face_dir = LEFT} //Go Left
+		if(xspd > 0) {
+			//image_xscale = 0.25;
+			face_dir = RIGHT}// Go right
+		if(xspd < 0) {
+			image_xscale = -0.25;
+			face_dir = LEFT} //Go Left
 	}
 
 	//If sprites don't change based on direction (LEFT OR RIGHT), this will force change

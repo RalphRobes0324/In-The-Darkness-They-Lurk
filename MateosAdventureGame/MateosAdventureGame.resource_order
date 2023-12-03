@@ -54,6 +54,7 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Prototype Decor","order":2,"path":"folders/Tile Sets/Prototype Decor.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Hallway1","order":2,"path":"folders/Rooms/Main/MainRooms/Hallway1.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_drawers","order":1,"path":"sprites/spr_drawers/spr_drawers.yy",},
@@ -121,7 +122,6 @@
     {"name":"objPressEnter","order":1,"path":"objects/objPressEnter/objPressEnter.yy",},
     {"name":"obj_closet_transition","order":1,"path":"objects/obj_closet_transition/obj_closet_transition.yy",},
     {"name":"spr_roomStorageRoom","order":3,"path":"sprites/spr_roomStorageRoom/spr_roomStorageRoom.yy",},
-    {"name":"rm_bathroom_final","order":2,"path":"rooms/rm_bathroom_final/rm_bathroom_final.yy",},
     {"name":"obj_desk","order":2,"path":"objects/obj_desk/obj_desk.yy",},
     {"name":"obj_under_bed_transition","order":1,"path":"objects/obj_under_bed_transition/obj_under_bed_transition.yy",},
     {"name":"spr_nightstand","order":6,"path":"sprites/spr_nightstand/spr_nightstand.yy",},
