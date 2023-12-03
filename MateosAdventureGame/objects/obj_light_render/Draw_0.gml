@@ -19,7 +19,12 @@ with(obj_player){//Getting Player's light Object
 	draw_sprite_ext(spr_player_light, 0,x, y, image_xscale, image_yscale, 0, c_white,5);
 	
 	if(flash_light_on){//checks Flash light, so first layer can go on
-		draw_sprite_ext(spr_player_flashlight, 0,x, y, image_xscale, image_yscale,  angle, c_white, 1);
+		if(face_dir == LEFT || face_dir == DOWN || face_dir == UP){
+			draw_sprite_ext(spr_player_flashlight, 0,x, y, 0.25, image_yscale,  angle, c_white, 1);
+		}
+		else{
+			draw_sprite_ext(spr_player_flashlight, 0,x, y, image_xscale, image_yscale,  angle, c_white, 1);
+		}
 	}
 
 	
@@ -30,7 +35,12 @@ with(obj_player){//Getting Player's light Object
 	draw_sprite_ext(spr_player_light, 0, x, y, image_xscale, image_yscale, 0, c_white , 0.1);
 	
 	if(flash_light_on){//checks Flash light, so second layer can go on
-		draw_sprite_ext(spr_player_flashlight, 0, x, y, image_xscale, image_yscale, angle, c_white ,0.1);
+		if(face_dir == LEFT || face_dir == DOWN || face_dir == UP){
+			draw_sprite_ext(spr_player_flashlight, 0, x, y, 0.25, image_yscale, angle, c_white ,0.1);
+		}
+		else{
+			draw_sprite_ext(spr_player_flashlight, 0, x, y, image_xscale, image_yscale, angle, c_white ,0.1);
+		}
 	}
 	
 	gpu_set_blendmode(bm_normal);//set default

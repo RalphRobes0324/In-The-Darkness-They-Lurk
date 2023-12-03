@@ -86,6 +86,7 @@ if(!in_bed && !in_closet){
 	//Flashlight
 	centerY = y + centerYOFFset
 	angle  = point_direction(x, centerY, mouse_x, mouse_y);//gets Angle of player and mouse
+
 	if(_mouse_check_left && (flashlight_battery >= 15 && flashlight_battery <= 100.50)){//Check user pressed left mouse once
 		flash_light_on = !flash_light_on; //Not Gate
 	}
