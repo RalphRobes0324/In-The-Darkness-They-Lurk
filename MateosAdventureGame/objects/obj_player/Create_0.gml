@@ -10,7 +10,7 @@ move_spd = 4;//Overrall move speed
 //Array that stores direction of player
 sprite[RIGHT] = Player_sideaysWalkFlashlight;
 sprite[UP] = Player_backwardWalkFlashllight;
-sprite[LEFT] = spr_player_left;
+sprite[LEFT] = Player_sideaysWalkFlashlight;
 sprite[DOWN] = Player_forwardWalkFlashlight;
 face_dir = DOWN; //Default Facing
 
