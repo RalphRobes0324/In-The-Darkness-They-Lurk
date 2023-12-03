@@ -35,23 +35,24 @@ if(!obj_the_pauser.pause){//Checks game paused
 	x += hsp;
 	y += vsp;
 	
-	//checks state enemy being hurt
-	if(!place_meeting(x,y,obj_flashlight) && !obj_player.flash_light_on){
-		image_index = 0;//not hurt
-	}
-	else if(!place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on){
-		image_index = 0;//not hurt
-	}
-	else if(place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on && ( obj_player.flashlight_battery > 0 &&  obj_player.flashlight_battery <= 100)){
-		image_index = 1;// hurt
-	}
-	else{ //fail safe
-		image_index = 0;//not hurt
-	}
+	////checks state enemy being hurt
+	//if(!place_meeting(x,y,obj_flashlight) && !obj_player.flash_light_on){
+	//	image_index = 0;//not hurt
+	//}
+	//else if(!place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on){
+	//	image_index = 0;//not hurt
+	//}
+	//else if(place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on && ( obj_player.flashlight_battery > 0 &&  obj_player.flashlight_battery <= 100)){
+	//	image_index = 1;// hurt
+	//}
+	//else{ //fail safe
+	//	image_index = 0;//not hurt
+	//}
 
 	//checks enemy is dead
 	if(hp <= 0){ 
 		instance_destroy();//if dead, delete that instance
+		show_debug_message("dead")
 	}
 }
 

@@ -29,8 +29,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_e1",
-    "path": "sprites/spr_e1/spr_e1.yy",
+    "name": "spr_longNeckedDemon",
+    "path": "sprites/spr_longNeckedDemon/spr_longNeckedDemon.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -80,8 +80,8 @@ if(!in_bed && !in_closet){
 		
 		
 	}
-	var msg = string(flash_light_on) + ":" + string(flashlight_battery);
-	show_debug_message(msg);
+	//var msg = string(flash_light_on) + ":" + string(flashlight_battery);
+	//show_debug_message(msg);
 }
 else if(in_bed){//Checks Player is underbed
 	var _right_k = keyboard_check(vk_right) || keyboard_check(ord("D")); //going right
