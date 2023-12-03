@@ -4,12 +4,12 @@ hp = 50;
 
 xspd = 0; //Player's x-speed
 yspd = 0; //Player's y-speed
-move_spd = 1;//Overrall move speed
+move_spd = 4;//Overrall move speed
 
 
 //Array that stores direction of player
-sprite[RIGHT] = spr_player_right;
-sprite[UP] = spr_player_up;
+sprite[RIGHT] = Player_sideaysWalkFlashlight;
+sprite[UP] = Player_backwardWalkFlashllight;
 sprite[LEFT] = spr_player_left;
 sprite[DOWN] = Player_forwardWalkFlashlight;
 face_dir = DOWN; //Default Facing
