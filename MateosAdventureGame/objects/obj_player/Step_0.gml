@@ -65,6 +65,23 @@ if(!in_bed && !in_closet){
 
 	sprite_index = sprite[face_dir]; //Set player's sprite is facing
 	
+	if(xspd == 0 && yspd == 0){
+		if(face_dir == DOWN){
+			sprite_index = Player_forwardIdleFlashlight;
+		}
+		else if(face_dir == UP){
+			sprite_index = Player_backwardIdleFlashlight;
+		}
+		else if(face_dir == RIGHT){
+			sprite_index = Player_sideaysIdleFlashlight;
+			image_xscale = 0.25;
+		}
+		else if(face_dir == LEFT){
+			sprite_index = Player_sideaysIdleFlashlight;
+			image_xscale = - 0.25;
+		}
+	}
+	
 	//Flashlight
 	centerY = y + centerYOFFset
 	angle  = point_direction(x, centerY, mouse_x, mouse_y);//gets Angle of player and mouse
