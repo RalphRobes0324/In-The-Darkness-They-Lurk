@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "Backward",
-    "path": "folders/Sprites/PlayerSprites/PrototyePlayerSpr/PlayerSprites-Maya/Backward.yy",
+    "path": "folders/Sprites/PlayerSprites/Backward.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

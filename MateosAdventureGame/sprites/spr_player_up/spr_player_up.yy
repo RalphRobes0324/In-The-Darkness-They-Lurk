@@ -28,7 +28,7 @@
   "origin": 4,
   "parent": {
     "name": "PrototyePlayerSpr",
-    "path": "folders/Sprites/PlayerSprites/PrototyePlayerSpr.yy",
+    "path": "folders/Sprites/PrototypeSpr/PrototyePlayerSpr.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

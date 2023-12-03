@@ -26,7 +26,7 @@
   "origin": 4,
   "parent": {
     "name": "Sideways",
-    "path": "folders/Sprites/PlayerSprites/PrototyePlayerSpr/PlayerSprites-Maya/Sideways.yy",
+    "path": "folders/Sprites/PlayerSprites/Sideways.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

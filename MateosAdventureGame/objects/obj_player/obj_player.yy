@@ -10,8 +10,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "PlayerPrototype",
-    "path": "folders/Objects/PlayerObjects/PlayerPrototype.yy",
+    "name": "PlayerObjects",
+    "path": "folders/Objects/PlayerObjects.yy",
   },
   "parentObjectId": null,
   "persistent": true,
@@ -30,9 +30,12 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_player_down",
-    "path": "sprites/spr_player_down/spr_player_down.yy",
+    "name": "Player_forwardIdleFlashlight",
+    "path": "sprites/Player_forwardIdleFlashlight/Player_forwardIdleFlashlight.yy",
   },
-  "spriteMaskId": null,
+  "spriteMaskId": {
+    "name": "Player_forwardIdleFlashlight",
+    "path": "sprites/Player_forwardIdleFlashlight/Player_forwardIdleFlashlight.yy",
+  },
   "visible": true,
 }
