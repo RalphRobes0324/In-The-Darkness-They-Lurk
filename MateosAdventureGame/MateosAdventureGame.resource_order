@@ -64,7 +64,6 @@
     {"name":"spr_doorToBathroom","order":1,"path":"sprites/spr_doorToBathroom/spr_doorToBathroom.yy",},
     {"name":"obj_hidingBoxHallway","order":1,"path":"objects/obj_hidingBoxHallway/obj_hidingBoxHallway.yy",},
     {"name":"Player_backwardIdleFlashlight","order":3,"path":"sprites/Player_backwardIdleFlashlight/Player_backwardIdleFlashlight.yy",},
-    {"name":"obj_demon","order":2,"path":"objects/obj_demon/obj_demon.yy",},
     {"name":"spr_toilet","order":1,"path":"sprites/spr_toilet/spr_toilet.yy",},
     {"name":"obj_sprRoomBedroom","order":1,"path":"objects/obj_sprRoomBedroom/obj_sprRoomBedroom.yy",},
     {"name":"obj_flashlight","order":2,"path":"objects/obj_flashlight/obj_flashlight.yy",},
