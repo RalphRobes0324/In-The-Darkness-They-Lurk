@@ -31,8 +31,8 @@
   "nineSlice": null,
   "origin": 0,
   "parent": {
-    "name": "PrototypeSpr",
-    "path": "folders/Sprites/PrototypeSpr.yy",
+    "name": "PrototyePlayerSpr",
+    "path": "folders/Sprites/PrototypeSpr/PrototyePlayerSpr.yy",
   },
   "preMultiplyAlpha": false,
   "sequence": {

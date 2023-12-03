@@ -28,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_battery",
-    "path": "sprites/spr_battery/spr_battery.yy",
+    "name": "spr_batteryFinal",
+    "path": "sprites/spr_batteryFinal/spr_batteryFinal.yy",
   },
   "spriteMaskId": null,
   "visible": true,
