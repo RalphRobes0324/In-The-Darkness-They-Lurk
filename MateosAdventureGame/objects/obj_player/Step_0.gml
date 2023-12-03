@@ -41,7 +41,7 @@ if(!in_bed && !in_closet){
 	if(yspd == 0){//Checks player is not going up or down
 		//Set Sprite on x-axis
 		if(xspd > 0) {
-			//image_xscale = 0.25;
+			image_xscale = 0.25;
 			face_dir = RIGHT}// Go right
 		if(xspd < 0) {
 			image_xscale = -0.25;
