@@ -65,6 +65,7 @@ if(!in_bed && !in_closet){
 
 	sprite_index = sprite[face_dir]; //Set player's sprite is facing
 	
+	//Checks Player state when not moving
 	if(xspd == 0 && yspd == 0){
 		if(face_dir == DOWN){
 			sprite_index = Player_forwardIdleFlashlight;
