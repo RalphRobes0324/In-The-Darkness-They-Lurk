@@ -1,6 +1,3 @@
-if keyboard_check_pressed(vk_enter)
-	gameStarted = true;
-
 if gameStarted
 {
 	flashTimer--;
@@ -8,5 +5,5 @@ if gameStarted
 		objPressEnter.visible = !objPressEnter.visible
 	
 	if flashTimer <= 0
-		room_goto(rm_hallway_final);
+		room_goto(rm_hallway_final);	
 }
