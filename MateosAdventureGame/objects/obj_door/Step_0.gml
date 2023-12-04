@@ -11,9 +11,10 @@ if (place_meeting(x, y, obj_player) && _press_e && !instance_exists(obj_door_tra
 	_inst.target_face_dir = target_face_dir; //Forces Player face Direction they are going
 }
 
-//Displaying message when player next door
-if(place_meeting(x, y, obj_player) && _check_door == false){
 
+
+////Displaying message when player next door
+if(place_meeting(x, y, obj_player) && _check_door == false){
 	if(obj_player.face_dir == LEFT){
 		instance_create_layer( obj_player.x,  obj_player.y - 25, layer, obj_e_popup);
 		_check_door = true;
@@ -33,7 +34,7 @@ if(place_meeting(x, y, obj_player) && _check_door == false){
 	
 }
 
-//Deletes instance when player leaves AoE
+////Deletes instance when player leaves AoE
 if(!place_meeting(x,y,obj_player) && _check_door == true){
 	with(obj_e_popup){
 		instance_destroy();
