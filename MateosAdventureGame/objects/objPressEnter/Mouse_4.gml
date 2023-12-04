@@ -1,0 +1,1 @@
+objMainMenuControl.gameStarted = true;
