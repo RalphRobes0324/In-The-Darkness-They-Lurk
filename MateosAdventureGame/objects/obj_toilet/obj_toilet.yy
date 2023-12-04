@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "bathroom",
-    "path": "folders/Objects/EnvironmentObjects/HidingSpotsAndClutterObjects/bathroom.yy",
+    "path": "folders/Objects/CollisionObjects/EnvironmentObjects/HidingSpotsAndClutterObjects/bathroom.yy",
   },
   "parentObjectId": null,
   "persistent": false,

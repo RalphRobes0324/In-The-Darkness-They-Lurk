@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "RoomGraphicsObjects",
-    "path": "folders/Objects/EnvironmentObjects/RoomGraphicsObjects.yy",
+    "path": "folders/Objects/CollisionObjects/EnvironmentObjects/RoomGraphicsObjects.yy",
   },
   "parentObjectId": null,
   "persistent": false,

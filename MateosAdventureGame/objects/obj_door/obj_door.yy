@@ -10,7 +10,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Door",
-    "path": "folders/Objects/CollisionObjects/Decor/Door.yy",
+    "path": "folders/Objects/CollisionObjects/PrototypeDecor/Decor/Door.yy",
   },
   "parentObjectId": null,
   "persistent": false,
