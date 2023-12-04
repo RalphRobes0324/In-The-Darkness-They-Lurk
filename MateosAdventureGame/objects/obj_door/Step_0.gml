@@ -15,22 +15,25 @@ if (place_meeting(x, y, obj_player) && _press_e && !instance_exists(obj_door_tra
 
 ////Displaying message when player next door
 if(place_meeting(x, y, obj_player) && _check_door == false){
-	if(obj_player.face_dir == LEFT){
-		instance_create_layer( obj_player.x,  obj_player.y - 25, layer, obj_e_popup);
-		_check_door = true;
-	}
-	else if(obj_player.face_dir == RIGHT){
-		instance_create_layer( obj_player.x - 65,  obj_player.y - 25, layer, obj_e_popup);
-		_check_door = true;
-	}
-	else if(obj_player.face_dir == DOWN){
-		instance_create_layer(obj_player.x - 30 , obj_player.y - 40, layer, obj_e_popup);
-		_check_door = true;
-	}
-	else if(obj_player.face_dir == UP){
-		instance_create_layer(obj_player.x - 40 , obj_player.y - 20, layer, obj_e_popup);
-		_check_door = true;
-	}
+	//if(obj_player.face_dir == LEFT){
+	//	instance_create_layer( obj_player.x,  obj_player.y - 25, layer, obj_e_popup);
+	//	_check_door = true;
+	//}
+	//else if(obj_player.face_dir == RIGHT){
+	//	instance_create_layer( obj_player.x ,  obj_player.y - 25, layer, obj_e_popup);
+	//	_check_door = true;
+	//}
+	//else if(obj_player.face_dir == DOWN){
+	//	instance_create_layer(obj_player.x , obj_player.y - 40, layer, obj_e_popup);
+	//	_check_door = true;
+	//}
+	//else if(obj_player.face_dir == UP){
+	//	instance_create_layer(obj_player.x  , obj_player.y - 20, layer, obj_e_popup);
+	//	_check_door = true;
+	//}
+	
+	instance_create_layer( obj_player.x,  obj_player.y - 250, layer, obj_e_popup);
+	_check_door = true;
 	
 }
 
