@@ -21,11 +21,14 @@ if(obj_player.flash_light_on){//Checks state of flashlight is on
 	else if(obj_player.flashlight_battery >= 50 && obj_player.flashlight_battery <= 70){
 		image_index = 2;
 	}
-	else if(obj_player.flashlight_battery <= 50){
+	else if(obj_player.flashlight_battery >= 30 && obj_player.flashlight_battery <= 50){
 		image_index = 3;
 	}
-	else if(obj_player.flashlight_battery >= 0){
+	else if(obj_player.flashlight_battery <= 20){
 		image_index = 4;
+	}
+	else if(obj_player.flashlight_battery >= 0){
+		image_index = 5;
 	}
 }
 //If flashlight is off and its low show charging flashlight

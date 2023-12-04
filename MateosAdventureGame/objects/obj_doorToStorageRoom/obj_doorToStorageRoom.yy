@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "hallway",
-    "path": "folders/Objects/MayaObjects/EnvironmentObjects/HidingSpotsAndClutterObjects/hallway.yy",
+    "path": "folders/Objects/EnvironmentObjects/HidingSpotsAndClutterObjects/hallway.yy",
   },
   "parentObjectId": null,
   "persistent": false,
