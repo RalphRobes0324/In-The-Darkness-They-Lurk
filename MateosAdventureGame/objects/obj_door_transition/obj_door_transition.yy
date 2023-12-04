@@ -12,7 +12,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "Door",
-    "path": "folders/Objects/CollisionObjects/PrototypeDecor/Decor/Door.yy",
+    "path": "folders/Objects/CollisionObjects/Door.yy",
   },
   "parentObjectId": {
     "name": "obj_pause_player",
