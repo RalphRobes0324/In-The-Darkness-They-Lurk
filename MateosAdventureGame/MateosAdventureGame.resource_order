@@ -136,7 +136,7 @@
     {"name":"Player_forwardIdle","order":1,"path":"sprites/Player_forwardIdle/Player_forwardIdle.yy",},
     {"name":"Player_sideaysIdle","order":3,"path":"sprites/Player_sideaysIdle/Player_sideaysIdle.yy",},
     {"name":"obj_toilet","order":3,"path":"objects/obj_toilet/obj_toilet.yy",},
-    {"name":"sprPressStart","order":7,"path":"sprites/sprPressStart/sprPressStart.yy",},
+    {"name":"sprPressStart","order":1,"path":"sprites/sprPressStart/sprPressStart.yy",},
     {"name":"ts_houseFloors","order":1,"path":"tilesets/ts_houseFloors/ts_houseFloors.yy",},
     {"name":"spr_closetBedroom","order":5,"path":"sprites/spr_closetBedroom/spr_closetBedroom.yy",},
     {"name":"Player_sideaysWalk","order":4,"path":"sprites/Player_sideaysWalk/Player_sideaysWalk.yy",},
