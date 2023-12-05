@@ -25,7 +25,6 @@
     {"name":"Hallway1","order":2,"path":"folders/Rooms/Main/MainRooms/Hallway1.yy",},
     {"name":"Menus","order":1,"path":"folders/Rooms/Main/Menus.yy",},
     {"name":"Prototype floor1","order":2,"path":"folders/Rooms/Prototype floor1.yy",},
-    {"name":"floor1-Maya","order":1,"path":"folders/Rooms/Prototype floor1/floor1-Maya.yy",},
     {"name":"room1","order":4,"path":"folders/Rooms/Prototype floor1/Hallway1/room1.yy",},
     {"name":"Scripts","order":5,"path":"folders/Scripts.yy",},
     {"name":"SharedScripts","order":1,"path":"folders/Scripts/SharedScripts.yy",},
@@ -54,6 +53,7 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Prototype Decor","order":2,"path":"folders/Tile Sets/Prototype Decor.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Hallway2","order":3,"path":"folders/Rooms/Main/MainRooms/Hallway2.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_drawers","order":1,"path":"sprites/spr_drawers/spr_drawers.yy",},
