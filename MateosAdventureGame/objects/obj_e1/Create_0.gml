@@ -4,3 +4,4 @@ hp = 30; //health
 state = e_state.idle; //state of enemy
 vsp = 0; //vertical speed
 hsp = 0; //horizontal speed
+track = 1;

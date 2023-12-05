@@ -1,5 +1,4 @@
 /// @description Enemy Action
-
 if(!obj_the_pauser.pause){//Checks game paused
 	switch(state){//Checks state of enemy
 		case e_state.idle://idle state
@@ -36,18 +35,18 @@ if(!obj_the_pauser.pause){//Checks game paused
 	y += vsp;
 	
 	////checks state enemy being hurt
-	//if(!place_meeting(x,y,obj_flashlight) && !obj_player.flash_light_on){
-	//	image_index = 0;//not hurt
-	//}
-	//else if(!place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on){
-	//	image_index = 0;//not hurt
-	//}
-	//else if(place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on && ( obj_player.flashlight_battery > 0 &&  obj_player.flashlight_battery <= 100)){
-	//	image_index = 1;// hurt
-	//}
-	//else{ //fail safe
-	//	image_index = 0;//not hurt
-	//}
+	if(!place_meeting(x,y,obj_flashlight) && !obj_player.flash_light_on){
+		image_blend = c_white;//not hurt
+	}
+	else if(!place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on){
+		image_blend = c_white;//not hurt
+	}
+	else if(place_meeting(x,y,obj_flashlight) && obj_player.flash_light_on && ( obj_player.flashlight_battery > 0 &&  obj_player.flashlight_battery <= 100)){
+		image_blend = c_red // hurt
+	}
+	else{ //fail safe
+		image_blend = c_white;//not hurt
+	}
 
 	//checks enemy is dead
 	if(hp <= 0){ 

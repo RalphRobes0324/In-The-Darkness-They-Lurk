@@ -12,6 +12,4 @@ if(obj_player.flash_light_on && place_meeting(x,y,obj_e1) && obj_player.flashlig
 	
 	obj_e1.x += knockBackX;//add to enemy x coords
 	obj_e1.y += knockBackY;//add to enemy y coords
-	
-	show_debug_message("HIT");
 }
