@@ -88,6 +88,7 @@
     {"id":{"name":"obj_doorToStorageRoom","path":"objects/obj_doorToStorageRoom/obj_doorToStorageRoom.yy",},},
     {"id":{"name":"spr_doorToBathroom","path":"sprites/spr_doorToBathroom/spr_doorToBathroom.yy",},},
     {"id":{"name":"obj_hidingBoxHallway","path":"objects/obj_hidingBoxHallway/obj_hidingBoxHallway.yy",},},
+    {"id":{"name":"spr_quit","path":"sprites/spr_quit/spr_quit.yy",},},
     {"id":{"name":"Player_backwardIdleFlashlight","path":"sprites/Player_backwardIdleFlashlight/Player_backwardIdleFlashlight.yy",},},
     {"id":{"name":"spr_e","path":"sprites/spr_e/spr_e.yy",},},
     {"id":{"name":"spr_toilet","path":"sprites/spr_toilet/spr_toilet.yy",},},
