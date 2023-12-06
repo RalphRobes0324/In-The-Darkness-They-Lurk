@@ -98,7 +98,7 @@ if(!in_bed && !in_closet){
 	}
 	if(!flash_light_on){//when flashlight is off
 		if(flashlight_battery < 100){//checks battery fully charge
-			flashlight_battery += 0.2;//charging the battery
+			flashlight_battery += 0.1;//charging the battery
 		}
 		
 		
