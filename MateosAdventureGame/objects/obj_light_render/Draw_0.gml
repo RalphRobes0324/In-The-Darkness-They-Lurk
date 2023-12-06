@@ -20,10 +20,10 @@ with(obj_player){//Getting Player's light Object
 	
 	if(flash_light_on){//checks Flash light, so first layer can go on
 		if(face_dir == LEFT || face_dir == DOWN || face_dir == UP){
-			draw_sprite_ext(spr_player_flashlight, 0,x, y, 0.25, image_yscale,  angle, c_white, 1);
+			draw_sprite_ext(spr_player_flashlight, 0,x, y - sprite_height/2, 0.25, image_yscale,  angle, c_white, 1);
 		}
 		else{
-			draw_sprite_ext(spr_player_flashlight, 0,x, y, image_xscale, image_yscale,  angle, c_white, 1);
+			draw_sprite_ext(spr_player_flashlight, 0,x,  y - sprite_height/2, image_xscale, image_yscale,  angle, c_white, 1);
 		}
 	}
 
@@ -36,10 +36,10 @@ with(obj_player){//Getting Player's light Object
 	
 	if(flash_light_on){//checks Flash light, so second layer can go on
 		if(face_dir == LEFT || face_dir == DOWN || face_dir == UP){
-			draw_sprite_ext(spr_player_flashlight, 0, x, y, 0.25, image_yscale, angle, c_white ,0.1);
+			draw_sprite_ext(spr_player_flashlight, 0, x,  y - sprite_height/2, 0.25, image_yscale, angle, c_white ,0.1);
 		}
 		else{
-			draw_sprite_ext(spr_player_flashlight, 0, x, y, image_xscale, image_yscale, angle, c_white ,0.1);
+			draw_sprite_ext(spr_player_flashlight, 0, x,  y - sprite_height/2, image_xscale, image_yscale, angle, c_white ,0.1);
 		}
 	}
 	
