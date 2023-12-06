@@ -159,6 +159,7 @@
     {"id":{"name":"rm_storageRoom_final","path":"rooms/rm_storageRoom_final/rm_storageRoom_final.yy",},},
     {"id":{"name":"Player_backwardWalkFlashllight","path":"sprites/Player_backwardWalkFlashllight/Player_backwardWalkFlashllight.yy",},},
     {"id":{"name":"spr_decor_underbed","path":"sprites/spr_decor_underbed/spr_decor_underbed.yy",},},
+    {"id":{"name":"objQuit","path":"objects/objQuit/objQuit.yy",},},
     {"id":{"name":"rm_bedroom_final","path":"rooms/rm_bedroom_final/rm_bedroom_final.yy",},},
     {"id":{"name":"obj_sprRoomBathroom","path":"objects/obj_sprRoomBathroom/obj_sprRoomBathroom.yy",},},
     {"id":{"name":"obj_hidingBoxStorageRoom","path":"objects/obj_hidingBoxStorageRoom/obj_hidingBoxStorageRoom.yy",},},

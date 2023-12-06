@@ -108,6 +108,7 @@
     {"name":"rm_room1_underbed","order":4,"path":"rooms/rm_room1_underbed/rm_room1_underbed.yy",},
     {"name":"rm_storageRoom_final","order":1,"path":"rooms/rm_storageRoom_final/rm_storageRoom_final.yy",},
     {"name":"Player_backwardWalkFlashllight","order":1,"path":"sprites/Player_backwardWalkFlashllight/Player_backwardWalkFlashllight.yy",},
+    {"name":"objQuit","order":2,"path":"objects/objQuit/objQuit.yy",},
     {"name":"obj_sprRoomBathroom","order":3,"path":"objects/obj_sprRoomBathroom/obj_sprRoomBathroom.yy",},
     {"name":"spr_player_up","order":3,"path":"sprites/spr_player_up/spr_player_up.yy",},
     {"name":"spr_player_left","order":1,"path":"sprites/spr_player_left/spr_player_left.yy",},
