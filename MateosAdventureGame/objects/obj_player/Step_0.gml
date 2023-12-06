@@ -94,11 +94,11 @@ if(!in_bed && !in_closet){
 		flash_light_on = false; //sets flashlight to false admittely
 	}
 	if(flash_light_on){//flash is in use
-		flashlight_battery -= 0.5; //draining the battery
+		flashlight_battery -= 0.1; //draining the battery
 	}
 	if(!flash_light_on){//when flashlight is off
 		if(flashlight_battery < 100){//checks battery fully charge
-			flashlight_battery += 1;//charging the battery
+			flashlight_battery += 0.2;//charging the battery
 		}
 		
 		
