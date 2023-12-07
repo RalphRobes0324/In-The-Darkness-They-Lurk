@@ -1,6 +1,8 @@
 /// @description Player's variables define/set
 
-hp = 50;
+hp = 50;//Player's hp
+
+playerNights = 0;//Amount night's player survived
 
 xspd = 0; //Player's x-speed
 yspd = 0; //Player's y-speed
