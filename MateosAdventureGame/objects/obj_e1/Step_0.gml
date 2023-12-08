@@ -5,7 +5,7 @@ if(!obj_the_pauser.pause){//Checks game paused
 		{
 			hsp = 0;//Set hsp to 0
 			vsp = 0; //vsp to 0
-			if(distance_to_object(obj_player) < 50){//checks distance player object if can chase
+			if(distance_to_object(obj_player) < 1000){//checks distance player object if can chase
 				state = e_state.chase;//change state to chase
 			}
 		}
