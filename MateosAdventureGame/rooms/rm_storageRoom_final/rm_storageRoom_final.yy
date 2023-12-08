@@ -7,7 +7,6 @@
   "inheritCreationOrder": false,
   "inheritLayers": false,
   "instanceCreationOrder": [
-    {"name":"inst_282B38D7","path":"rooms/rm_storageRoom_final/rm_storageRoom_final.yy",},
     {"name":"inst_4A3F0B93","path":"rooms/rm_storageRoom_final/rm_storageRoom_final.yy",},
     {"name":"inst_1982C075","path":"rooms/rm_storageRoom_final/rm_storageRoom_final.yy",},
     {"name":"inst_E9445E7","path":"rooms/rm_storageRoom_final/rm_storageRoom_final.yy",},
@@ -108,6 +107,7 @@
     {"name":"inst_5F0CBF01","path":"rooms/rm_storageRoom_final/rm_storageRoom_final.yy",},
     {"name":"inst_2B5E7823","path":"rooms/rm_storageRoom_final/rm_storageRoom_final.yy",},
     {"name":"inst_5D8F9E39","path":"rooms/rm_storageRoom_final/rm_storageRoom_final.yy",},
+    {"name":"inst_282B38D7","path":"rooms/rm_storageRoom_final/rm_storageRoom_final.yy",},
   ],
   "isDnd": false,
   "layers": [
@@ -218,12 +218,14 @@
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4DF9E64E","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hidingBoxStorageRoom","path":"objects/obj_hidingBoxStorageRoom/obj_hidingBoxStorageRoom.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":363.0,"y":937.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"BackgroundObjects","depth":500,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
-        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_282B38D7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_sprRoomStorageRoon","path":"objects/obj_sprRoomStorageRoon/obj_sprRoomStorageRoon.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_4A3F0B93","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_shelves","path":"objects/obj_shelves/obj_shelves.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":184.0,"y":135.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_1982C075","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_drawers","path":"objects/obj_drawers/obj_drawers.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":813.0,"y":202.0,},
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_E9445E7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_doorStorage","path":"objects/obj_doorStorage/obj_doorStorage.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":1170.0,"y":327.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
-    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
+    {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Instances_1","depth":600,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_282B38D7","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_sprRoomStorageRoon","path":"objects/obj_sprRoomStorageRoon/obj_sprRoomStorageRoon.yy",},"properties":[],"rotation":0.0,"scaleX":1.0,"scaleY":1.0,"x":0.0,"y":0.0,},
+      ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
+    {"resourceType":"GMRBackgroundLayer","resourceVersion":"1.0","name":"Background","animationFPS":15.0,"animationSpeedType":0,"colour":4278190080,"depth":700,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"hspeed":0.0,"htiled":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"layers":[],"properties":[],"spriteId":null,"stretch":false,"userdefinedAnimFPS":false,"userdefinedDepth":false,"visible":true,"vspeed":0.0,"vtiled":false,"x":0,"y":0,},
   ],
   "parent": {
     "name": "Hallway1",

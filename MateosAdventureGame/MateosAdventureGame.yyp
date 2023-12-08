@@ -79,6 +79,7 @@
     "IDEVersion": "2023.11.0.121",
   },
   "resources": [
+    {"id":{"name":"spr_lifeHeart","path":"sprites/spr_lifeHeart/spr_lifeHeart.yy",},},
     {"id":{"name":"spr_drawers","path":"sprites/spr_drawers/spr_drawers.yy",},},
     {"id":{"name":"Player_forwardWalk","path":"sprites/Player_forwardWalk/Player_forwardWalk.yy",},},
     {"id":{"name":"obj_light_render","path":"objects/obj_light_render/obj_light_render.yy",},},
@@ -138,6 +139,7 @@
     {"id":{"name":"obj_bedroomDoor","path":"objects/obj_bedroomDoor/obj_bedroomDoor.yy",},},
     {"id":{"name":"spr_under_bed_transition","path":"sprites/spr_under_bed_transition/spr_under_bed_transition.yy",},},
     {"id":{"name":"ts_decor","path":"tilesets/ts_decor/ts_decor.yy",},},
+    {"id":{"name":"Sprite61","path":"sprites/Sprite61/Sprite61.yy",},},
     {"id":{"name":"spr_wall","path":"sprites/spr_wall/spr_wall.yy",},},
     {"id":{"name":"spr_curtain","path":"sprites/spr_curtain/spr_curtain.yy",},},
     {"id":{"name":"obj_e_popup","path":"objects/obj_e_popup/obj_e_popup.yy",},},
