@@ -1,7 +1,8 @@
 /// @description Player's Actions
+
+//Save Player's last location
 var _save_x  = obj_player.x;
 var _save_y = obj_player.y;
-
 
 //Player's Input from keyboard
 if(!in_bed && !in_closet){
@@ -145,6 +146,7 @@ else if(in_closet){//Checks Player is in closet
 	y += yspd;
 	
 }
+
 
 if(in_bed || in_closet){//Checks Player is in hidding places
 	image_alpha = 0;//Set Player invisiable
