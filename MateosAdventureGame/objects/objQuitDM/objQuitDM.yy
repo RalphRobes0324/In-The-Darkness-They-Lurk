@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "objPressEnter",
+  "name": "objQuitDM",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
@@ -11,8 +11,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "MenuObjects",
-    "path": "folders/Objects/MenuObjects.yy",
+    "name": "DeathMenu",
+    "path": "folders/Objects/MenuObjects/DeathMenu.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -31,8 +31,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "sprPressStart",
-    "path": "sprites/sprPressStart/sprPressStart.yy",
+    "name": "spr_quitDM",
+    "path": "sprites/spr_quitDM/spr_quitDM.yy",
   },
   "spriteMaskId": null,
   "visible": true,

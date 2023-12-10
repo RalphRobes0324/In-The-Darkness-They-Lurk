@@ -7,7 +7,8 @@ if(hp <= 0){
 	instance_destroy(obj_flashlight);
 	instance_destroy(obj_camera);
 	instance_destroy(obj_battery);
-	room_goto(MainMenu);
+	instance_destroy(obj_e1);
+	room_goto(DeathMenu);
 }
 
 

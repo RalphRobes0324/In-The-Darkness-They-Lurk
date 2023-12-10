@@ -1,0 +1,1 @@
+objDeathMenuControl.gameStarted = true;
