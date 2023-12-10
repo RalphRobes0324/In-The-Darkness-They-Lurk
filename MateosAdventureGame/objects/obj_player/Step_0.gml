@@ -103,8 +103,14 @@ if(!in_bed && !in_closet){
 		
 		
 	}
-	//var msg = string(flash_light_on) + ":" + string(flashlight_battery);
-	//show_debug_message(msg);
+	
+	//checks player has made contact with enemy
+	if(place_meeting(x,y,obj_e1)){
+		image_blend = c_red;
+	}
+	else{
+		image_blend = c_white;
+	}
 }
 else if(in_bed){//Checks Player is underbed
 	var _right_k = keyboard_check(vk_right) || keyboard_check(ord("D")); //going right
