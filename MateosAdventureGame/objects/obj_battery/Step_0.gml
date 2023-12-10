@@ -33,7 +33,7 @@ if(obj_player.flash_light_on){//Checks state of flashlight is on
 }
 //If flashlight is off and its low show charging flashlight
 if(!obj_player.flash_light_on && obj_player.flashlight_battery >= 0.0){
-	image_index = 5;
+	image_index = 7;
 }
 
 
