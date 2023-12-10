@@ -2,10 +2,6 @@
 // You can write your code in this editor
 
 if(hp <= 0){
-	with(instance_create_layer(x,y,layer,obj_deadPlayer)){
-		
-	}
-	
 	//Destroy all intance when player dies
 	instance_destroy();
 	instance_destroy(obj_flashlight);
