@@ -1,5 +1,7 @@
 /// @description Player's Actions
 
+
+
 //Save Player's last location
 var _save_x  = obj_player.x;
 var _save_y = obj_player.y;

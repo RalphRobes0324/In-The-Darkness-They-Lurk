@@ -130,6 +130,7 @@
     {"id":{"name":"obj_window","path":"objects/obj_window/obj_window.yy",},},
     {"id":{"name":"spr_shelves","path":"sprites/spr_shelves/spr_shelves.yy",},},
     {"id":{"name":"spr_roomHallway","path":"sprites/spr_roomHallway/spr_roomHallway.yy",},},
+    {"id":{"name":"obj_deadPlayer","path":"objects/obj_deadPlayer/obj_deadPlayer.yy",},},
     {"id":{"name":"spr_bathroomDoor","path":"sprites/spr_bathroomDoor/spr_bathroomDoor.yy",},},
     {"id":{"name":"obj_e1","path":"objects/obj_e1/obj_e1.yy",},},
     {"id":{"name":"obj_pause_player","path":"objects/obj_pause_player/obj_pause_player.yy",},},
