@@ -31,7 +31,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"DeathMenu","folderPath":"folders/Objects/MenuObjects/DeathMenu.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"MainMenu","folderPath":"folders/Objects/MenuObjects/MainMenu.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PlayerObjects","folderPath":"folders/Objects/PlayerObjects.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PlayerGameObjects","folderPath":"folders/Objects/PlayerObjects/PlayerGameObjects.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"GameObjects","folderPath":"folders/Objects/GameObjects.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Particle Systems","folderPath":"folders/Particle Systems.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Paths","folderPath":"folders/Paths.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Rooms","folderPath":"folders/Rooms.yy",},
