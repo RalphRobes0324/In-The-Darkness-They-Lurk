@@ -2,8 +2,8 @@
 // You can write your code in this editor
 
 //Set time
-t_min = 0;
-t_sec = 5;
+t_min = 5;
+t_sec = 0;
 t_mil = 0; //tenth of a second
 
 //Remeber Time

@@ -24,8 +24,7 @@ centerY = y + centerYOFFset
 angle = 0;//Flashlight angle
 
 
-in_bed = false; //Player's status if hidding in bed
-in_closet = false; //Player's status if hidding in closet
+_is_hidding = false
 
 
 
