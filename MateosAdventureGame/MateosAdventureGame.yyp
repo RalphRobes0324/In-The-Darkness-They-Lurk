@@ -138,6 +138,7 @@
     {"id":{"name":"spr_roomHallway","path":"sprites/spr_roomHallway/spr_roomHallway.yy",},},
     {"id":{"name":"spr_bathroomDoor","path":"sprites/spr_bathroomDoor/spr_bathroomDoor.yy",},},
     {"id":{"name":"obj_e1","path":"objects/obj_e1/obj_e1.yy",},},
+    {"id":{"name":"obj_controller","path":"objects/obj_controller/obj_controller.yy",},},
     {"id":{"name":"obj_pause_player","path":"objects/obj_pause_player/obj_pause_player.yy",},},
     {"id":{"name":"Player_backwardWalk","path":"sprites/Player_backwardWalk/Player_backwardWalk.yy",},},
     {"id":{"name":"scr_enemy_state","path":"scripts/scr_enemy_state/scr_enemy_state.yy",},},

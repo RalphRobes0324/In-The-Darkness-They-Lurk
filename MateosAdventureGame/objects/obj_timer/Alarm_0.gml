@@ -22,6 +22,7 @@ if (!(t_sec == 0 && t_min == 0 && t_min == 0)){
 	//When timer ends
 	alarm[0] = 6;
 	show_debug_message("New Round")
+	obj_player.playerNights += 1;
 	t_min = save_Tmin;
 	t_sec = save_Tsec;
 	t_mil = save_Tmill; //tenth of a second
