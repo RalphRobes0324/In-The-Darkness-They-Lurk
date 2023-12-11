@@ -32,9 +32,6 @@ if(t_sec < 10){
 }
 timer += "."
 timer += string(t_mil);
-
-
 draw_set_halign(fa_center); // Center the text horizontally
 draw_set_valign(fa_top); // Align the text to the top
-
 draw_text(text_x, text_y, timer);
