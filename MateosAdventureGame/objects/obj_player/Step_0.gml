@@ -14,7 +14,6 @@ if(!in_bed && !in_closet){
 	var _down_k = keyboard_check(vk_down) || keyboard_check(ord("S")); // going down
 	var _mouse_check_left = mouse_check_button_pressed(mb_left);//Get mouse button left
 
-
 	//Change of direction on x and y-axis, and adding that with player move speed
 	xspd = (_right_k - _left_k) * move_spd;
 	yspd = (_down_k - _up_k) * move_spd;

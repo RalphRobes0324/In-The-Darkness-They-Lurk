@@ -1,8 +1,8 @@
 /// @description Timer tick
 // You can write your code in this editor
 
-t_mil -= 1;
 
+t_mil -= 1;
 if(t_mil == -1){// Reduced the seconds by one
 	t_mil = 9;
 	t_sec -= 1;
@@ -20,5 +20,5 @@ if (!(t_sec == 0 && t_min == 0 && t_min == 0)){
 }else{
 	//When timer ends
 	show_debug_message("New Round")
-	
+	room_restart();
 } 
