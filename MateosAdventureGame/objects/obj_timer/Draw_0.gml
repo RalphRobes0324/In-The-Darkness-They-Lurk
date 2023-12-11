@@ -8,15 +8,19 @@ if(t_min < 1){//timer less then 1 min, change colour
 draw_set_font(fnt_GillSansMTCondensed);//Set text font
 
 
+//Adjust to the offset
 var offset_x = camera_get_view_width(view_camera[0]) / 2;
 var offset_y = 50
 
+//Getting values of camera
 var camera_x = camera_get_view_x(view_camera[0]);
 var camera_y = camera_get_view_y(view_camera[0]);
 
+//Getting the X and Y coords
 var text_x = camera_x + offset_x;
 var text_y = camera_y + offset_y;
 
+//Displaying the Time
 var timer = "";
 timer += string(t_min);
 timer += ":";
