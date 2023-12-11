@@ -1,11 +1,15 @@
 /// @description Battery action when flashlight in use
 
+//Adjusting the offset
 var offset_x = 32;
 var offset_y = 32;
 
+
+//Getting camera values
 var camera_x = camera_get_view_x(view_camera[0]);
 var camera_y = camera_get_view_y(view_camera[0]);
 
+//Battery keep track
 x = camera_x + offset_x;
 y = camera_y + offset_y;
 

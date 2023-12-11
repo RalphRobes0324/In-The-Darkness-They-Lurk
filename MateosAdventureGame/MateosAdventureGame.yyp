@@ -89,6 +89,7 @@
     {"id":{"name":"Player_backwardIdle","path":"sprites/Player_backwardIdle/Player_backwardIdle.yy",},},
     {"id":{"name":"spr_player_down","path":"sprites/spr_player_down/spr_player_down.yy",},},
     {"id":{"name":"spr_player_light","path":"sprites/spr_player_light/spr_player_light.yy",},},
+    {"id":{"name":"fnt_GillSansMTCondensed","path":"fonts/fnt_GillSansMTCondensed/fnt_GillSansMTCondensed.yy",},},
     {"id":{"name":"obj_doorToStorageRoom","path":"objects/obj_doorToStorageRoom/obj_doorToStorageRoom.yy",},},
     {"id":{"name":"spr_doorToBathroom","path":"sprites/spr_doorToBathroom/spr_doorToBathroom.yy",},},
     {"id":{"name":"obj_hidingBoxHallway","path":"objects/obj_hidingBoxHallway/obj_hidingBoxHallway.yy",},},

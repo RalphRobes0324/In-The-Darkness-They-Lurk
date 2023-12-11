@@ -62,6 +62,7 @@
     {"name":"Player_forwardWalk","order":2,"path":"sprites/Player_forwardWalk/Player_forwardWalk.yy",},
     {"name":"Player_backwardIdle","order":2,"path":"sprites/Player_backwardIdle/Player_backwardIdle.yy",},
     {"name":"spr_player_light","order":4,"path":"sprites/spr_player_light/spr_player_light.yy",},
+    {"name":"fnt_GillSansMTCondensed","order":1,"path":"fonts/fnt_GillSansMTCondensed/fnt_GillSansMTCondensed.yy",},
     {"name":"obj_doorToStorageRoom","order":5,"path":"objects/obj_doorToStorageRoom/obj_doorToStorageRoom.yy",},
     {"name":"spr_doorToBathroom","order":1,"path":"sprites/spr_doorToBathroom/spr_doorToBathroom.yy",},
     {"name":"obj_hidingBoxHallway","order":1,"path":"objects/obj_hidingBoxHallway/obj_hidingBoxHallway.yy",},
