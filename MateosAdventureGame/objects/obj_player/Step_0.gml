@@ -5,7 +5,7 @@ var _save_x  = obj_player.x;
 var _save_y = obj_player.y;
 
 //Player's Input from keyboard
-if(!_is_hidding){
+if(!_is_hidding && obj_controller.startRound){
 	var _right_k = keyboard_check(vk_right) || keyboard_check(ord("D")); //going right
 	var _left_k = keyboard_check(vk_left) || keyboard_check(ord("A")); // going left
 	var _up_k = keyboard_check(vk_up) || keyboard_check(ord("W")); // going up

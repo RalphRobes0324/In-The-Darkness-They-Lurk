@@ -12,7 +12,6 @@ if(keyboard_check_pressed(vk_escape)){//Checks Player pressed escape
 
 if(pause){
 	if(keyboard_check(ord("Q"))){
-		//instance_activate_all();
 		pause = false
 		room_goto(MainMenu);
 	}

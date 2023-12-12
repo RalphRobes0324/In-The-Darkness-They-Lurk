@@ -33,16 +33,12 @@ if(!obj_player._is_hidding){//Resets the time whe player is not hiding
 
 ////Displaying message when player next door
 if(place_meeting(x, y, obj_player) && _check_hiding == false){
-	//instance_create_layer( obj_player.x,  obj_player.y - 250, layer, obj_e_popup);
 	_check_hiding = true;
 	
 }
 
 ////Deletes instance when player leaves AoE
 if(!place_meeting(x,y,obj_player) && _check_hiding == true){
-	//with(obj_e_popup){
-	//	instance_destroy();
-	//	}
 	_check_hiding = false;
 }
 

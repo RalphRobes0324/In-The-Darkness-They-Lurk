@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 // Key Press Event of the player object
-if(!playerHasMoved){
+if(!playerHasMoved && obj_controller.startRound){
 	if (keyboard_check_pressed(ord("W"))||
 	keyboard_check_pressed(ord("S"))||
 	keyboard_check_pressed(ord("D")) ||

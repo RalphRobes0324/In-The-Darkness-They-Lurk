@@ -27,4 +27,5 @@ if (!(t_sec == 0 && t_min == 0 && t_min == 0)){
 	t_sec = save_Tsec;
 	t_mil = save_Tmill; //tenth of a second
 	playerHasMoved = false;
+	obj_controller.startRound = false;
 } 
