@@ -18,7 +18,6 @@ else{
 if(obj_player._is_hidding){//Checks player is hiding
 	if(_playerIsHiding > 0){//starts timer
 		_playerIsHiding -= 1;//Subtract from the time
-		show_debug_message(_playerIsHiding);
 	}
 	else{
 		obj_player._is_hidding = false//Player is no longer hiding

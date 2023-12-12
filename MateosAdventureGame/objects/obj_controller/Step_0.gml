@@ -7,24 +7,106 @@ if(!startRound){
 		startRound = true;
 		timer = saveTimer;
 	}
+}
 
 	
-}
-if(timer > 0 && !startRound ){
+
+if((timer > 0 && !startRound) || obj_player.hp <= 0  ){
 	with(obj_e1){
 		instance_destroy();
 	}
 }
 
+
 if(startRound){
-	global.enemy_spawn_timer -= 1;
-	if(global.enemy_spawn_timer <= 0){
-		instance_create_layer(1182, 1534, "Enemy", obj_e1);
-		obj_e1.image_yscale = 0.25;
-		obj_e1.image_xscale = 0.25;
-		global.enemy_spawn_timer = global.enemy_spawn_interval;
+	var pickSpawn;
+	if(room == rm_hallway_final){
+		global.enemy_spawn_timer -= 1;
+		if(global.enemy_spawn_timer <= 0){
+			pickSpawn = irandom_range(0,4);
+			if(pickSpawn == 0 && !spawns1){
+					instance_create_layer(1182, 1534, "Enemy", obj_e1);
+					show_debug_message("SPAWN1");
+					spawns1 = true;
+					spawns2 = false;
+					spawns3 = false;
+					spawns4 = false;
+				}
+				else if(pickSpawn == 1 && !spawns2  && obj_timer.playerHasMoved){
+					instance_create_layer(498, 1028, "Enemy", obj_e1);
+					show_debug_message("SPAWN2");
+					spawns1 = false;
+					spawns2 = true;
+					spawns3 = false;	
+					spawns4 = false;
+				}
+				else if(pickSpawn == 2 && !spawns3){
+					instance_create_layer(1743, 1490, "Enemy", obj_e1);
+					show_debug_message("SPAWN3");
+					spawns1 = false;
+					spawns2 = false;
+					spawns3 = true;	
+					spawns4 = false;
+			
+			
+				}
+				else if(pickSpawn == 4 && !spawns4 && obj_timer.playerHasMoved){
+					instance_create_layer(524, 645, "Enemy", obj_e1);
+					show_debug_message("SPAWN4");
+					spawns1 = false;
+					spawns2 = false;
+					spawns3 = false;	
+					spawns4 = true;
+				}
+				else{
+					spawns1 = false;
+					spawns2 = false;
+					spawns3 = false;	
+					spawns4 = false;
+					show_debug_message("NO SPAWN");
+				}
+				if(spawns1 || spawns2 || spawns3 || spawns4){
+					obj_e1.image_yscale = 0.25;
+					obj_e1.image_xscale = 0.25;
+				}
+				global.enemy_spawn_timer = global.enemy_spawn_interval;
+			}
 	}
+	if(room == rm_storageRoom_final){
+		global.enemy_spawn_timer -= 1;
+		if(global.enemy_spawn_timer <= 0){
+			pickSpawn = irandom_range(0,2)
+			if(pickSpawn == 0 && !spawns1_STR){
+					instance_create_layer(1029, 892, "Enemy", obj_e1);
+					show_debug_message("SPAWN1");
+					spawns1_STR = true;
+					spawns2_STR = false;
+					
+				}
+				else if(pickSpawn == 1 && !spawns2_STR){
+					instance_create_layer(585, 742, "Enemy", obj_e1);
+					show_debug_message("SPAWN2");
+					spawns1_STR = false;
+					spawns2_STR = true;
+
+				}
+				else{
+					spawns1_STR = false;
+					spawns2_STR = false;
+
+					show_debug_message("NO SPAWN");
+				}
+				if(spawns1_STR || spawns2_STR){
+					obj_e1.image_yscale = 0.25;
+					obj_e1.image_xscale = 0.25;
+				}
+				global.enemy_spawn_timer = global.enemy_spawn_interval;
+			}
+	}
+		
+		
 }
+
 
 
 
