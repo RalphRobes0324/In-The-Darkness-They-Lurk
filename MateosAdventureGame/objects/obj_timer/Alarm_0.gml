@@ -20,12 +20,14 @@ if (!(t_sec == 0 && t_min == 0 && t_min == 0)){
 	alarm[0] = 6;
 }else{
 	//When timer ends
-	alarm[0] = 6;
-	show_debug_message("New Round")
-	obj_player.playerNights += 1;
-	t_min = save_Tmin;
-	t_sec = save_Tsec;
-	t_mil = save_Tmill; //tenth of a second
-	playerHasMoved = false;
-	obj_controller.startRound = false;
+	if(instance_exists(obj_player)){
+		alarm[0] = 6;
+		show_debug_message("New Round")
+		obj_player.playerNights += 1;
+		t_min = save_Tmin;
+		t_sec = save_Tsec;
+		t_mil = save_Tmill; //tenth of a second
+		playerHasMoved = false;
+		obj_controller.startRound = false;
+	}
 } 

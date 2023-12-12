@@ -134,6 +134,38 @@ if(startRound){
 				global.enemy_spawn_timer = global.enemy_spawn_interval;
 			}
 	}
+	
+	if(room == rm_bedroom_final){
+		global.enemy_spawn_timer -= 1;
+		if(global.enemy_spawn_timer <= 0){
+			pickSpawn = irandom_range(0,2)
+			if(pickSpawn == 0 && !spawns1_BED){
+					instance_create_layer(958, 579, "Enemy", obj_e1);
+					show_debug_message("SPAWN1_BATH");
+					spawns1_BED = true;
+					spawns2_BED = false;
+					
+				}
+				else if(pickSpawn == 1 && !spawns2_BED){
+					instance_create_layer(1170, 716, "Enemy", obj_e1);
+					show_debug_message("SPAWN2_BATH");
+					spawns1_BED = false;
+					spawns2_BED = true;
+
+				}
+				else{
+					spawns1_BED = false;
+					spawns2_BED = false;
+
+					show_debug_message("NO SPAWN_BATH");
+				}
+				if(spawns1_BED || spawns2_BED){
+					obj_e1.image_yscale = 0.25;
+					obj_e1.image_xscale = 0.25;
+				}
+				global.enemy_spawn_timer = global.enemy_spawn_interval + obj_player.playerNights;
+			}
+	}
 		
 		
 }
