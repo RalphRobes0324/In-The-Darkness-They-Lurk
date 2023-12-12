@@ -49,26 +49,28 @@ if(!obj_the_pauser.pause){//Checks game paused
 			image_blend = c_white;//not hurt
 		}
 	}
-	else{
-		var randomDir = irandom_range(1,10);
+	else{//Player is hiding
+		var randomDir = irandom_range(1,10);//picks a number between 1 -10
 		
-		if(randomDir % 2 = 0){
+		if(randomDir % 2 = 0){//checks if even number
 			
+			//Give new y direction
 			var new_y = y + patrol_speed * patrol_dirY ;
-			if(!place_meeting(x, new_y, obj_wall)){
-				y = new_y;
+			if(!place_meeting(x, new_y, obj_wall)){//enemy not hit wall on y axis
+				y = new_y;//Gives new direction enemy
 			}
-			else{
-				patrol_dirY *= -1;
+			else{//if enemy hits wall
+				patrol_dirY *= -1;//goes other direction
 			}
 		}
-		else{
+		else{//Odd number
+			//Give new x direction
 			var new_x = x + patrol_speed * patrol_dirX ;
-			if(!place_meeting(new_x, y, obj_wall)){
-				x = new_x;
+			if(!place_meeting(new_x, y, obj_wall)){ //enemy not hit wall on x axis
+				x = new_x;//Gives new direction enemy
 			}
-			else{
-				patrol_dirX *= -1;
+			else{//if enemy hits wall
+				patrol_dirX *= -1;//goes other direction
 			}
 		}
 	}
