@@ -9,7 +9,7 @@ if(_check_door){//Display text when player is facing hiding spot
     var text_x =  camera_get_view_x(view_camera[0]) + camera_get_view_width(view_camera[0])/ 2;
 	var text_y = camera_get_view_y(view_camera[0]) +  camera_get_view_height(view_camera[0]) / 2;
 	var sprite_x = text_x;
-	var sprite_y = text_y + 150;
+	var sprite_y = text_y + 300;
 	draw_text_transformed(sprite_x, sprite_y, "Press 'E' to enter",3,3,0 );
 }
 
