@@ -199,11 +199,13 @@
     {"name":"inst_48CBFBFC","path":"rooms/rm_hallway_final/rm_hallway_final.yy",},
     {"name":"inst_7C4C4B46","path":"rooms/rm_hallway_final/rm_hallway_final.yy",},
     {"name":"inst_47D99DAE","path":"rooms/rm_hallway_final/rm_hallway_final.yy",},
+    {"name":"inst_F851A94","path":"rooms/rm_hallway_final/rm_hallway_final.yy",},
   ],
   "isDnd": false,
   "layers": [
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"Hiding","depth":0,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_47D99DAE","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hiding","path":"objects/obj_hiding/obj_hiding.yy",},"properties":[],"rotation":0.0,"scaleX":9.0,"scaleY":9.0,"x":256.0,"y":1312.0,},
+        {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_F851A94","colour":4294967295,"frozen":false,"hasCreationCode":false,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_hiding","path":"objects/obj_hiding/obj_hiding.yy",},"properties":[],"rotation":0.0,"scaleX":3.0,"scaleY":7.0,"x":1888.0,"y":1344.0,},
       ],"layers":[],"properties":[],"userdefinedDepth":false,"visible":true,},
     {"resourceType":"GMRInstanceLayer","resourceVersion":"1.0","name":"DoorTP","depth":100,"effectEnabled":true,"effectType":null,"gridX":32,"gridY":32,"hierarchyFrozen":false,"inheritLayerDepth":false,"inheritLayerSettings":false,"inheritSubLayers":true,"inheritVisibility":true,"instances":[
         {"resourceType":"GMRInstance","resourceVersion":"1.0","name":"inst_6F065E49","colour":4294967295,"frozen":false,"hasCreationCode":true,"ignore":false,"imageIndex":0,"imageSpeed":1.0,"inheritCode":false,"inheritedItemId":null,"inheritItemSettings":false,"isDnd":false,"objectId":{"name":"obj_door","path":"objects/obj_door/obj_door.yy",},"properties":[],"rotation":0.0,"scaleX":5.34375,"scaleY":1.84375,"x":480.0,"y":327.0,},
