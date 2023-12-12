@@ -11,7 +11,19 @@ if(!startRound){
 	
 }
 if(timer > 0 && !startRound ){
-	obj_player.obj_flashlight = false; 
+	with(obj_e1){
+		instance_destroy();
+	}
+}
+
+if(startRound){
+	global.enemy_spawn_timer -= 1;
+	if(global.enemy_spawn_timer <= 0){
+		instance_create_layer(1182, 1534, "Enemy", obj_e1);
+		obj_e1.image_yscale = 0.25;
+		obj_e1.image_xscale = 0.25;
+		global.enemy_spawn_timer = global.enemy_spawn_interval;
+	}
 }
 
 
