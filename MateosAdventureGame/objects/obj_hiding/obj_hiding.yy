@@ -1,7 +1,7 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_hidding",
+  "name": "obj_hiding",
   "eventList": [
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
@@ -33,5 +33,5 @@
     "path": "sprites/spr_hidding/spr_hidding.yy",
   },
   "spriteMaskId": null,
-  "visible": true,
+  "visible": false,
 }

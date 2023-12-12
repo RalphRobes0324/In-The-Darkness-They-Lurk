@@ -82,7 +82,7 @@
     "IDEVersion": "2023.11.0.121",
   },
   "resources": [
-    {"id":{"name":"obj_hidding","path":"objects/obj_hidding/obj_hidding.yy",},},
+    {"id":{"name":"obj_hiding","path":"objects/obj_hiding/obj_hiding.yy",},},
     {"id":{"name":"spr_lifeHeart","path":"sprites/spr_lifeHeart/spr_lifeHeart.yy",},},
     {"id":{"name":"spr_drawers","path":"sprites/spr_drawers/spr_drawers.yy",},},
     {"id":{"name":"Player_forwardWalk","path":"sprites/Player_forwardWalk/Player_forwardWalk.yy",},},
