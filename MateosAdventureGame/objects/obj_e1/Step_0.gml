@@ -32,8 +32,8 @@ if(!obj_the_pauser.pause){//Checks game paused
 		}
 
 		//Move player in game
-		x += hsp;
-		y += vsp;
+		x += hsp * 2;
+		y += vsp * 2;
 	
 		////checks state enemy being hurt
 		if(!place_meeting(x,y,obj_flashlight) && !obj_player.flash_light_on){
