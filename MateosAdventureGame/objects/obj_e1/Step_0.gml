@@ -49,6 +49,29 @@ if(!obj_the_pauser.pause){//Checks game paused
 			image_blend = c_white;//not hurt
 		}
 	}
+	else{
+		var randomDir = irandom_range(1,10);
+		
+		if(randomDir % 2 = 0){
+			
+			var new_y = y + patrol_speed * patrol_dirY ;
+			if(!place_meeting(x, new_y, obj_wall)){
+				y = new_y;
+			}
+			else{
+				patrol_dirY *= -1;
+			}
+		}
+		else{
+			var new_x = x + patrol_speed * patrol_dirX ;
+			if(!place_meeting(new_x, y, obj_wall)){
+				x = new_x;
+			}
+			else{
+				patrol_dirX *= -1;
+			}
+		}
+	}
 
 	//checks enemy is dead
 	if(hp <= 0){ 

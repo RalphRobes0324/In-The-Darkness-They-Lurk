@@ -2,7 +2,7 @@
 // You can write your code in this editor
 
 //Checks Player pressed e
-if(keyboard_check_pressed(ord("E"))){
+if(keyboard_check_pressed(ord("E")) && _check_hidding){
 	obj_player._is_hidding = !obj_player._is_hidding;//switch
 }
 
