@@ -15,9 +15,7 @@ if (place_meeting(x, y, obj_player) && _press_e && !instance_exists(obj_door_tra
 
 ////Displaying message when player next door
 if(place_meeting(x, y, obj_player) && _check_door == false){
-	instance_create_layer( obj_player.x,  obj_player.y - 250, layer, obj_e_popup);
 	_check_door = true;
-	
 }
 
 ////Deletes instance when player leaves AoE
