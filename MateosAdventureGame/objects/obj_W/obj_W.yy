@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "TurtorialObjects",
-    "path": "folders/Objects/TurtorialObjects.yy",
+    "path": "folders/Objects/MenuObjects/TurtorialMenu/TurtorialObjects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -25,7 +25,10 @@
   "physicsStartAwake": true,
   "properties": [],
   "solid": false,
-  "spriteId": null,
+  "spriteId": {
+    "name": "spr_w",
+    "path": "sprites/spr_w/spr_w.yy",
+  },
   "spriteMaskId": null,
   "visible": true,
 }

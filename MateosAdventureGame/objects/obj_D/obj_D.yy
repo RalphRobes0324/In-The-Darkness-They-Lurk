@@ -1,13 +1,13 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "bg",
+  "name": "obj_D",
   "eventList": [],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "MainMenu",
-    "path": "folders/Objects/MenuObjects/MainMenu.yy",
+    "name": "TurtorialObjects",
+    "path": "folders/Objects/MenuObjects/TurtorialMenu/TurtorialObjects.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -26,8 +26,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_bg",
-    "path": "sprites/spr_bg/spr_bg.yy",
+    "name": "spr_d",
+    "path": "sprites/spr_d/spr_d.yy",
   },
   "spriteMaskId": null,
   "visible": true,

@@ -7,7 +7,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "TurtorialObjects",
-    "path": "folders/Objects/TurtorialObjects.yy",
+    "path": "folders/Objects/MenuObjects/TurtorialMenu/TurtorialObjects.yy",
   },
   "parentObjectId": null,
   "persistent": false,

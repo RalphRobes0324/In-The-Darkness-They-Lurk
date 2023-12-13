@@ -26,7 +26,7 @@
   ],
   "parent": {
     "name": "Turtorial",
-    "path": "folders/Rooms/Main/Turtorial.yy",
+    "path": "folders/Rooms/Main/Menus/Turtorial.yy",
   },
   "parentRoom": null,
   "physicsSettings": {
