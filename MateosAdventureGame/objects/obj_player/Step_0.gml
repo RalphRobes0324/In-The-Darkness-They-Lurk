@@ -88,6 +88,7 @@ if(!_is_hidding && obj_controller.startRound){
 	angle  = point_direction(x, centerY, mouse_x, mouse_y);//gets Angle of player and mouse
 
 	if(_mouse_check_left && (flashlight_battery >= 15 && flashlight_battery <= 100.50)){//Check user pressed left mouse once
+		audio_play_sound(snd_flashlight,1,false);
 		flash_light_on = !flash_light_on; //Not Gate
 	}
 	if(flashlight_battery <= 0){ //checks battery is still above 0
