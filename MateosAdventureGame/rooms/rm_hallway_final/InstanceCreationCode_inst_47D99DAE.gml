@@ -12,7 +12,7 @@ text_array[2] = "Why are you scared?";
 
 
 //Check type of hidding
-box_hidding = false;
+box_hidding = true;
 bed_hidding = false;
 curtains_hidding = false;
 closet_hidding = false;

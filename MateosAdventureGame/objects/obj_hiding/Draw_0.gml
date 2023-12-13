@@ -50,9 +50,6 @@ if(obj_player._is_hidding){ //Display text when player is hiding
 			draw_text_transformed(sprite_x, sprite_y, "COME OUT!!!",5,5,10 );
 		}
 	}
-	
-	
-	
 }
 
 

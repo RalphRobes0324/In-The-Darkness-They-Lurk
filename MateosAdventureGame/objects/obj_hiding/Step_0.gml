@@ -10,8 +10,25 @@ if(keyboard_check_pressed(ord("E")) && _check_hiding){
 
 if(obj_player._is_hidding){//Checks player is hidding
 	obj_player.image_alpha = 0;// Checks Player is hidding
+	if(bed_hidding){
+		audio_play_sound(snd_bed, 1, false);
+	}
+	if(box_hidding){
+		audio_play_sound(snd_box, 1, false);
+	}
+	if(curtains_hidding){
+		audio_play_sound(snd_curtains, 1, false);
+	}
+	if(closet_hidding){
+		audio_play_sound(snd_closet, 1, false);
+	}
 }
 else{
+	//Check type of hidding
+	box_hidding = false;
+	bed_hidding = false;
+	curtains_hidding = false;
+	closet_hidding = false;
 	obj_player.image_alpha = 1;// checks Player is no longer hidding
 }
 
