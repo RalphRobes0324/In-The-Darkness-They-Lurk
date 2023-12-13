@@ -18,7 +18,7 @@ if((timer > 0 && !startRound) || obj_player.hp <= 0  ){//Destroy Everybackground
 }
 
 
-if(startRound){//Start Round
+if(startRound && obj_player){//Start Round
 	var pickSpawn;//Deccides which spawn
 	if(room == rm_hallway_final){//Checks player spawn
 		global.enemy_spawn_timer -= 1;//Minus delayer
@@ -174,7 +174,7 @@ if(startRound){//Start Round
 
 				}
 				else{//None spawned
-					//Flags Enemy no spawned
+					//Flags Enemy no  spawned
 					spawns1_BED = false;
 					spawns2_BED = false;
 
@@ -188,13 +188,6 @@ if(startRound){//Start Round
 					//Reset the timer
 				global.enemy_spawn_timer = global.enemy_spawn_interval + obj_player.playerNights;
 			}
-	}
-}
-
-if(obj_player.hp <= 0 ){//Player is dead reset room in case
-	instance_destroy(obj_player);
-	with(obj_e1){
-		instance_destroy();
 	}
 }
 
