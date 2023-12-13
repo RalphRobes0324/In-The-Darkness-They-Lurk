@@ -155,6 +155,7 @@
     {"name":"Player_sideaysIdle","order":3,"path":"sprites/Player_sideaysIdle/Player_sideaysIdle.yy",},
     {"name":"obj_toilet","order":3,"path":"objects/obj_toilet/obj_toilet.yy",},
     {"name":"sprPressStart","order":1,"path":"sprites/sprPressStart/sprPressStart.yy",},
+    {"name":"snd_door","order":6,"path":"sounds/snd_door/snd_door.yy",},
     {"name":"ts_houseFloors","order":1,"path":"tilesets/ts_houseFloors/ts_houseFloors.yy",},
     {"name":"spr_PressAgain","order":3,"path":"sprites/spr_PressAgain/spr_PressAgain.yy",},
     {"name":"spr_closetBedroom","order":5,"path":"sprites/spr_closetBedroom/spr_closetBedroom.yy",},

@@ -215,6 +215,7 @@
     {"id":{"name":"obj_toilet","path":"objects/obj_toilet/obj_toilet.yy",},},
     {"id":{"name":"sprPressStart","path":"sprites/sprPressStart/sprPressStart.yy",},},
     {"id":{"name":"obj_sprRoomHallway","path":"objects/obj_sprRoomHallway/obj_sprRoomHallway.yy",},},
+    {"id":{"name":"snd_door","path":"sounds/snd_door/snd_door.yy",},},
     {"id":{"name":"rm_room1","path":"rooms/rm_room1/rm_room1.yy",},},
     {"id":{"name":"ts_houseFloors","path":"tilesets/ts_houseFloors/ts_houseFloors.yy",},},
     {"id":{"name":"spr_PressAgain","path":"sprites/spr_PressAgain/spr_PressAgain.yy",},},
