@@ -3,13 +3,19 @@
 
 if(!startRound){// Checks if the round ended
 	timer -= 1;//minus the time for transition
-	if(timer < 0){//Checks time is done
-		startRound = true;//Start round transition is done
-		timer = saveTimer;//Save time
+	if(obj_player.hp >= 0){
+		if(timer < 0){//Checks time is done
+			startRound = true;//Start round transition is done
+			timer = saveTimer;//Save time
+		}
+	}
+	else{
+		if(objDeathMenuControl.gameStarted){
+			startRound = true;//Start round transition is done
+			timer = saveTimer;//Save time
+		}
 	}
 }
-
-	
 
 if((timer > 0 && !startRound) || obj_player.hp <= 0  ){//Destroy Everybackground
 	with(obj_e1){
@@ -18,7 +24,8 @@ if((timer > 0 && !startRound) || obj_player.hp <= 0  ){//Destroy Everybackground
 }
 
 
-if(startRound && obj_player){//Start Round
+
+if(startRound){//Start Round
 	var pickSpawn;//Deccides which spawn
 	if(room == rm_hallway_final){//Checks player spawn
 		global.enemy_spawn_timer -= 1;//Minus delayer
