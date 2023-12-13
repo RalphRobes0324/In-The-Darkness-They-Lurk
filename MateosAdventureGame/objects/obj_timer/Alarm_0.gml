@@ -22,6 +22,7 @@ if (!(t_sec == 0 && t_min == 0 && t_min == 0)){
 	//When timer ends
 	if(instance_exists(obj_player)){
 		alarm[0] = 6;
+		room_restart();
 		show_debug_message("New Round")
 		obj_player.playerNights += 1;
 		t_min = save_Tmin;
