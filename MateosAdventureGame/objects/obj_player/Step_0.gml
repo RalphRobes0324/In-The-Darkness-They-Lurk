@@ -112,3 +112,13 @@ if(!_is_hidding && obj_controller.startRound){
 		image_blend = c_white;
 	}
 }
+if(_is_hidding && obj_controller.startRound){//When Player is hidding, turns off player flashlight
+	if(flash_light_on){//if on, turn ut off
+		flash_light_on = false;
+	}
+	else{
+		if(flashlight_battery < 100){//checks battery fully charge
+			flashlight_battery += 0.1;//charging the battery
+		}
+	}
+}
