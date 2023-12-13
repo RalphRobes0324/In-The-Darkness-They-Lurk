@@ -189,8 +189,13 @@ if(startRound){//Start Round
 				global.enemy_spawn_timer = global.enemy_spawn_interval + obj_player.playerNights;
 			}
 	}
-		
-		
+}
+
+if(obj_player.hp <= 0 ){//Player is dead reset room in case
+	instance_destroy(obj_player);
+	with(obj_e1){
+		instance_destroy();
+	}
 }
 
 
