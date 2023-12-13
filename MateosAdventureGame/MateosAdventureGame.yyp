@@ -154,6 +154,7 @@
     {"id":{"name":"snd_flashlight","path":"sounds/snd_flashlight/snd_flashlight.yy",},},
     {"id":{"name":"scr_enemy_state","path":"scripts/scr_enemy_state/scr_enemy_state.yy",},},
     {"id":{"name":"obj_flashlightFinal","path":"objects/obj_flashlightFinal/obj_flashlightFinal.yy",},},
+    {"id":{"name":"obj_health","path":"objects/obj_health/obj_health.yy",},},
     {"id":{"name":"obj_bedroomDoor","path":"objects/obj_bedroomDoor/obj_bedroomDoor.yy",},},
     {"id":{"name":"spr_under_bed_transition","path":"sprites/spr_under_bed_transition/spr_under_bed_transition.yy",},},
     {"id":{"name":"ts_decor","path":"tilesets/ts_decor/ts_decor.yy",},},
