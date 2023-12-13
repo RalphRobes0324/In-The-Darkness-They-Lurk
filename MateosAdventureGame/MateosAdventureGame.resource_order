@@ -73,6 +73,7 @@
     {"name":"snd_DM","order":3,"path":"sounds/snd_DM/snd_DM.yy",},
     {"name":"snd_btnHover","order":1,"path":"sounds/snd_btnHover/snd_btnHover.yy",},
     {"name":"obj_flashlight","order":2,"path":"objects/obj_flashlight/obj_flashlight.yy",},
+    {"name":"snd_hurt","order":7,"path":"sounds/snd_hurt/snd_hurt.yy",},
     {"name":"spr_bedsheet","order":3,"path":"sprites/spr_bedsheet/spr_bedsheet.yy",},
     {"name":"spr_batteryFinal","order":5,"path":"sprites/spr_batteryFinal/spr_batteryFinal.yy",},
     {"name":"obj_shelves","order":1,"path":"objects/obj_shelves/obj_shelves.yy",},

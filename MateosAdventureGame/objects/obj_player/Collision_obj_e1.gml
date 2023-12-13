@@ -5,6 +5,7 @@ var knockBackX = lengthdir_x(knockbackSpeed, knockbackDirection);//distance on x
 var knockBackY = lengthdir_y(knockbackSpeed, knockbackDirection);//distance on y
 x += knockBackX * 5;//add to enemy x coords
 y += knockBackY * 5;//add to enemy y coords
+audio_play_sound(snd_hurt, 1, false);
 
 
 

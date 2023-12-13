@@ -107,6 +107,7 @@
     {"id":{"name":"snd_btnHover","path":"sounds/snd_btnHover/snd_btnHover.yy",},},
     {"id":{"name":"MainMenu","path":"rooms/MainMenu/MainMenu.yy",},},
     {"id":{"name":"obj_flashlight","path":"objects/obj_flashlight/obj_flashlight.yy",},},
+    {"id":{"name":"snd_hurt","path":"sounds/snd_hurt/snd_hurt.yy",},},
     {"id":{"name":"spr_bedsheet","path":"sprites/spr_bedsheet/spr_bedsheet.yy",},},
     {"id":{"name":"spr_batteryFinal","path":"sprites/spr_batteryFinal/spr_batteryFinal.yy",},},
     {"id":{"name":"obj_shelves","path":"objects/obj_shelves/obj_shelves.yy",},},
