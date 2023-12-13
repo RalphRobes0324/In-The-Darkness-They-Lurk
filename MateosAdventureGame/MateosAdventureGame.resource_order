@@ -47,7 +47,7 @@
     {"name":"Backward","order":1,"path":"folders/Sprites/PlayerSprites/Backward.yy",},
     {"name":"Sideways","order":2,"path":"folders/Sprites/PlayerSprites/Sideways.yy",},
     {"name":"PrototypeSpr","order":9,"path":"folders/Sprites/PrototypeSpr.yy",},
-    {"name":"TextSprites","order":3,"path":"folders/Sprites/TextSprites.yy",},
+    {"name":"ButtonSprites","order":3,"path":"folders/Sprites/ButtonSprites.yy",},
     {"name":"TileSprites","order":1,"path":"folders/Sprites/TileSprites.yy",},
     {"name":"PrototypeTileSprites","order":2,"path":"folders/Sprites/TileSprites/PrototypeTileSprites.yy",},
     {"name":"TransitionSprites","order":2,"path":"folders/Sprites/TransitionSprites.yy",},

@@ -67,7 +67,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sideways","folderPath":"folders/Sprites/PlayerSprites/Sideways.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PrototypeSpr","folderPath":"folders/Sprites/PrototypeSpr.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PrototyePlayerSpr","folderPath":"folders/Sprites/PrototypeSpr/PrototyePlayerSpr.yy",},
-    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TextSprites","folderPath":"folders/Sprites/TextSprites.yy",},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"ButtonSprites","folderPath":"folders/Sprites/ButtonSprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TileSprites","folderPath":"folders/Sprites/TileSprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"PrototypeTileSprites","folderPath":"folders/Sprites/TileSprites/PrototypeTileSprites.yy",},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"TransitionSprites","folderPath":"folders/Sprites/TransitionSprites.yy",},
