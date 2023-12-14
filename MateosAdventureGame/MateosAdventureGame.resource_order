@@ -56,6 +56,7 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Prototype Decor","order":2,"path":"folders/Tile Sets/Prototype Decor.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
+    {"name":"Turtorial","order":1,"path":"folders/Objects/MenuObjects/TurtorialMenu/Turtorial.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_lifeHeart","order":6,"path":"sprites/spr_lifeHeart/spr_lifeHeart.yy",},
@@ -75,6 +76,7 @@
     {"name":"obj_sprRoomBedroom","order":1,"path":"objects/obj_sprRoomBedroom/obj_sprRoomBedroom.yy",},
     {"name":"snd_DM","order":3,"path":"sounds/snd_DM/snd_DM.yy",},
     {"name":"snd_btnHover","order":1,"path":"sounds/snd_btnHover/snd_btnHover.yy",},
+    {"name":"obj_HelpMainMenuBTN","order":1,"path":"objects/obj_HelpMainMenuBTN/obj_HelpMainMenuBTN.yy",},
     {"name":"obj_flashlight","order":2,"path":"objects/obj_flashlight/obj_flashlight.yy",},
     {"name":"snd_hurt","order":7,"path":"sounds/snd_hurt/snd_hurt.yy",},
     {"name":"spr_bedsheet","order":3,"path":"sprites/spr_bedsheet/spr_bedsheet.yy",},
@@ -176,6 +178,7 @@
     {"name":"obj_nightstand","order":1,"path":"objects/obj_nightstand/obj_nightstand.yy",},
     {"name":"Player_forwardIdle","order":1,"path":"sprites/Player_forwardIdle/Player_forwardIdle.yy",},
     {"name":"Player_sideaysIdle","order":3,"path":"sprites/Player_sideaysIdle/Player_sideaysIdle.yy",},
+    {"name":"spr_helpMM","order":9,"path":"sprites/spr_helpMM/spr_helpMM.yy",},
     {"name":"obj_flahlightTur","order":3,"path":"objects/obj_flahlightTur/obj_flahlightTur.yy",},
     {"name":"obj_toilet","order":3,"path":"objects/obj_toilet/obj_toilet.yy",},
     {"name":"sprPressStart","order":1,"path":"sprites/sprPressStart/sprPressStart.yy",},

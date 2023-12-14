@@ -118,7 +118,7 @@ if(!_is_hidding && obj_controller.startRound){
 		hp = 0;
 	}
 }
-if(_is_hidding && obj_controller.startRound){//When Player is hidding, turns off player flashlight
+if(_is_hidding && obj_controller.startRound){//When Player is hidding, turns off player's flashlight
 	if(flash_light_on){//if on, turn ut off
 		flash_light_on = false;
 	}

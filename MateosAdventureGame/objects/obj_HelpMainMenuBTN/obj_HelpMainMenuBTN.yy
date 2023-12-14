@@ -1,16 +1,15 @@
 {
   "resourceType": "GMObject",
   "resourceVersion": "1.0",
-  "name": "obj_heartTur",
+  "name": "obj_HelpMainMenuBTN",
   "eventList": [
-    {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":0,"isDnD":false,},
     {"resourceType":"GMEvent","resourceVersion":"1.0","name":"","collisionObjectId":null,"eventNum":0,"eventType":3,"isDnD":false,},
   ],
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "TurtorialObjects",
-    "path": "folders/Objects/MenuObjects/TurtorialMenu/TurtorialObjects.yy",
+    "name": "Turtorial",
+    "path": "folders/Objects/MenuObjects/TurtorialMenu/Turtorial.yy",
   },
   "parentObjectId": null,
   "persistent": false,
@@ -29,8 +28,8 @@
   "properties": [],
   "solid": false,
   "spriteId": {
-    "name": "spr_lifeHeart",
-    "path": "sprites/spr_lifeHeart/spr_lifeHeart.yy",
+    "name": "spr_helpMM",
+    "path": "sprites/spr_helpMM/spr_helpMM.yy",
   },
   "spriteMaskId": null,
   "visible": true,
