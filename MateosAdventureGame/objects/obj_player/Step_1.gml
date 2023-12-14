@@ -5,6 +5,7 @@ if(hp <= 0){
 	//Destroy all intance when player dies
 	audio_stop_sound(snd_BG);
 	instance_destroy(obj_health);
+	instance_destroy(obj_door_transition);
 	instance_destroy(obj_controller);
 	instance_destroy(obj_timer);
 	instance_destroy();
