@@ -12,6 +12,7 @@ if(obj_player.flash_light_on && place_meeting(x,y,obj_flashlight) && obj_player.
 	
 	x += knockBackX;//add to enemy x coords
 	y += knockBackY;//add to enemy y coords
+	audio_play_sound(snd_E1_hurt, 1, false);
 }
 
 

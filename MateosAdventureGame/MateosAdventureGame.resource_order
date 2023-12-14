@@ -18,6 +18,7 @@
     {"name":"GameObjects","order":4,"path":"folders/Objects/GameObjects.yy",},
     {"name":"MenuObjects","order":3,"path":"folders/Objects/MenuObjects.yy",},
     {"name":"DeathMenu","order":1,"path":"folders/Objects/MenuObjects/DeathMenu.yy",},
+    {"name":"TurtorialMenu","order":2,"path":"folders/Objects/MenuObjects/TurtorialMenu.yy",},
     {"name":"Particle Systems","order":15,"path":"folders/Particle Systems.yy",},
     {"name":"Paths","order":4,"path":"folders/Paths.yy",},
     {"name":"Rooms","order":10,"path":"folders/Rooms.yy",},
@@ -55,7 +56,6 @@
     {"name":"Tile Sets","order":2,"path":"folders/Tile Sets.yy",},
     {"name":"Prototype Decor","order":2,"path":"folders/Tile Sets/Prototype Decor.yy",},
     {"name":"Timelines","order":8,"path":"folders/Timelines.yy",},
-    {"name":"TurtorialMenu","order":2,"path":"folders/Objects/MenuObjects/TurtorialMenu.yy",},
   ],
   "ResourceOrderSettings": [
     {"name":"spr_lifeHeart","order":6,"path":"sprites/spr_lifeHeart/spr_lifeHeart.yy",},
@@ -144,6 +144,7 @@
     {"name":"Player_backwardWalkFlashllight","order":1,"path":"sprites/Player_backwardWalkFlashllight/Player_backwardWalkFlashllight.yy",},
     {"name":"objQuit","order":2,"path":"objects/objQuit/objQuit.yy",},
     {"name":"obj_sprRoomBathroom","order":3,"path":"objects/obj_sprRoomBathroom/obj_sprRoomBathroom.yy",},
+    {"name":"snd_E1_hurt","order":13,"path":"sounds/snd_E1_hurt/snd_E1_hurt.yy",},
     {"name":"spr_player_up","order":3,"path":"sprites/spr_player_up/spr_player_up.yy",},
     {"name":"spr_player_left","order":1,"path":"sprites/spr_player_left/spr_player_left.yy",},
     {"name":"spr_closet_transition","order":2,"path":"sprites/spr_closet_transition/spr_closet_transition.yy",},
