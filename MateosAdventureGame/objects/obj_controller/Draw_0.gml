@@ -14,6 +14,7 @@ if(!startRound){
 	var sprite_y = text_y + 100;
 	var text_display = "Night: " + string(obj_player.playerNights);
 	draw_text_transformed(text_x, text_y, text_display, 5, 5, 0);
+	audio_play_sound(snd_WonARound, 1, false);
 }
 
 

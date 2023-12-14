@@ -156,6 +156,7 @@
     {"name":"Player_sideaysWalkFlashlight","order":5,"path":"sprites/Player_sideaysWalkFlashlight/Player_sideaysWalkFlashlight.yy",},
     {"name":"obj_S","order":6,"path":"objects/obj_S/obj_S.yy",},
     {"name":"snd_box","order":9,"path":"sounds/snd_box/snd_box.yy",},
+    {"name":"snd_WonARound","order":14,"path":"sounds/snd_WonARound/snd_WonARound.yy",},
     {"name":"objQuitDM","order":2,"path":"objects/objQuitDM/objQuitDM.yy",},
     {"name":"objPressEnterMM","order":1,"path":"objects/objPressEnterMM/objPressEnterMM.yy",},
     {"name":"spr_roomStorageRoom","order":3,"path":"sprites/spr_roomStorageRoom/spr_roomStorageRoom.yy",},

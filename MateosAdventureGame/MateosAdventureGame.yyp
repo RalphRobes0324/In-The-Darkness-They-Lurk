@@ -216,6 +216,7 @@
     {"id":{"name":"Player_sideaysWalkFlashlight","path":"sprites/Player_sideaysWalkFlashlight/Player_sideaysWalkFlashlight.yy",},},
     {"id":{"name":"obj_S","path":"objects/obj_S/obj_S.yy",},},
     {"id":{"name":"snd_box","path":"sounds/snd_box/snd_box.yy",},},
+    {"id":{"name":"snd_WonARound","path":"sounds/snd_WonARound/snd_WonARound.yy",},},
     {"id":{"name":"objQuitDM","path":"objects/objQuitDM/objQuitDM.yy",},},
     {"id":{"name":"objPressEnterMM","path":"objects/objPressEnterMM/objPressEnterMM.yy",},},
     {"id":{"name":"spr_roomStorageRoom","path":"sprites/spr_roomStorageRoom/spr_roomStorageRoom.yy",},},
