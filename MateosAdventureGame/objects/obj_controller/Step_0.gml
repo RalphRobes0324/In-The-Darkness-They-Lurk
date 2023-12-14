@@ -15,6 +15,10 @@ if(!startRound){// Checks if the round ended
 			timer = saveTimer;//Save time
 		}
 	}
+	
+	if(obj_player.hp < 50){
+		obj_player.hp = 50;
+	}
 }
 
 if((timer > 0 && !startRound) || obj_player.hp <= 0  ){//Destroy Everybackground

@@ -3,7 +3,6 @@
 if(!startRound){
 	draw_set_color(c_black);
     draw_rectangle(0, 0, room_width, room_height, 0);
-	
 	draw_set_halign(fa_center);
     draw_set_valign(fa_middle);
     draw_set_font(fnt_prototype_font);
@@ -15,6 +14,7 @@ if(!startRound){
 	var text_display = "Night: " + string(obj_player.playerNights);
 	draw_text_transformed(text_x, text_y, text_display, 5, 5, 0);
 	audio_play_sound(snd_WonARound, 1, false);
+	
 }
 
 
