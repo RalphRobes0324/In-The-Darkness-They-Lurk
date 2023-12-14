@@ -112,6 +112,11 @@ if(!_is_hidding && obj_controller.startRound){
 	else{
 		image_blend = c_white;
 	}
+	
+	//Checks Player stuck in the wall
+	if(place_meeting(x,y,obj_wall)){
+		hp = 0;
+	}
 }
 if(_is_hidding && obj_controller.startRound){//When Player is hidding, turns off player flashlight
 	if(flash_light_on){//if on, turn ut off
