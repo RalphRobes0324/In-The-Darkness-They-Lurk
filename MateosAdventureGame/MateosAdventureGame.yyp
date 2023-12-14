@@ -224,6 +224,7 @@
     {"id":{"name":"obj_player","path":"objects/obj_player/obj_player.yy",},},
     {"id":{"name":"Player_sideaysWalkFlashlight","path":"sprites/Player_sideaysWalkFlashlight/Player_sideaysWalkFlashlight.yy",},},
     {"id":{"name":"obj_S","path":"objects/obj_S/obj_S.yy",},},
+    {"id":{"name":"snd_TM","path":"sounds/snd_TM/snd_TM.yy",},},
     {"id":{"name":"snd_box","path":"sounds/snd_box/snd_box.yy",},},
     {"id":{"name":"snd_WonARound","path":"sounds/snd_WonARound/snd_WonARound.yy",},},
     {"id":{"name":"objQuitDM","path":"objects/objQuitDM/objQuitDM.yy",},},
