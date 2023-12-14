@@ -13,11 +13,14 @@ draw_text_transformed(text_x - 165, text_y - 200, "You have to turn off the flas
 draw_text_transformed(text_x - 270, text_y - 150, "Make intelligent use of your flashlight!", 0.5, 0.5, 0);
 
 //Text Hearts
-draw_text_transformed(text_x - 295, text_y - 50, "Hearts: This is your health meter,", 0.5, 0.5, 0);
-draw_text_transformed(text_x - 300, text_y - 15, "If you get hurt, this will drain!!!", 0.5, 0.5, 0);
-draw_text_transformed(text_x - 275, text_y + 20, "Get your health back, you must hide.", 0.5, 0.5, 0);
+draw_text_transformed(text_x - 250, text_y - 45, "Hearts: This is an indicator of your health", 0.5, 0.5, 0);
+draw_text_transformed(text_x - 296, text_y - 10, "that will deplete if you are hurt.", 0.5, 0.5, 0);
 
 //Text Enemy
+draw_text_transformed(text_x - 285, text_y + 145, "Lurkers: You will be hunted by this.", 0.5, 0.5, 0);
+draw_text_transformed(text_x - 295, text_y + 190, "They'll murder you lightning fast!!", 0.5, 0.5, 0);
+
+
 
 
 
