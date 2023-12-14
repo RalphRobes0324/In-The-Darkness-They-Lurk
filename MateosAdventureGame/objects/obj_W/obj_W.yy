@@ -6,8 +6,8 @@
   "managed": true,
   "overriddenProperties": [],
   "parent": {
-    "name": "TurtorialObjects",
-    "path": "folders/Objects/MenuObjects/TurtorialMenu/TurtorialObjects.yy",
+    "name": "TurtorialObject2",
+    "path": "folders/Objects/MenuObjects/TurtorialMenu/Turtorial/pg2/TurtorialObject2.yy",
   },
   "parentObjectId": null,
   "persistent": false,
