@@ -23,3 +23,7 @@ You have to hide from the demons that lurk in hiding spots around your home. Onc
 
 # Game Engine
 > GameMaker Studio 2
+
+# Game Available
+1. **GX.games** : https://gx.games/games/9kp67a/in-the-darkness-they-lurk/
+2. **itch.io** : https://semisinful.itch.io/in-the-darkness-they-lurk
