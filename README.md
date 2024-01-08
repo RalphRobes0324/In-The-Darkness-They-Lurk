@@ -4,7 +4,7 @@ You have to hide from the demons that lurk in hiding spots around your home. Onc
 ​
 # Creators of the Game
 
->**Maya H.**: Game designer, Level designer, Artist, Documentation, Programmer and Implementation
+>**Maya H.**: Game designer, Level designer, Artist, Documentation, and Implementation
 >
 > **Ralph R.**: Head programmer, Head of implementation, Sound design
 >
